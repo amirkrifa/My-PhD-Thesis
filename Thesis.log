@@ -1,0 +1,2707 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.7)  7 APR 2011 23:20
+entering extended mode
+ %&-line parsing enabled.
+**Thesis.tex
+(./Thesis.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(./ThesisStyle.cls
+Document Class: ThesisStyle 2004/02/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/bk11.clo
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\@input{formatAndDefs.aux}
+\openout2 = `formatAndDefs.aux'.
+
+(./formatAndDefs.tex (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+
+(/usr/share/texmf-texlive/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@dimlist=\toks22
+)
+(/usr/share/texmf-texlive/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks23
+)
+(/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2009/09/04 v1.5i extra ToC listings
+
+
+Package tocbibind Note: The document has chapter divisions.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texmf-texlive/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2008/07/16 v60 Package minitoc (JPFD)
+
+(/usr/share/texmf-texlive/tex/latex/minitoc/mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 60 ***.
+\tf@mtc=\write3
+\mtcindent=\skip46
+\mtcskipamount=\skip47
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks24
+\mtc@strutbox=\box28
+\mtc@hstrutbox=\box29
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout3 = `Thesis.mtc0'.
+
+\openout3 = `Thesis.mtc'.
+
+ (./Thesis.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout3 = `Thesis.mtc'.
+
+\openout3 = `Thesis.mtc0'.
+
+\c@mtc=\count103
+\c@minitocdepth=\count104
+\c@ptc=\count105
+\c@parttocdepth=\count106
+\ptcindent=\skip48
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(/usr/share/texmf-texlive/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+(/usr/share/texmf-texlive/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+))
+(/usr/share/texmf-texlive/tex/latex/ae/aecompl.sty
+Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
+)
+(/usr/share/texmf-texlive/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen116
+\nom@tempdim=\dimen117
+\nomitemsep=\skip49
+)
+\@nomenclaturefile=\write4
+\openout4 = `Thesis.nlo'.
+
+
+Writing nomenclature file Thesis.nlo
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen118
+\Gin@req@width=\dimen119
+)
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen120
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `hyperindex' set `true' on input line 2864.
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing ON on input line 2993.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf-texlive/tex/latex/hyperref/backref.sty
+Package: backref 2006/09/05 v1.28 Bibliographical back referencing
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count109
+\Field@Width=\dimen121
+\Fld@charsize=\dimen122
+\Field@toks=\toks25
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing ON on input line 4390.
+Package hyperref Info: Link coloring OFF on input line 4397.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count110
+\c@Item=\count111
+\c@Hfootnote=\count112
+)
+*hyperref using driver hdvipdfm*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hdvipdfm.def
+File: hdvipdfm.def 2009/10/09 v6.79a Hyperref driver for dvipdfm
+\pdfm@box=\box30
+\c@Hy@AnnotLevel=\count113
+\HyField@AnnotCount=\count114
+\Fld@listcount=\count115
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 81.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 81.
+Package hyperref Info: Option `colorlinks' set `true' on input line 81.
+
+
+Package hyperref Warning: Values of option `pdfpagemode':
+(hyperref)                * `UseNone'
+(hyperref)                * `UseOutlines'
+(hyperref)                * `UseThumbs'
+(hyperref)                * `FullScreen'
+(hyperref)                * `UseOC' (PDF 1.5)
+(hyperref)                * `UseAttachments' (PDF 1.6)
+(hyperref)                * An empty value disables the option.
+(hyperref)                Unknown value `None' on input line 81.
+
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 81.
+(/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count116
+\rotFPtop=\skip50
+\rotFPbot=\skip51
+\rot@float@box=\box31
+\rot@mess@toks=\toks26
+)
+(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip52
+\f@ncyO@elh=\skip53
+\f@ncyO@erh=\skip54
+\f@ncyO@olh=\skip55
+\f@ncyO@orh=\skip56
+\f@ncyO@elf=\skip57
+\f@ncyO@erf=\skip58
+\f@ncyO@olf=\skip59
+\f@ncyO@orf=\skip60
+)
+(/usr/share/texmf-texlive/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+
+(/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen123
+\extrarowheight=\dimen124
+\NC@list=\toks27
+\extratabsurround=\skip61
+\backup@length=\skip62
+)
+\everycr=\toks28
+\minrowclearance=\skip63
+) (./algorithm.sty
+Package: algorithm 
+
+Document Style `algorithm' - floating environment
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count117
+\float@exts=\toks29
+\float@box=\box32
+\@float@everytoks=\toks30
+\@floatcapt=\box33
+)
+\@float@every@algorithm=\toks31
+\c@algorithm=\count118
+) (./algorithmic.sty
+Package: algorithmic 
+
+Document Style `algorithmic' - environment
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count119
+\calc@Bcount=\count120
+\calc@Adimen=\dimen125
+\calc@Bdimen=\dimen126
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count121
+\calc@Cskip=\skip66
+)
+\c@ALC@line=\count122
+\c@ALC@rem=\count123
+\ALC@tlm=\skip67
+)
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen127
+)
+(/usr/share/texmf-texlive/tex/latex/slashbox/slashbox.sty
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box34
+\@slashboxb=\box35
+\@slashboxc=\box36
+\@slashboxwd=\count124
+\@slashboxht=\count125
+\@slashsepl=\dimen128
+\@slashsepr=\dimen129
+)
+\c@definition=\count126
+\c@theorem=\count127
+) (./Thesis.aux)
+\openout1 = `Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+*geometry auto-detecting driver*
+*geometry detected driver: dvips*
+-------------------- Geometry parameters
+paper: a4paper
+landscape: --
+twocolumn: --
+twoside: true
+asymmetric: --
+h-parts: 108.405pt, 395.15166pt, 93.95122pt
+v-parts: 79.49744pt, 686.05197pt, 79.49744pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: true
+includefoot: true
+includemp: --
+driver: dvips
+-------------------- Page layout dimensions and switches
+\paperwidth  597.50787pt
+\paperheight 845.04684pt
+\textwidth  395.15166pt
+\textheight 625.11522pt
+\oddsidemargin  36.13501pt
+\evensidemargin 21.68123pt
+\topmargin  7.22745pt
+\headheight 13.6pt
+\headsep    19.8738pt
+\footskip   27.46295pt
+\marginparwidth 106.0pt
+\marginparsep   7.0pt
+\columnsep  10.0pt
+\skip\footins  10.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+\@twosidetrue \@mparswitchtrue 
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0046
+(minitoc(hints))             --- The tocbibind package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+Package hyperref Info: Link coloring ON on input line 5.
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count128
+)
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+ (./Thesis.out)
+(./Thesis.out)
+\@outlinefile=\write5
+\openout5 = `Thesis.out'.
+
+\AtBeginShipoutBox=\box37
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+\openout2 = `TitlePage.aux'.
+
+(./TitlePage.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Overfull \hbox (53.7641pt too wide) in paragraph at lines 31--41
+ [] 
+ []
+
+[1
+
+
+
+
+
+] [2
+
+])
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM Thesis.toc on input line 10.
+ [1
+
+
+] [2
+
+]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write6
+\openout6 = `Thesis.toc'.
+
+[3] [4
+
+]
+\openout2 = `Chapter1.aux'.
+
+ (./Chapter1.tex
+Chapter 1.
+
+LaTeX Warning: Citation `CCN' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `ComScore' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `ATT' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `ATT2' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `Killer-DTN' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `ATT' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `ATT' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `CellOffLoading' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `Augmenting3G' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `Energy-Delay' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Juang:zebranet' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Heidemann:Acoustic' on page 1 undefined on input line 
+6.
+
+
+LaTeX Warning: Citation `Levine:MaxProp' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `TIER' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `DSH' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `OneLaptopPerChild' on page 1 undefined on input line 6
+.
+
+[1
+
+
+] [2] [3]
+
+LaTeX Warning: Citation `haas:mobihoc03' on page 4 undefined on input line 39.
+
+
+LaTeX Warning: Citation `Inria:MessageDelay' on page 4 undefined on input line 
+39.
+
+
+LaTeX Warning: Citation `akis:mobihoc06' on page 4 undefined on input line 39.
+
+
+LaTeX Warning: Citation `QueuingPolicies' on page 4 undefined on input line 39.
+
+
+
+LaTeX Warning: Citation `NashEquilibria' on page 4 undefined on input line 41.
+
+
+LaTeX Warning: Citation `May07wirelessopportunistic' on page 4 undefined on inp
+ut line 41.
+
+
+LaTeX Warning: Citation `ContentPlace' on page 4 undefined on input line 41.
+
+
+LaTeX Warning: Citation `May07wirelessopportunistic' on page 4 undefined on inp
+ut line 41.
+
+
+LaTeX Warning: Citation `SocialCast' on page 4 undefined on input line 41.
+
+
+LaTeX Warning: Citation `Peoplenet' on page 4 undefined on input line 41.
+
+[4]
+
+LaTeX Warning: Reference `chapter:HBSD' on page 5 undefined on input line 43.
+
+
+LaTeX Warning: Citation `DTN2' on page 5 undefined on input line 43.
+
+
+LaTeX Warning: Reference `chapter:MobiTrade' on page 5 undefined on input line 
+43.
+
+
+LaTeX Warning: Reference `chapter:ptp' on page 5 undefined on input line 47.
+
+
+LaTeX Warning: Reference `chapter:HBSD' on page 5 undefined on input line 48.
+
+
+LaTeX Warning: Reference `chapter:PTMP' on page 5 undefined on input line 48.
+
+
+LaTeX Warning: Reference `chapter:MobiTrade' on page 5 undefined on input line 
+48.
+
+
+LaTeX Warning: Reference `chapter:conclusions' on page 5 undefined on input lin
+e 48.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+[6]
+\openout2 = `Chapter2.aux'.
+
+ (./Chapter2.tex
+Chapter 2.
+\openout3 = `Thesis.mtc'.
+
+\openout3 = `Thesis.mtc'.
+
+(./Thesis.mtc2) [7
+
+
+
+]
+
+LaTeX Warning: Citation `BitHoc' on page 8 undefined on input line 7.
+
+
+LaTeX Warning: Citation `BlueTorrent' on page 8 undefined on input line 7.
+
+[8]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+
+
+LaTeX Warning: Citation `RefBT' on page 9 undefined on input line 19.
+
+
+LaTeX Warning: Citation `BitHoc' on page 9 undefined on input line 19.
+
+
+LaTeX Warning: Citation `RefBT' on page 9 undefined on input line 20.
+
+
+LaTeX Warning: Citation `BitHoc' on page 9 undefined on input line 20.
+
+
+LaTeX Warning: Reference `figarch' on page 9 undefined on input line 27.
+
+
+! LaTeX Error: Cannot determine size of graphic in Chapitre2/architecture.png (
+no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...0.7\textwidth]{Chapitre2/architecture.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Chapitre2/architecture.png Graphic file (type eps)
+<Chapitre2/architecture.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `Figsearchengine' on page 9 undefined on input line 39
+.
+
+[9]
+
+! LaTeX Error: Cannot determine size of graphic in Chapitre2/searchengine.png (
+no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...in,height=3in]{Chapitre2/searchengine.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Chapitre2/searchengine.png Graphic file (type eps)
+<Chapitre2/searchengine.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `OLSR' on page 10 undefined on input line 51.
+
+[10]
+
+LaTeX Warning: Citation `RefBT' on page 11 undefined on input line 55.
+
+
+LaTeX Warning: Citation `BitHoc' on page 11 undefined on input line 55.
+
+
+LaTeX Warning: Reference `Figclient' on page 11 undefined on input line 55.
+
+[11]
+
+! LaTeX Error: Cannot determine size of graphic in Chapitre2/contentsharing.png
+ (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...,height=3in]{Chapitre2/contentsharing.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Chapitre2/contentsharing.png Graphic file (type eps)
+<Chapitre2/contentsharing.png>
+
+LaTeX Warning: Reference `tabcarac' on page 12 undefined on input line 70.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+! LaTeX Error: Cannot determine size of graphic in Chapitre2/sharingratio.png (
+no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 ...,height=2.2in]{Chapitre2/sharingratio.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Chapitre2/sharingratio.png Graphic file (type eps)
+<Chapitre2/sharingratio.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+! LaTeX Error: Cannot determine size of graphic in Chapitre2/downloadtime.png (
+no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 ...height=2.2in]{Chapitre2/downloadtime.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Chapitre2/downloadtime.png Graphic file (type eps)
+<Chapitre2/downloadtime.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `figsharing' on page 12 undefined on input line 109.
+
+
+LaTeX Warning: Reference `FigDownloadtime' on page 12 undefined on input line 1
+09.
+
+
+LaTeX Warning: Reference `figsharing' on page 12 undefined on input line 109.
+
+
+LaTeX Warning: Reference `FigDownloadtime' on page 12 undefined on input line 1
+09.
+
+
+LaTeX Warning: Citation `BitHocWeb' on page 12 undefined on input line 109.
+
+
+LaTeX Warning: Citation `BitHocWeb' on page 12 undefined on input line 109.
+
+[12] [13]
+
+LaTeX Warning: Reference `figarch' on page 14 undefined on input line 114.
+
+
+LaTeX Warning: Citation `Bundle' on page 14 undefined on input line 119.
+
+
+LaTeX Warning: Citation `fall03' on page 14 undefined on input line 119.
+
+
+LaTeX Warning: Citation `dtnrg' on page 14 undefined on input line 119.
+
+
+LaTeX Warning: Citation `Levine:MaxProp' on page 14 undefined on input line 122
+.
+
+
+LaTeX Warning: Citation `DriveThru' on page 14 undefined on input line 122.
+
+
+LaTeX Warning: Citation `DriveThru' on page 14 undefined on input line 122.
+
+
+LaTeX Warning: Citation `Levine:MaxProp' on page 14 undefined on input line 124
+.
+
+
+LaTeX Warning: Citation `zebranet02' on page 14 undefined on input line 126.
+
+
+LaTeX Warning: Citation `WirelessInfostation' on page 14 undefined on input lin
+e 126.
+
+
+LaTeX Warning: Citation `zebranet02' on page 14 undefined on input line 126.
+
+
+LaTeX Warning: Citation `WirelessInfostation' on page 14 undefined on input lin
+e 126.
+
+[14]
+
+LaTeX Warning: Citation `Brewer:DTNdeveloping' on page 15 undefined on input li
+ne 127.
+
+
+LaTeX Warning: Citation `Brewer:DTNdeveloping' on page 15 undefined on input li
+ne 127.
+
+
+LaTeX Warning: Citation `interplanetary03' on page 15 undefined on input line 1
+28.
+
+
+LaTeX Warning: Citation `fall03' on page 15 undefined on input line 134.
+
+
+LaTeX Warning: Citation `DTNTutorial' on page 15 undefined on input line 134.
+
+[15]
+
+LaTeX Warning: Citation `Fall:DTNrouting' on page 16 undefined on input line 14
+9.
+
+
+LaTeX Warning: Citation `Ward:RoutingSurvey' on page 16 undefined on input line
+ 154.
+
+
+LaTeX Warning: Citation `DTNRoutingSurvey06' on page 16 undefined on input line
+ 154.
+
+
+LaTeX Warning: Citation `Wearable' on page 16 undefined on input line 161.
+
+
+LaTeX Warning: Citation `MVRouting' on page 16 undefined on input line 161.
+
+
+LaTeX Warning: Citation `Levine:MaxProp' on page 16 undefined on input line 161
+.
+
+
+LaTeX Warning: Citation `Levine:MaxProp' on page 16 undefined on input line 161
+.
+
+
+LaTeX Warning: Citation `Haas:wdtn' on page 16 undefined on input line 162.
+
+
+LaTeX Warning: Citation `Tseng:broadcast' on page 16 undefined on input line 16
+2.
+
+
+LaTeX Warning: Citation `LeBoudec:wdtn' on page 16 undefined on input line 162.
+
+
+
+LaTeX Warning: Citation `Fall:Sigcomm05' on page 16 undefined on input line 163
+.
+
+
+LaTeX Warning: Citation `Haas:wdtn' on page 16 undefined on input line 163.
+
+
+LaTeX Warning: Citation `akis:wdtn' on page 16 undefined on input line 163.
+
+
+LaTeX Warning: Citation `Vahdat:epidemic' on page 16 undefined on input line 16
+3.
+
+[16]
+
+LaTeX Warning: Citation `Fall:DTNrouting' on page 17 undefined on input line 16
+5.
+
+
+LaTeX Warning: Citation `Waterloo:wdtn' on page 17 undefined on input line 165.
+
+
+
+LaTeX Warning: Citation `akis:technical1' on page 17 undefined on input line 16
+5.
+
+
+LaTeX Warning: Citation `Fall:DTNrouting' on page 17 undefined on input line 16
+6.
+
+
+LaTeX Warning: Citation `BalasubramanianLV07' on page 17 undefined on input lin
+e 167.
+
+
+LaTeX Warning: Citation `Waterloo:wdtn' on page 17 undefined on input line 169.
+
+
+
+LaTeX Warning: Citation `Shah:datamules' on page 17 undefined on input line 170
+.
+
+
+LaTeX Warning: Citation `akis:technical1' on page 17 undefined on input line 17
+1.
+
+
+LaTeX Warning: Citation `akis:wdtn' on page 17 undefined on input line 173.
+
+
+LaTeX Warning: Citation `akis:wdtn' on page 17 undefined on input line 173.
+
+
+LaTeX Warning: Citation `Levine:Mobihoc07' on page 17 undefined on input line 1
+74.
+
+
+LaTeX Warning: Citation `akis:wdtn' on page 17 undefined on input line 176.
+
+
+LaTeX Warning: Citation `Haas:wdtn' on page 17 undefined on input line 176.
+
+
+LaTeX Warning: Citation `Vahdat:epidemic' on page 17 undefined on input line 17
+6.
+
+
+LaTeX Warning: Citation `Towsley:Epidemic' on page 17 undefined on input line 1
+76.
+
+
+LaTeX Warning: Citation `QueuingPolicies' on page 17 undefined on input line 17
+6.
+
+
+LaTeX Warning: Citation `DCopies' on page 17 undefined on input line 176.
+
+[17]
+
+LaTeX Warning: Reference `RoutingSummary' on page 18 undefined on input line 18
+0.
+
+
+LaTeX Warning: Citation `Lindgren:probabilistic' on page 18 undefined on input 
+line 182.
+
+
+LaTeX Warning: Citation `Wearable' on page 18 undefined on input line 182.
+
+
+LaTeX Warning: Citation `MVRouting' on page 18 undefined on input line 182.
+
+
+LaTeX Warning: Citation `PRESTO' on page 18 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Levine:MaxProp' on page 18 undefined on input line 183
+.
+
+
+Overfull \hbox (2.82127pt too wide) in paragraph at lines 192--192
+[]|\T1/cmr/bx/n/9 Bandwidth| 
+ []
+
+
+Overfull \hbox (3.17702pt too wide) in paragraph at lines 194--194
+[]|\T1/cmr/m/n/9 Replication| 
+ []
+
+
+LaTeX Warning: Citation `Vahdat:epidemic' on page 18 undefined on input line 19
+4.
+
+
+LaTeX Warning: Citation `akis:wdtn' on page 18 undefined on input line 194.
+
+
+Overfull \hbox (2.95827pt too wide) in paragraph at lines 197--197
+[]|\T1/cmr/m/n/9 Forwarding| 
+ []
+
+
+LaTeX Warning: Citation `Fall:DTNrouting' on page 18 undefined on input line 19
+7.
+
+
+LaTeX Warning: Citation `DTNSpace' on page 18 undefined on input line 198.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
+[]|\T1/cmr/m/n/9 Modified Djik-stra's al-go-rithm
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 197--199
+\T1/cmr/m/n/9 Jain et al. [[]][] (sim-ple graph),
+ []
+
+
+Overfull \hbox (3.17702pt too wide) in paragraph at lines 200--200
+[]|\T1/cmr/m/n/9 Replication| 
+ []
+
+
+LaTeX Warning: Citation `Wearable' on page 18 undefined on input line 200.
+
+
+LaTeX Warning: Citation `Haas:wdtn' on page 18 undefined on input line 200.
+
+
+LaTeX Warning: Citation `MVRouting' on page 18 undefined on input line 201.
+
+
+LaTeX Warning: Citation `prophet03' on page 18 undefined on input line 201.
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 200--203
+\T1/cmr/m/n/9 ing syn-thetic), SWIM [[]][] (Ex-
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 200--203
+\T1/cmr/m/n/9 po-nen-tial), MV [[]][](Community-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--203
+\T1/cmr/m/n/9 based syn-thetic), Prophet [[]][]
+ []
+
+
+Overfull \hbox (2.95827pt too wide) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/9 Forwarding| 
+ []
+
+
+LaTeX Warning: Citation `Waterloo:wdtn' on page 18 undefined on input line 204.
+
+
+
+LaTeX Warning: Citation `Fall:DTNrouting' on page 18 undefined on input line 20
+4.
+
+
+Overfull \hbox (3.17702pt too wide) in paragraph at lines 207--207
+[]|\T1/cmr/m/n/9 Replication| 
+ []
+
+
+LaTeX Warning: Citation `Levine:Sigcomm07' on page 18 undefined on input line 2
+07.
+
+
+LaTeX Warning: Citation `Levine:MaxProp' on page 18 undefined on input line 207
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+[]|\T1/cmr/m/n/9 Our pro-posal (Ve-hic-u-lar DTN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+\T1/cmr/m/n/9 traces, testbed de-ploy-ment),
+ []
+
+
+LaTeX Warning: Citation `Levine:MaxProp' on page 18 undefined on input line 213
+.
+
+
+LaTeX Warning: Citation `BalasubramanianLV07' on page 18 undefined on input lin
+e 213.
+
+
+LaTeX Warning: Reference `sec:optimal-policy' on page 18 undefined on input lin
+e 213.
+
+
+LaTeX Warning: Citation `Levine:Sigcomm07' on page 18 undefined on input line 2
+13.
+
+
+LaTeX Warning: Citation `AOBM' on page 18 undefined on input line 213.
+
+
+Underfull \vbox (badness 1163) has occurred while \output is active []
+
+ [18]
+
+LaTeX Warning: Citation `DTNTaxonomy' on page 19 undefined on input line 217.
+
+
+LaTeX Warning: Citation `Passarella:Survey' on page 19 undefined on input line 
+217.
+
+
+LaTeX Warning: Citation `NashEquilibria' on page 19 undefined on input line 225
+.
+
+[19]
+
+LaTeX Warning: Citation `BitHoc' on page 20 undefined on input line 227.
+
+
+LaTeX Warning: Reference `DisseminationSummary' on page 20 undefined on input l
+ine 227.
+
+
+LaTeX Warning: Reference `DisseminationSummary' on page 20 undefined on input l
+ine 229.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+[]|\T1/cmr/m/n/9 Users In-ter-
+ []
+
+
+LaTeX Warning: Citation `May07wirelessopportunistic' on page 20 undefined on in
+put line 240.
+
+
+LaTeX Warning: Citation `Lenders:Podcast' on page 20 undefined on input line 24
+0.
+
+
+LaTeX Warning: Citation `TACODTN' on page 20 undefined on input line 240.
+
+
+LaTeX Warning: Citation `BlueTorrent' on page 20 undefined on input line 240.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+[]|\T1/cmr/m/n/9 Users In-ter-
+ []
+
+
+LaTeX Warning: Citation `Chiara:MSWIM08' on page 20 undefined on input line 242
+.
+
+
+LaTeX Warning: Citation `HCMM' on page 20 undefined on input line 242.
+
+
+LaTeX Warning: Citation `SocialCast2' on page 20 undefined on input line 242.
+
+
+LaTeX Warning: Citation `SocialCast' on page 20 undefined on input line 242.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+[]|\T1/cmr/m/n/9 Users In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+\T1/cmr/m/n/9 ter-ests +
+ []
+
+
+LaTeX Warning: Citation `LOCUS' on page 20 undefined on input line 244.
+
+
+LaTeX Warning: Citation `MobiSim' on page 20 undefined on input line 244.
+
+
+LaTeX Warning: Citation `Peoplenet' on page 20 undefined on input line 244.
+
+
+LaTeX Warning: Citation `TACODTN' on page 20 undefined on input line 250.
+
+[20]
+
+LaTeX Warning: Citation `Peoplenet' on page 21 undefined on input line 254.
+
+
+LaTeX Warning: Citation `BlueTorrent' on page 21 undefined on input line 256.
+
+
+LaTeX Warning: Citation `SocialCast2' on page 21 undefined on input line 258.
+
+
+LaTeX Warning: Citation `SocialCast' on page 21 undefined on input line 258.
+
+
+LaTeX Warning: Citation `Podcasting:Secon07' on page 21 undefined on input line
+ 261.
+
+
+LaTeX Warning: Citation `May07wirelessopportunistic' on page 21 undefined on in
+put line 261.
+
+
+LaTeX Warning: Citation `May07wirelessopportunistic' on page 21 undefined on in
+put line 261.
+
+
+LaTeX Warning: Citation `Podcasting:Secon07' on page 21 undefined on input line
+ 261.
+
+
+LaTeX Warning: Citation `ContentPlace' on page 21 undefined on input line 263.
+
+
+LaTeX Warning: Citation `Boldrini:SocialForwarding' on page 21 undefined on inp
+ut line 263.
+
+[21]
+
+LaTeX Warning: Citation `OptimalChannelChoice' on page 22 undefined on input li
+ne 272.
+
+
+LaTeX Warning: Citation `mcmc-bremaud' on page 22 undefined on input line 272.
+
+
+LaTeX Warning: Citation `NashEquilibria' on page 22 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `BarterDTN' on page 22 undefined on input line 274.
+
+
+LaTeX Warning: Citation `Reputation' on page 22 undefined on input line 276.
+
+) [22]
+\openout2 = `Chapter3.aux'.
+
+ (./Chapter3.tex
+Chapter 3.
+\openout3 = `Thesis.mtc'.
+
+\openout3 = `Thesis.mtc'.
+
+(./Thesis.mtc3) [23
+
+
+
+]
+
+LaTeX Warning: Citation `Towsley:Epidemic' on page 24 undefined on input line 1
+3.
+
+
+LaTeX Warning: Citation `akis:ton-multi' on page 24 undefined on input line 15.
+
+
+
+LaTeX Warning: Citation `Vahdat:epidemic' on page 24 undefined on input line 15
+.
+
+
+LaTeX Warning: Citation `Levine:Sigcomm07' on page 24 undefined on input line 1
+5.
+
+
+LaTeX Warning: Citation `akis:mobihoc06' on page 24 undefined on input line 19.
+
+
+
+LaTeX Warning: Citation `Inria:MessageDelay' on page 24 undefined on input line
+ 19.
+
+
+LaTeX Warning: Citation `akis09' on page 24 undefined on input line 20.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+
+LaTeX Warning: Citation `akis:mobihoc06' on page 25 undefined on input line 27.
+
+
+
+LaTeX Warning: Citation `Inria:MessageDelay' on page 25 undefined on input line
+ 27.
+
+
+LaTeX Warning: Citation `Aldous:book' on page 25 undefined on input line 27.
+
+
+LaTeX Warning: Citation `LeBoudec:Mobicom07' on page 25 undefined on input line
+ 27.
+
+
+LaTeX Warning: Reference `subsec:MaxAvgDeliveryRate' on page 25 undefined on in
+put line 27.
+
+
+LaTeX Warning: Citation `Akis:IJAACS2008' on page 25 undefined on input line 27
+.
+
+
+LaTeX Warning: Citation `LeBoudec:Sigmetrics09' on page 25 undefined on input l
+ine 29.
+
+
+LaTeX Warning: Reference `section:heterogeneous-mobility' on page 25 undefined 
+on input line 31.
+
+[25]
+File: Chapitre3/GOS.eps Graphic file (type eps)
+ <Chapitre3/GOS.eps>
+
+LaTeX Warning: Reference `table:notation' on page 26 undefined on input line 53
+.
+
+
+LaTeX Warning: Reference `GlobalOptimizationSchema' on page 26 undefined on inp
+ut line 53.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+
+LaTeX Warning: Citation `Levine:Sigcomm07' on page 27 undefined on input line 1
+05.
+
+
+LaTeX Warning: Reference `eq:p-not-delivered' on page 27 undefined on input lin
+e 112.
+
+
+LaTeX Warning: Reference `eq:p-already-delivered' on page 27 undefined on input
+ line 112.
+
+[27]
+
+LaTeX Warning: Reference `eq:GBSD-delivery-rate' on page 28 undefined on input 
+line 142.
+
+
+LaTeX Warning: Reference `OptimalityOfGradientPolicy' on page 28 undefined on i
+nput line 144.
+
+
+LaTeX Warning: Reference `th:delivery-rate' on page 28 undefined on input line 
+152.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28]
+
+LaTeX Warning: Reference `eq:DD2' on page 29 undefined on input line 180.
+
+
+LaTeX Warning: Reference `eq:DD1' on page 29 undefined on input line 180.
+
+
+LaTeX Warning: Reference `eq:delivery-delay' on page 29 undefined on input line
+ r.
+
+[78] [79])
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[80]
+\openout2 = `Chapter6.aux'.
+
+ (./Chapter6.tex
+Chapter 6.
+\openout3 = `Thesis.mtc'.
+
+\openout3 = `Thesis.mtc'.
+
+(./Thesis.mtc6) [81
+
+
+
+] [82] [83] [84] [85]) [86] [87]
+\openout2 = `Chapter7.aux'.
+
+ (./Chapter7.tex [88
+
+
+
+]
+Chapter 7.
+) [89]
+\openout2 = `Appendix1.aux'.
+
+ (./Appendix1.tex [90
+
+
+
+]
+Appendix A.
+
+LaTeX Warning: Citation `Commowick_MICCAI_2007' on page 91 undefined on input l
+ine 6.
+
+
+LaTeX Warning: Citation `Oakes_RStat_1999' on page 91 undefined on input line 8
+.
+
+
+LaTeX Warning: Citation `Guimond_CVIU_2000' on page 91 undefined on input line 
+8.
+
+) [91] (./Thesis.bbl (./Thesis.brf)
+\tf@brf=\write7
+\openout7 = `Thesis.brf'.
+
+ [92
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\T1/cmr/m/n/10.95 ``Iphone users eat-ing up AT&T's net-work,''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\T1/cmr/m/n/10.95 http://venturebeat.com/2009/05/11/iphone-users-eating-up-atts
+-network/.
+ []
+
+[93] [94]
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]\T1/cmr/m/n/10.95 ``Delay-tolerant net-works (DTNs) : A tu-to-rial,''
+ []
+
+[95]
+Underfull \hbox (badness 1303) in paragraph at lines 257--257
+[]\T1/cmr/m/n/10.95 J. Burgess, G. Bis-sias, M. Cor-ner, and B. Levine, ``Sur-v
+iv-ing at-tacks
+ []
+
+[96] [97]
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+[]\T1/cmr/m/n/10.95 D. Al-dous and J. Fill, ``Re-versible markov chains and ran
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+\T1/cmr/m/n/10.95 dom walks on graphs. (mono-graph in prepa-ra-tion.),'' \T1/cm
+r/m/it/10.95 http://stat-
+ []
+
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]\T1/cmr/m/n/10.95 S. K. S. B. A. Seth, M. Za-haria, ``A policy-oriented ar-ch
+i-tec-
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 396--396
+\T1/cmr/m/n/10.95 ture for op-por-tunis-tic com-mu-ni-ca-tion on mul-ti-ple wir
+e-less net-works
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+\T1/cmr/m/n/10.95 (http://blizzard.cs.uwaterloo.ca/keshav/home/papers/data/06/o
+cmp.pdf),''
+ []
+
+
+Overfull \hbox (6.65715pt too wide) in paragraph at lines 410--410
+[]\T1/cmr/m/n/10.95 ``Dtn ar-chi-tec-ture for ns-2,'' http://www-sop.inria.fr/m
+embers/Amir.Krifa/DTN.
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 421--421
+[]\T1/cmr/m/n/10.95 ``KAIST mo-bil-ity traces,'' http://research.csc.ncsu.edu/n
+etsrv/?q=node/4.
+ []
+
+[99]) [100]
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the Thesis.maf file.
+\openout3 = `Thesis.maf'.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the Thesis.log file.
+
+[101
+
+] (./Thesis.aux (./TitlePage.aux) (./Chapter1.aux) (./Chapter2.aux)
+(./Chapter3.aux)
+Runaway argument?
+{\contentsline {figure}{\numberline {3.8}{\ignorespaces Network Histo\ETC.
+! File ended while scanning use of \@writefile.
+<inserted text> 
+                \par 
+l.22 \@input{Chapter3.aux}
+                          
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(./Chapter4.aux) (./Chapter5.aux) (./Chapter6.aux) (./Chapter7.aux)
+(./Appendix1.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8800 strings out of 495062
+ 122309 string characters out of 1182645
+ 226889 words of memory out of 3000000
+ 11450 multiletter control sequences out of 15000+50000
+ 31677 words of font info for 81 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 42i,14n,47p,3480b,546s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on Thesis.dvi (107 pages, 542628 bytes).
+aphic file (type eps)
+<Chapitre3/fig2.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: Chapitre3/fig22.eps Graphic file (type eps)
+<Chapitre3/fig22.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (4.82831pt too wide) in paragraph at lines 422--422
+[]|\T1/cmr/m/n/9 RAPID| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (4.82831pt too wide) in paragraph at lines 439--439
+[]|\T1/cmr/m/n/9 RAPID| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (4.82831pt too wide) in paragraph at lines 457--457
+[]|\T1/cmr/m/n/9 RAPID| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `DR-RWP' on page 36 undefined on input line 467.
+
+
+LaTeX Warning: Reference `T-LB+LB' on page 36 undefined on input line 471.
+
+
+LaTeX Warning: Reference `ZebraNetResults' on page 36 undefined on input line 4
+71.
+
+
+LaTeX Warning: Reference `DR-KAIST' on page 36 undefined on input line 471.
+
+
+LaTeX Warning: Reference `HCMM-Results' on page 36 undefined on input line 471.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36]
+
+LaTeX Warning: Reference `sec:sims:DR' on page 37 undefined on input line 476.
+
+[37]
+File: Chapitre3/fig3.eps Graphic file (type eps)
+ <Chapitre3/fig3.eps>
+File: Chapitre3/fig33.eps Graphic file (type eps)
+ <Chapitre3/fig33.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `DD-RWP' on page 38 undefined on input line 492.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38]
+
+LaTeX Warning: Reference `T-LB+LB' on page 39 undefined on input line 502.
+
+
+LaTeX Warning: Reference `ZebraNetResults' on page 39 undefined on input line 5
+02.
+
+
+LaTeX Warning: Reference `DD-KAIST' on page 39 undefined on input line 502.
+
+
+LaTeX Warning: Reference `HCMM-Results' on page 39 undefined on input line 502.
+
+
+File: Chapitre3/AvgDistancePerCoordinate.eps Graphic file (type eps)
+<Chapitre3/AvgDistancePerCoordinate.eps>
+File: Chapitre3/NbrCopiesDiff.eps Graphic file (type eps)
+ <Chapitre3/NbrCopiesDiff.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `OptimalityOfGradientPolicy' on page 39 undefined on i
+nput line 521.
+
+
+LaTeX Warning: Reference `Sensitivity' on page 39 undefined on input line 521.
+
+
+LaTeX Warning: Reference `DiffinTermsOfNbrCopies' on page 39 undefined on input
+ line 521.
+
+
+LaTeX Warning: Reference `OptimalityOfGradientPolicy' on page 39 undefined on i
+nput line 521.
+
+[39]
+
+LaTeX Warning: Citation `Keshav:Mobisys07' on page 40 undefined on input line 5
+26.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]
+
+LaTeX Warning: Reference `NHM' on page 41 undefined on input line 533.
+
+
+LaTeX Warning: Reference `BA' on page 41 undefined on input line 535.
+
+
+LaTeX Warning: Reference `sec:optimal-policy' on page 41 undefined on input lin
+e 537.
+
+
+LaTeX Warning: Citation `Nyquist' on page 41 undefined on input line 537.
+
+
+LaTeX Warning: Citation `akis:ton-multi' on page 41 undefined on input line 537
+.
+
+[41]
+
+LaTeX Warning: Reference `sec:learning' on page 42 undefined on input line 542.
+
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 541--543
+\T1/cmr/m/n/10.95 main-tained, in-di-cat-ing if a node $\OML/cmm/m/it/10.95 a$ 
+\T1/cmr/m/n/10.95 had \T1/cmr/m/it/10.95 seen \T1/cmr/m/n/10.95 (rather than \T
+1/cmr/m/it/10.95 stored \T1/cmr/m/n/10.95 a mes-
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 541--543
+\T1/cmr/m/n/10.95 sage $\OML/cmm/m/it/10.95 b$ \T1/cmr/m/n/10.95 at time $\OML/
+cmm/m/it/10.95 t$\T1/cmr/m/n/10.95 , in or-der to es-ti-mate $\OML/cmm/m/it/10.
+95 m\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 T\OT1/cmr/m/n/10.95 )$\T1/cmr/m/n/1
+0.95 . How-ever, it is easy to
+ []
+
+
+LaTeX Warning: Reference `NHM' on page 42 undefined on input line 547.
+
+
+LaTeX Warning: Reference `SE' on page 42 undefined on input line 549.
+
+
+LaTeX Warning: Reference `PENHCM' on page 42 undefined on input line 549.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42]
+
+LaTeX Warning: Reference `NHM' on page 43 undefined on input line 551.
+
+File: Chapitre3/Stat_Matrix.eps Graphic file (type eps)
+<Chapitre3/Stat_Matrix.eps>
+File: Chapitre3/Bin_Array.eps Graphic file (type eps)
+ <Chapitre3/Bin_Array.eps>
+File: Chapitre3/StatisticsExchanging.eps Graphic file (type eps)
+
+<Chapitre3/StatisticsExchanging.eps>
+
+LaTeX Warning: Reference `sec:sims:DR' on page 43 undefined on input line 579.
+
+[43]
+
+LaTeX Warning: Reference `StatOverhead' on page 44 undefined on input line 581.
+
+
+
+LaTeX Warning: Citation `Levine:Sigcomm07' on page 44 undefined on input line 5
+83.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
+
+LaTeX Warning: Reference `NetworkHistoryModel' on page 45 undefined on input li
+ne 585.
+
+File: Chapitre3/fig7.eps Graphic file (type eps)
+<Chapitre3/fig7.eps>
+
+LaTeX Warning: Reference `PMED' on page 45 undefined on input line 594.
+
+
+LaTeX Warning: Reference `StatOverhead' on page 45 undefined on input line 594.
+
+
+File: Chapitre3/fig8.eps Graphic file (type eps)
+<Chapitre3/fig8.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45]
+
+LaTeX Warning: Reference `HBSD-DR-U' on page 46 undefined on input line 610.
+
+File: Chapitre3/fig9.eps Graphic file (type eps)
+<Chapitre3/fig9.eps>
+
+LaTeX Warning: Reference `DR-RE' on page 46 undefined on input line 619.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46]
+
+LaTeX Warning: Reference `HBSD-AVG-DR-MUM' on page 47 undefined on input line 6
+21.
+
+
+LaTeX Warning: Reference `HBSD-AVG-DD-MUM' on page 47 undefined on input line 6
+21.
+
+
+LaTeX Warning: Reference `sec:sims:DR' on page 47 undefined on input line 621.
+
+File: Chapitre3/fig13.eps Graphic file (type eps)
+<Chapitre3/fig13.eps>
+File: Chapitre3/fig14.eps Graphic file (type eps)
+ <Chapitre3/fig14.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[47]
+
+LaTeX Warning: Reference `HBSD-AVG-DR-DYNAMIC' on page 48 undefined on input li
+ne 641.
+
+
+LaTeX Warning: Reference `HBSD-AVG-DD-DYNAMIC' on page 48 undefined on input li
+ne 641.
+
+File: Chapitre3/fig11.eps Graphic file (type eps)
+<Chapitre3/fig11.eps>
+File: Chapitre3/fig12.eps Graphic file (type eps)
+ <Chapitre3/fig12.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48]
+
+LaTeX Warning: Reference `sec:sims:DR' on page 49 undefined on input line 665.
+
+
+LaTeX Warning: Reference `PENHCM' on page 49 undefined on input line 665.
+
+
+LaTeX Warning: Reference `HBSD-DR-HCN' on page 49 undefined on input line 665.
+
+
+LaTeX Warning: Reference `HBSD-DD-HCN' on page 49 undefined on input line 665.
+
+
+LaTeX Warning: Reference `sec:learning:EDR' on page 49 undefined on input line 
+665.
+
+
+LaTeX Warning: Reference `sec:learning:EDD' on page 49 undefined on input line 
+665.
+
+
+LaTeX Warning: Citation `Towsley:Epidemic' on page 49 undefined on input line 6
+65.
+
+
+LaTeX Warning: Citation `KrifaBS08' on page 49 undefined on input line 665.
+
+
+LaTeX Warning: Citation `KrifaBS08' on page 49 undefined on input line 665.
+
+File: Chapitre3/fig18.eps Graphic file (type eps)
+<Chapitre3/fig18.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: Chapitre3/fig16.eps Graphic file (type eps)
+<Chapitre3/fig16.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `HBSD-DR-LCN' on page 49 undefined on input line 684.
+
+
+LaTeX Warning: Reference `HBSD-DD-LCN' on page 49 undefined on input line 684.
+
+
+Underfull \vbox (badness 1297) has occurred while \output is active []
+
+ [49]
+
+LaTeX Warning: Reference `DO-HBSD-C' on page 50 undefined on input line 686.
+
+
+LaTeX Warning: Reference `DO-HBSD-LC' on page 50 undefined on input line 686.
+
+
+LaTeX Warning: Reference `DO-HBSD-LC' on page 50 undefined on input line 686.
+
+
+LaTeX Warning: Reference `DO-HBSD-C' on page 50 undefined on input line 686.
+
+
+LaTeX Warning: Reference `HBSD-DR-HCN' on page 50 undefined on input line 688.
+
+
+LaTeX Warning: Reference `HBSD-DD-HCN' on page 50 undefined on input line 688.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
+
+LaTeX Warning: Reference `HBSD-DR-LCN' on page 51 undefined on input line 690.
+
+
+LaTeX Warning: Reference `HBSD-DD-LCN' on page 51 undefined on input line 690.
+
+File: Chapitre3/fig17.eps Graphic file (type eps)
+<Chapitre3/fig17.eps>
+File: Chapitre3/fig15.eps Graphic file (type eps)
+ <Chapitre3/fig15.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51])
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+\openout2 = `Chapter4.aux'.
+
+ (./Chapter4.tex
+Chapter 4.
+\openout3 = `Thesis.mtc'.
+
+\openout3 = `Thesis.mtc'.
+
+(./Thesis.mtc4)
+
+LaTeX Warning: Reference `DTN2-Arch' on page 53 undefined on input line 13.
+
+File: Chapitre4/HBSD-DTN2.eps Graphic file (type eps)
+<Chapitre4/HBSD-DTN2.eps> [53
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54] [55]
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56]
+
+LaTeX Warning: Reference `Stat-Mat' on page 57 undefined on input line 103.
+
+File: Chapitre4/Stat_Matrix.eps Graphic file (type eps)
+<Chapitre4/Stat_Matrix.eps>
+
+! LaTeX Error: Cannot determine size of graphic in Chapitre4/HBSDClasses.png (n
+o BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138 ...in,height=4in]{Chapitre4/HBSDClasses.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Chapitre4/HBSDClasses.png Graphic file (type eps)
+<Chapitre4/HBSDClasses.png>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+
+LaTeX Warning: Citation `TMC:Report' on page 58 undefined on input line 145.
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 155--167
+\T1/cmr/m/n/10.95 spec-i-fies that any EID with an end-point that be-gins with 
+ext.rtr (e.g.,
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58] [59]
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60]) [61]
+\openout2 = `Chapter5.aux'.
+
+ (./Chapter5.tex [62
+
+
+
+]
+Chapter 5.
+\openout3 = `Thesis.mtc'.
+
+\openout3 = `Thesis.mtc'.
+
+(./Thesis.mtc5)
+
+LaTeX Warning: Citation `May07wirelessopportunistic' on page 63 undefined on in
+put line 9.
+
+
+LaTeX Warning: Reference `records' on page 63 undefined on input line 9.
+
+
+LaTeX Warning: Citation `CCN' on page 63 undefined on input line 11.
+
+[63]
+
+LaTeX Warning: Reference `managing-channels' on page 64 undefined on input line
+ 13.
+
+File: Chapitre5/ContentsInterestsRecords.eps Graphic file (type eps)
+<Chapitre5/ContentsInterestsRecords.eps>
+
+LaTeX Warning: Citation `CCN' on page 64 undefined on input line 28.
+
+
+LaTeX Warning: Reference `records' on page 64 undefined on input line 29.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64]
+
+LaTeX Warning: Reference `protocol' on page 65 undefined on input line 40.
+
+
+LaTeX Warning: Reference `contents-trading-scheduling' on page 65 undefined on 
+input line 40.
+
+
+LaTeX Warning: Reference `managing-channels' on page 65 undefined on input line
+ 44.
+
+[65]
+
+LaTeX Warning: Citation `ContentPlace' on page 66 undefined on input line 49.
+
+
+LaTeX Warning: Citation `May07wirelessopportunistic' on page 66 undefined on in
+put line 49.
+
+
+LaTeX Warning: Citation `TMC:Report' on page 66 undefined on input line 67.
+
+
+LaTeX Warning: Citation `TMC:Report' on page 66 undefined on input line 67.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66]
+File: Chapitre5/MobiTrade-Protocol.eps Graphic file (type eps)
+ <Chapitre5/MobiTrade-Protocol.eps>
+
+LaTeX Warning: Citation `May07wirelessopportunistic' on page 67 undefined on in
+put line 81.
+
+
+LaTeX Warning: Citation `ContentPlace' on page 67 undefined on input line 81.
+
+
+LaTeX Warning: Citation `TACODTN' on page 67 undefined on input line 81.
+
+
+LaTeX Warning: Citation `BitThief' on page 67 undefined on input line 81.
+
+
+LaTeX Warning: Reference `managing-channels' on page 67 undefined on input line
+ 83.
+
+
+LaTeX Warning: Reference `managing-channels' on page 67 undefined on input line
+ 85.
+
+[67]
+
+LaTeX Warning: Reference `MobiTrade-node-architecture' on page 68 undefined on 
+input line 90.
+
+File: Chapitre5/MobiTrade_Node.eps Graphic file (type eps)
+<Chapitre5/MobiTrade_Node.eps>
+
+LaTeX Warning: Reference `buffer-management' on page 68 undefined on input line
+ 107.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[68]
+
+LaTeX Warning: Reference `table:notation' on page 69 undefined on input line 11
+6.
+
+
+Underfull \vbox (badness 1924) has occurred while \output is active []
+
+ [69]
+
+LaTeX Warning: Reference `protocol' on page 70 undefined on input line 150.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70]
+Underfull \vbox (badness 1661) has occurred while \output is active []
+
+ [71]
+
+LaTeX Warning: Citation `NS3' on page 72 undefined on input line 186.
+
+
+LaTeX Warning: Reference `contents-trading-scheduling' on page 72 undefined on 
+input line 186.
+
+
+LaTeX Warning: Reference `managing-channels' on page 72 undefined on input line
+ 186.
+
+
+LaTeX Warning: Citation `OptimalChannelChoice' on page 72 undefined on input li
+ne 186.
+
+
+LaTeX Warning: Citation `ContentPlace' on page 72 undefined on input line 186.
+
+
+LaTeX Warning: Citation `May07wirelessopportunistic' on page 72 undefined on in
+put line 186.
+
+
+LaTeX Warning: Citation `Podcasting:Secon07' on page 72 undefined on input line
+ 186.
+
+
+LaTeX Warning: Citation `May07wirelessopportunistic' on page 72 undefined on in
+put line 186.
+
+
+LaTeX Warning: Citation `Podcasting:Secon07' on page 72 undefined on input line
+ 186.
+
+
+LaTeX Warning: Citation `Podcasting:Secon07' on page 72 undefined on input line
+ 186.
+
+
+LaTeX Warning: Citation `HCMM' on page 72 undefined on input line 188.
+
+
+LaTeX Warning: Citation `KAIST' on page 72 undefined on input line 188.
+
+
+LaTeX Warning: Citation `KAIST' on page 72 undefined on input line 191.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[72]
+
+LaTeX Warning: Reference `table:c-sim-sce' on page 73 undefined on input line 1
+98.
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 212--212
+[]|\T1/cmr/bx/n/9 Requested CH(s)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]|\T1/cmr/m/n/9 Random [1,
+ []
+
+
+LaTeX Warning: Reference `MobiTrade-architecture' on page 73 undefined on input
+ line 219.
+
+
+LaTeX Warning: Citation `TMC:Report' on page 73 undefined on input line 219.
+
+
+LaTeX Warning: Reference `DO' on page 73 undefined on input line 219.
+
+[73]
+File: Chapitre5/fig3.eps Graphic file (type eps)
+ <Chapitre5/fig3.eps>
+File: Chapitre5/fig5.eps Graphic file (type eps)
+ <Chapitre5/fig5.eps>
+
+LaTeX Warning: Reference `CS+FNC+FCS' on page 74 undefined on input line 237.
+
+
+LaTeX Warning: Reference `experimental-setup' on page 74 undefined on input lin
+e 237.
+
+
+LaTeX Warning: Reference `CS+FNC+FCS' on page 74 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Podcasting:Secon07' on page 74 undefined on input line
+ 239.
+
+
+LaTeX Warning: Citation `Podcasting:Secon07' on page 74 undefined on input line
+ 239.
+
+
+LaTeX Warning: Citation `OptimalChannelChoice' on page 74 undefined on input li
+ne 239.
+
+
+LaTeX Warning: Reference `game' on page 74 undefined on input line 239.
+
+
+LaTeX Warning: Reference `table:kaist:col' on page 74 undefined on input line 2
+39.
+
+
+LaTeX Warning: Reference `CS+FNC+FCS' on page 74 undefined on input line 239.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74]
+File: Chapitre5/fig4.eps Graphic file (type eps)
+ <Chapitre5/fig4.eps>
+File: Chapitre5/fig7.eps Graphic file (type eps)
+ <Chapitre5/fig7.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+[]|\T1/cmr/bx/n/9 MobiTrade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+[]|\T1/cmr/bx/n/9 MobiTrade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+[]|\T1/cmr/bx/n/9 Podcasting
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[75]
+
+LaTeX Warning: Reference `CS+RNC+FCS' on page 76 undefined on input line 279.
+
+
+LaTeX Warning: Reference `CS+FNC+RCS' on page 76 undefined on input line 279.
+
+
+LaTeX Warning: Reference `table:kaist:col' on page 76 undefined on input line 2
+79.
+
+
+LaTeX Warning: Reference `10-new-users' on page 76 undefined on input line 282.
+
+
+
+LaTeX Warning: Reference `avg-delay' on page 76 undefined on input line 286.
+
+
+LaTeX Warning: Reference `CS+FNC+FCS' on page 76 undefined on input line 286.
+
+File: Chapitre5/fig8.eps Graphic file (type eps)
+<Chapitre5/fig8.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: Chapitre5/fig12.eps Graphic file (type eps)
+<Chapitre5/fig12.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `table:m-sim-sce' on page 76 undefined on input line 3
+07.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76]
+
+LaTeX Warning: Reference `SS-Scenario-1' on page 77 undefined on input line 329
+.
+
+
+LaTeX Warning: Reference `table:kaist:mal' on page 77 undefined on input line 3
+29.
+
+
+LaTeX Warning: Reference `table:hcmm:vss' on page 77 undefined on input line 32
+9.
+
+[77]
+
+LaTeX Warning: Reference `MN+ECH+ICN' on page 78 undefined on input line 331.
+
+
+LaTeX Warning: Reference `table:kaist:mal' on page 78 undefined on input line 3
+31.
+
+
+LaTeX Warning: Reference `managing-channels' on page 78 undefined on input line
+ 331.
+
+
+LaTeX Warning: Reference `managing-channels' on page 78 undefined on input line
+ 331.
+
+File: Chapitre5/fig1.eps Graphic file (type eps)
+<Chapitre5/fig1.eps>
+File: Chapitre5/fig6.eps Graphic file (type eps)
+ <Chapitre5/fig6.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]|\T1/cmr/bx/n/9 MobiTrade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]|\T1/cmr/bx/n/9 MobiTrade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]|\T1/cmr/bx/n/9 MobiTrade +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
+[]|\T1/cmr/bx/n/9 MobiTrade -
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78] [79]
+
+LaTeX Warning: Reference `CS+FNC+FCS' on page 80 undefined on input line 417.
+
+
+LaTeX Warning: Citation `game' on page 80 undefined on input line 419.
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 25.23671pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[80]
+\openout2 = `Chapter6.aux'.
+
+ (./Chapter6.tex
+Chapter 6.
+\openout3 = `Thesis.mtc'.
+
+\openout3 = `Thesis.mtc'.
+
+(./Thesis.mtc6) [81
+
+
+
+] [82] [83] [84] [85]) [86] [87]
+\openout2 = `Chapter7.aux'.
+
+ (./Chapter7.tex [88
+
+
+
+]
+Chapter 7.
+) [89]
+\openout2 = `Appendix1.aux'.
+
+ (./Appendix1.tex [90
+
+
+
+]
+Appendix A.
+
+LaTeX Warning: Citation `Commowick_MICCAI_2007' on page 91 undefined on input l
+ine 6.
+
+
+LaTeX Warning: Citation `Oakes_RStat_1999' on page 91 undefined on input line 8
+.
+
+
+LaTeX Warning: Citation `Guimond_CVIU_2000' on page 91 undefined on input line 
+8.
+
+) [91] (./Thesis.bbl (./Thesis.brf)
+\tf@brf=\write7
+\openout7 = `Thesis.brf'.
+
+ [92
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\T1/cmr/m/n/10.95 ``Iphone users eat-ing up AT&T's net-work,''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\T1/cmr/m/n/10.95 http://venturebeat.com/2009/05/11/iphone-users-eating-up-atts
+-network/.
+ []
+
+[93] [94]
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]\T1/cmr/m/n/10.95 ``Delay-tolerant net-works (DTNs) : A tu-to-rial,''
+ []
+
+[95]
+Underfull \hbox (badness 1303) in paragraph at lines 257--257
+[]\T1/cmr/m/n/10.95 J. Burgess, G. Bis-sias, M. Cor-ner, and B. Levine, ``Sur-v
+iv-ing at-tacks
+ []
+
+[96] [97]
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+[]\T1/cmr/m/n/10.95 D. Al-dous and J. Fill, ``Re-versible markov chains and ran
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+\T1/cmr/m/n/10.95 dom walks on graphs. (mono-graph in prepa-ra-tion.),'' \T1/cm
+r/m/it/10.95 http://stat-
+ []
+
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]\T1/cmr/m/n/10.95 S. K. S. B. A. Seth, M. Za-haria, ``A policy-oriented ar-ch
+i-tec-
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 396--396
+\T1/cmr/m/n/10.95 ture for op-por-tunis-tic com-mu-ni-ca-tion on mul-ti-ple wir
+e-less net-works
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+\T1/cmr/m/n/10.95 (http://blizzard.cs.uwaterloo.ca/keshav/home/papers/data/06/o
+cmp.pdf),''
+ []
+
+
+Overfull \hbox (6.65715pt too wide) in paragraph at lines 410--410
+[]\T1/cmr/m/n/10.95 ``Dtn ar-chi-tec-ture for ns-2,'' http://www-sop.inria.fr/m
+embers/Amir.Krifa/DTN.
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 421--421
+[]\T1/cmr/m/n/10.95 ``KAIST mo-bil-ity traces,'' http://research.csc.ncsu.edu/n
+etsrv/?q=node/4.
+ []
+
+[99]) [100]
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the Thesis.maf file.
+\openout3 = `Thesis.maf'.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the Thesis.log file.
+
+[101
+
+] (./Thesis.aux (./TitlePage.aux) (./Chapter1.aux) (./Chapter2.aux)
+(./Chapter3.aux) (./Chapter4.aux) (./Chapter5.aux) (./Chapter6.aux)
+(./Chapter7.aux) (./Appendix1.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8751 strings out of 495062
+ 121720 string characters out of 1182645
+ 212493 words of memory out of 3000000
+ 11422 multiletter control sequences out of 15000+50000
+ 31677 words of font info for 81 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 42i,14n,47p,3480b,546s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on Thesis.dvi (107 pages, 461840 bytes).

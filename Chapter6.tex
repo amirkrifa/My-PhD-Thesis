@@ -1,0 +1,159 @@
+\chapter{MobiTrade: Implementation on Android SmartPhones}
+\label{chapter:MobiTrade}
+\minitoc
+
+In this chapter we present the design of MobiTrade, an architecture for opportunistic
+collaborative content dissemination. We start by giving a high level overview of the system
+and its design principles in~\cite{}. Then we present the actual design and implementation
+in Section~\cite{}. We describe a set of initial functionalities that we implement as an Android mobile application on top
+of MobiTrade in Section~\cite{}. We conclude the chapter with a discussion of the open issues in
+Section~\cite{} and a summary in Section~\cite{}.
+
+\section{An Overview of Bluetooth}
+Bluetooth is a low-power short-range wireless communication technology intended to replace the cables connecting electronic devices. Below we give a short 
+overview on the Bluetooth protocol stack, the device discovery procedure (called inquiry scan in Bluetooth terminology), supported higher 
+layer protocols and application programming interfaces.
+
+Bluetooth operates on a license-free ISM band at 2.4GHz (the same as used by 802.11). The physical layer is based on frequency hopping spread spectrum (FHSS)
+and transmits data on up to 79 frequency bands (1 MHz each). Each frequency band is divided into time slots and full duplex transmission is provided through the use of
+a time-division duplex (TDD) scheme.
+
+Bluetooth network has a master-slave structure. A master device can communicate with up to seven devices forming a so called piconet. In a piconet devices communicate
+on the same physical channel that is defined by a common clock (set by the master) and a frequency hopping pattern. By definition, the device that initiates a connection
+becomes the master. Once a piconet has been established, master-slave roles may be exchanged. At any given time, data can be transferred between the master and one
+other device, but never directly between two slaves. A device can only be synchronized to a single channel at a time. Multiple simultaneous operations (e.g. partici-
+pating in various piconets, being discoverable and connectable) are supported using time-division multiplexing between various channels. However, device can only be
+the master of a single piconet.
+
+Above the physical layer in the architecture there is a number of logical links for control and data traffic. These are managed by a L2CAP layer that provides a channel based abstraction for applications. One logical (and physical) link can thus carry data for multiple applications. L2CAP provides reliable transmission performing flow
+control, CRC checks and retransmissions upon request. The main traffic services provided are asynchronous connection-oriented unicast and isochronous constant rate
+channel (e.g. for audio streaming). However, these channels are rarely used directly by applications, instead several higher layer protocols have been standardized and
+implemented in various client libraries (see below). 
+
+The most commonly adopted Bluetooth specifications include v1.2, v2.0 and v2.1 all being backwards compatible. The specifications differ mainly in supported bit rates and support for some advanced features. The nominal rate for Bluetooth v1.2 is 1Mbit/s. Bluetooth v2.0 increases the bit rate up to 2Mbit/s (Basic Rate) and 3Mbit/s (Enhanced Data Rate or EDR). v2.1 extends the inquiry responses (more on this below) and adds secure pairing among other minor tweaks. The operational
+ranges of Bluetooth devices vary from approximately 1, 10 to 100 meters (class 3, class 2 and class 1 respectively). Smartphones are generally class 2 devices.
+
+\subsection{Inquery Scan Procedure}
+
+The Bluetooth specification defines two separate physical channels for device discovery (inquiry scan channel) and connection setup (page scan channel). 
+Each Bluetooth devices can be in one of the four states: (1) connectable and discoverable, (2) connectable, (3) discoverable, or (4) neither discoverable nor connectable. A device
+cannot be discovered nor connected unless it is configured in the correct state.
+
+A discoverable device listens for inquiry requests periodically (called inquiry scan state) on its inquiry scan channel that has a reduced number of hop frequencies and a
+slower rate of hopping. In order to discover neighboring devices, an inquiring device hops through all possible inquiry scan channel frequencies in a pseudo-random
+ fashion, sending an inquiry request on each frequency and listening for responses. This is done at a faster rate, allowing the inquiring device to cover all inquiry scan 
+ frequencies in a reasonably short time period. The Bluetooth specification recommends an inquiry duration of 10.24s. Then, with high probability, all neighboring devices will
+have entered their inquiry scan state and will hear the inquiry.
+
+An inquiry response consists of an unique 48-bit device address of the discovered device and a 24-bit Class-of-Device code (CoD). The CoD consists of a major and 
+minor device codes. The device codes are standardized and provide information about the device type: major code can tell if the device is a computer or a phone for 
+example while the minor code can specify if the device is a cellular or cordless phone. In addition, each device may have a human readable name that can be queried using
+a separate control request. The extended inquiry response available in v2.1 can provided the human readable name and additional information about supported services
+directly in the inquiry response. Older Bluetooth devices must use the separate control request and a service discovery protocol (see below) instead.
+
+Once a device is discovered, a connection setup can take place. A connectable device is listening on its page scan channel for connection requests that are send in a
+similar fashion as inquiry scans. The connection setup must be completed before any data can be transmitted between the devices.
+
+\subsection{Higher Layer Protocols}
+
+Each Bluetooth device must support the Service Discovery Protocol (SDP). The service discovery mechanism provides the means for client applications to discover
+the existence of services provided by server applications as well as the attributes of those services. The attributes of a service include the type or class of the service and
+the protocol information needed to access the service. The SDP protocol itself is run by a SDP server on the device that is responsible of maintaining the local service records
+and answering service discovery queries for SDP clients on other Bluetooth devices.
+
+The Bluetooth specifications define various specialized protocols on top of the L2CAP layer for different purposes such as audio streaming, telephony and data
+transmissions. The most commonly used serial data stream protocol is RFCOMM. The RFCOMM protocol provides emulation of serial ports (up to 60 ports can be used
+simultaneously depending on the implementation). It provides a simple reliable data stream service, similar to TCP. In order to connect to another Bluetooth device over
+RFCOMM, the client must know the server channel which can be resolved using SDP. It is also possible to use hard-coded channels, but dynamic channel numbers are 
+recommended since the number of available channels is very limited (30).
+
+\subsection{Application Programming Interfaces}
+
+The main interface between user level applications and the Bluetooth device is
+called Host Controller Interface (HCI) that is standardized in the Bluetooth specification. However, existing Bluetooth protocol stack implementations typically do not
+allow direct access to the HCI interface but provide their own abstractions of the main Bluetooth operations. The main stacks in use include BlueZ for Linux based devices 2 ,
+Windows Bluetooth stack and WinSock for Windows and Windows CE based devices 3 and Broadcom's Bluetooth stack for Windows based devices 4 .
+
+The client APIs let the applications control the device state (discoverable and/or connectable), the human readable Bluetooth device name and very often the CoD
+value. The device inquiry can be initiated at anytime through the Bluetooth API and the applications can typically control the duration of the inquiry and/or the number of
+responses to wait for. The applications can also query for the human readable names of the discovered devices, create local SDP records for the services they provide and
+query the records of nearby devices. The data services such as RFCOMM are typically accessed using a special type of socket and the familiar socket API.
+
+\section{Mobile Platforms}
+The system prototype and real-life experiments presented in this dissertation are
+designed for off-the-shelf consumer devices running Windows Mobile operating system. However, the choice of an experimental platform is not an obvious one due to
+availability of various mobile hardware and software platforms. In this section we
+overview some of the commonly used mobile research platforms and related work on
+platform considerations and their performance evaluation.
+
+\subsection{The iMote Platform}
+
+The Intel Mote (iMote) has been a popular platform in opportunistic networks research [49, 75, 18, 131]. The iMote is a small ARM based system running TinyOS
+with 64kB of SRAM, 512kB of flash storage, a multi-colored LED, and a Bluetooth 1.1
+radio [93]. As a small single-purpose sensor platform, iMote programming demonstrates well the basic challenges of mobile computing, most notably need to take into
+account the limited storage and memory, and battery life (and resulting spurious resets) as reported in [99]. In addition, due to their simple configuration iMotes cannot
+be used for much more than Bluetooth contact logging. This is a limitation for us as one of the major goals of our experiments is to gather real application traffic in an
+opportunistic setting.
+
+\subsection{Smartphones in Mobile Systems Research}
+
+Mobile systems research is often done using ordinary smartphones. All major smartphone platforms, Android 13 , BlackBerry 14 , iPhone 15 , Symbian 16 and Windows
+Mobile 17 , support development of third party applications. Each platform provides its own approaches to application development and application level resource management. The solution space varies from application specific strategies to mobile application development frameworks that hide all the details of
+resource management from applications [118]. Borrowing Windows Mobile terminology, the two extreme approaches are also known as managed code and native code.
+
+Managed applications are typically executed in a separate runtime environment, for example Java Runtime Environment (JRE) in Android and Blackberry or Common
+Runtime Environment (CRL) on Windows Mobile. The runtimes and related SDKs typically hide much of the complexity of mobile computing from the developers by
+taking care of task such as memory management, application live cycle, resource sharing and security. But as a result the applications are much more restricted in terms of
+what can be done. For example, as a result in some environments simple background execution may be impossible. In contrast native applications typically have access to
+the full operating system functionality exposing also most of the challenges of mobile computing directly to the developer.
+
+A comprehensive survey of the capabilities of currently (as of 2008) available major mobile platforms for mobile systems research is provided in [101]. The authors
+evaluate five popular smartphone platforms including Android (Linux), BlackBerry, iPhone, Symbian and Windows Mobile. As the evaluation criteria they use 
+the availability (at some API level) of a set of common features required by a variety of mobile systems research prototypes. These features include network scanning (discovery of
+a contact opportunity using any interface), interface selection (the ability to use any available interface in ad hoc and/or infrastructure mode), location services (e.g. GPS),
+energy level monitoring, network interfaces power management (turning on/off the interfaces or the screen, controlling the power saving mode), background processing
+and low-level memory management. Our work shares similar requirements for the mobile platform.
+
+The majority of the studied platforms provide an application programming interface to access most the required features. The main differences are in usability and
+development tools support: some platforms provide native but hard to use or badly documented interfaces while others incorporate most of the required functionality in
+the managed runtimes. We do our own survey on Java ME 18 frameworks for Windows Mobile [109] for its portability and ease of use but find that at the time of writing
+the supported functionality is inadequate and that the memory footprint of the available runtimes is high. We conclude that programmers should rely on native interfaces
+when implementing advanced mobile systems and applications including opportunistic networking on Windows Mobile (versions 5.x and 6.x).
+
+Many authors have analyzed the performance and implementation trade-offs of various mobile applications on specific mobile platforms [102, 39, 79, 85] 19 . In [102]
+the authors evaluate the performance of the DTN reference implementation (DRI) on a resource limited computing platform. The authors show that the DRI performance is 
+limited by the slow disk I/O (especially when using Compact Flash storage typical on mobile platforms) and the CPU power. An adaptive location-based micro-blogging
+service and prototype performance on Nokia N95 is analyzed in [39]. More specifically, the adaption mechanism trades-off the location accuracy for energy-efficiency.
+
+SoundSense [79] is a stand-alone sound profiling application implemented on iPhones that offers a good performance by trading-off memory usage for lower CPU process-
+ing requirements. Darwin [85] is a collaborative sensing system implemented and tested on Nokia N97 devices and iPhones. With the help of collaboration between
+co-located mobile devices and some backend processing support, Darwin achieves high energy efficiency in performing complex classification computations on mobile
+devices.
+
+The results of these studies are encouraging, and also prone to change rapidly as mobile platforms and application development frameworks evolve. Hence, the main
+take-away is that the available open smartphone platforms and developed implementation techniques offer already the required functionality and system performance for
+implementing advanced opportunistic mobile social networking systems and applications.
+
+In this dissertation we develop a middleware for opportunistic communications that provides a clean abstraction of the opportunistic networking layer to the 
+applications. The middleware includes a persistent storage component and provides simple resource management functions related to the networking and energy resources 
+usage. We prototype and test our system on Windows Mobile (5.X and 6.X) devices.
+
+\section{MobiTrade Architecture Overview}
+
+\section{Implementation}
+
+We have implemented our system in Java for the Google Android OS platform. Our implementation is based on Bluetooth but we also intend to support the 802.11 in ad-hoc
+mode in the future. The Android Java libraries (version 2.2) do not currently support the ad-hoc mode of 802.11 although this is supported by both the driver
+and the hardware interface on the HTC Desire device. Therefore, making our implementation supporting the ad-hoc mode requires the device to be run in privileged user
+mode (i.e. rooted mode) so that the interface can be reconfigured to run in ad-hoc mode.
+
+
+
+\section{Summary and Open Issues}
+
+We have described the design and implementation of our system for the Google Android platform. Our experience from the implementation is that Android is a very powerful 
+platform and quite mature despite its young age. The Java based environment provides a familiar environment with good support for most common OS primitives such as threads and concurrency, database and content storage and inter process communication through the Android service binding mechanism. Some features are however still missing, in particular support for the 802.11 ad-hoc mode (which needs to be implemented in native code). We believe that our design is general and facilitates the implementation of 
+advanced content-centric applications. There are however some issues that are not, or only partially addressed by our design. We do currently not address particularly 
+the issues of privacy, security and power management.
+
+

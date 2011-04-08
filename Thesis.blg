@@ -1,0 +1,129 @@
+This is BibTeX, Version 0.99d (TeX Live 2010)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Thesis.aux
+A level-1 auxiliary file: TitlePage.aux
+A level-1 auxiliary file: Chapter1.aux
+A level-1 auxiliary file: Chapter2.aux
+A level-1 auxiliary file: Chapter3.aux
+A level-1 auxiliary file: Chapter4.aux
+A level-1 auxiliary file: Chapter5.aux
+A level-1 auxiliary file: Chapter6.aux
+A level-1 auxiliary file: Chapter7.aux
+A level-1 auxiliary file: Appendix1.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Thesis.bib
+Repeated entry---line 1090 of file Thesis.bib
+ : @inproceedings{LeBoudec:Mobicom07
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1568 of file Thesis.bib
+ : @inproceedings{PellegriniAOC2009
+ :                                 ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring akis:ton-multi's extra "year" field
+--line 1603 of file Thesis.bib
+I was expecting a `,' or a `}'---line 1628 of file Thesis.bib
+ : }
+ :  ;
+I'm skipping whatever remains of this entry
+Repeated entry---line 1640 of file Thesis.bib
+ : @article{Aldous:book
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1653 of file Thesis.bib
+ : @inproceedings{akis:mobihoc06
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1687 of file Thesis.bib
+ : @inproceedings{Inria:MessageDelay
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1701 of file Thesis.bib
+ : @inproceedings{Levine:MaxProp
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1708 of file Thesis.bib
+ : @article{dtnrg
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1775 of file Thesis.bib
+ : @misc{dtnrg
+ :            ,
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 2234 of file Thesis.bib
+ :  title = "{B}itTorrent protocol
+ :                                },
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "PellegriniAOC2009"
+refers to entry "DBLP:conf/wowmom/2009", which doesn't exist
+Warning--I didn't find a database entry for "DTN2"
+Warning--I didn't find a database entry for "Podcasting:Secon07"
+Warning--I didn't find a database entry for "Commowick_MICCAI_2007"
+Warning--I didn't find a database entry for "Oakes_RStat_1999"
+Warning--I didn't find a database entry for "Guimond_CVIU_2000"
+Warning--I didn't find a database entry for "DBLP:conf/wowmom/2009"
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--all relevant fields are empty in RefBT
+Warning--empty author in dtnrg
+Warning--empty year in dtnrg
+Warning--empty year in Ward:RoutingSurvey
+Name 1 in "B. Burns, O. Brock, and B. N. Levine" has a comma at the end for entry MVRouting
+while executing---line 2419 of file IEEEtran.bst
+Too many commas in name 1 of "Yong L., Mengjiong Q., Depeng J., Li S., Lieguang Z." for entry AOBM
+while executing---line 2419 of file IEEEtran.bst
+Too many commas in name 1 of "Yong L., Mengjiong Q., Depeng J., Li S., Lieguang Z." for entry AOBM
+while executing---line 2419 of file IEEEtran.bst
+Warning--empty year in Aldous:book
+Too many commas in name 1 of "A. Seth, M. Zaharia, S. Keshav, S. Bhattacharyya" for entry Keshav:multi-nic
+while executing---line 2419 of file IEEEtran.bst
+
+Done.
+You've used 97 entries,
+            4039 wiz_defined-function locations,
+            1292 strings with 21935 characters,
+and the built_in function-call counts, 43989 in all, are:
+= -- 3020
+> -- 1164
+< -- 27
++ -- 557
+- -- 265
+* -- 1896
+:= -- 6944
+add.period$ -- 191
+call.type$ -- 97
+change.case$ -- 92
+chr.to.int$ -- 39
+cite$ -- 102
+duplicate$ -- 3829
+empty$ -- 4831
+format.name$ -- 339
+if$ -- 10037
+int.to.chr$ -- 0
+int.to.str$ -- 97
+missing$ -- 821
+newline$ -- 314
+num.names$ -- 80
+pop$ -- 2338
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 3540
+stack$ -- 0
+substring$ -- 183
+swap$ -- 2102
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 97
+warning$ -- 5
+while$ -- 89
+width$ -- 99
+write$ -- 772
+(There were 15 error messages)
