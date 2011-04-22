@@ -1,4 +1,4 @@
-\chapter{MobiTrade: Implementation on Android SmartPhones}
+﻿\chapter{MobiTrade: Implementation on Android SmartPhones}
 \label{chapter:MobiTrade}
 \minitoc
 
@@ -199,7 +199,10 @@ As described in Figure~\ref{Config}, MobiTrade configuration tab provides to the
 
 Namely, towards controlling the device resources usage (both local storage as well as battery), first  \emph{(i)} it is made possible for the user to specify the maximum amount of storage space that MobiTrade is allowed to use both for storing locally requested contents as well as contents used for trading. And second \emph{(ii)}, as decribed above in this section, the user can either leverage the control of the Bluetooth discovery sessions to MobiTrade daemon which will try to keep always discovering new sharing opportunities or he can take the control over that process and decide on the moment at which the device should run a discovery session. Following the latter option, the user can save lot of battery power without loosing in terms of revenues from possible sharing opportunities.
 
- 
+Through the Configuration tab, the user also have the possibility the specify whether he wants or not to get notified via the device vibrator (if supported) whenever a new content that matches a locally requested channel is received. Indeed, this is a very interesting option because the user is not supposed to keep tracking on real-time the status of MobiTrade. Instead, the user can start MobiTrade daemon, choose to get notified, then close the MobiTrade UI and head out on the real world. Then, whenever a new content of interest is received, the user will be notified. Note that the MobiTrade UI is completely decoupled from the MobiTrade daemon in terms of life cycle. MobiTrade UI could be down and at the same time MobiTrade daemon is running on background. And any time the user launches the MobiTrade activity (UI), he can control/follow on real from within the dashboard what is going on with the MobiTrade daemon.
+
+Note that MobiTrade configuration is maintained persistently within the mobile device. Thus, each time the user decides to update one of the configuration entries, he should validate the new configuration from within the tab. There will be always the possibility to re-load default configuration entries.
+
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=2in,height=3in]{Chapitre6/Config.png}

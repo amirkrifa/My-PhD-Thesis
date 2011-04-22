@@ -102,7 +102,7 @@
 \contentsline {paragraph}{Channels Management}{91}{figure.6.8}
 \contentsline {paragraph}{MobiTrade Configuration}{92}{section*.45}
 \contentsline {section}{\numberline {6.4}Summary and Open Issues}{94}{section.6.4}
-\contentsline {chapter}{\numberline {7}Conclusions and perspectives}{95}{chapter.7}
-\contentsline {chapter}{\numberline {A}Appendix Example}{97}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Example section}{97}{section.A.1}
-\contentsline {chapter}{Bibliography}{99}{appendix*.46}
+\contentsline {chapter}{\numberline {7}Conclusions and perspectives}{97}{chapter.7}
+\contentsline {chapter}{\numberline {A}Appendix Example}{99}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Example section}{99}{section.A.1}
+\contentsline {chapter}{Bibliography}{101}{appendix*.46}
