@@ -1,13 +1,12 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}MobiTrade Architecture}{\reset@font\mtcSfont 63}{section.5.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.1}MobiTrade Data Records}{\reset@font\mtcSSfont 63}{subsection.5.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.2}MobiTrade Protocol}{\reset@font\mtcSSfont 65}{subsection.5.1.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.3}Proportional Storage and Bandwidth Allocation}{\reset@font\mtcSSfont 66}{subsection.5.1.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.4}Tit-For-Tat Trading}{\reset@font\mtcSSfont 67}{subsection.5.1.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.5}MobiTrade Device Model}{\reset@font\mtcSSfont 68}{subsection.5.1.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}Inference of Channel Utility}{\reset@font\mtcSfont 69}{section.5.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}Performance Evaluation}{\reset@font\mtcSfont 72}{section.5.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.1}Experimental Setup}{\reset@font\mtcSSfont 72}{subsection.5.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.2}Collaborative scenarios}{\reset@font\mtcSSfont 73}{subsection.5.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.3}Scenarios with selfish users (SU)}{\reset@font\mtcSSfont 76}{subsection.5.3.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.4}Choosing Strategies in MobiTrade}{\reset@font\mtcSSfont 79}{subsection.5.3.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.4}Summary and Open Issues}{\reset@font\mtcSfont 80}{section.5.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}MobiTrade Architecture}{\reset@font\mtcSfont 67}{section.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.1}MobiTrade Data Records}{\reset@font\mtcSSfont 67}{subsection.5.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.2}MobiTrade Protocol}{\reset@font\mtcSSfont 69}{subsection.5.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.3}Proportional Storage and Bandwidth Allocation}{\reset@font\mtcSSfont 70}{subsection.5.1.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.4}Tit-For-Tat Trading}{\reset@font\mtcSSfont 71}{subsection.5.1.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}Inference of Channel Utility}{\reset@font\mtcSfont 72}{section.5.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}Performance Evaluation}{\reset@font\mtcSfont 74}{section.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.1}Experimental Setup}{\reset@font\mtcSSfont 74}{subsection.5.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.2}Collaborative scenarios}{\reset@font\mtcSSfont 76}{subsection.5.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.3}Scenarios with selfish users (SU)}{\reset@font\mtcSSfont 80}{subsection.5.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.4}Choosing Strategies in MobiTrade}{\reset@font\mtcSSfont 82}{subsection.5.3.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.4}Summary and Open Issues}{\reset@font\mtcSfont 83}{section.5.4}}

@@ -162,8 +162,8 @@ P.~Juang, H.~Oki, Y.~Wang, M.~Martonosi, L.~S. Peh, and D.~Rubenstein,
   early experiences with zebranet,'' in \emph{ASPLOS-X}, 2002.
 
 \bibitem{WirelessInfostation}
-T.~Small and Z.~J. Haas, ``The shared wireless infostation model : A new ad hoc
-  networking paradigm,'' in \emph{In Proc. ACM MobiHoc}, Anapolis, MD, USA,
+T.~Small and Z.~J. Haas, ``{T}he shared wireless infostation model : A new ad
+  hoc networking paradigm,'' in \emph{In Proc. ACM MobiHoc}, Anapolis, MD, USA,
   2003.
 
 \bibitem{Brewer:DTNdeveloping}
@@ -189,7 +189,7 @@ E.~P. Jones and P.~A. Ward, ``Routing strategies for delay-tolerant networks,''
   \emph{Submitted to ACM Computer Communication Review (CCR)}.
 
 \bibitem{DTNRoutingSurvey06}
-Z.~Zhang., ``Routing in intermittently connected mobile ad hoc networks and
+Z.~Zhang., ``{R}outing in intermittently connected mobile ad hoc networks and
   delay tolerant networks,'' \emph{IEEE Communications Surveys and Tutorials},
   2006.
 
@@ -275,7 +275,7 @@ P.~Desnoyers, D.~Ganesan, H.~Li, M.~Li, and P.~Shenoy, ``Presto: A predictive
   HotOS}, 2005.
 
 \bibitem{DTNSpace}
-J.~Leguay, T.~Friedman, and V.~Conan, ``Dtn routing in a mobility pattern
+J.~Leguay, T.~Friedman, and V.~Conan, ``{DTN} routing in a mobility pattern
   space,'' in \emph{In Proc. ACM Chants Workshop}, 2005.
 
 \bibitem{prophet03}
@@ -376,9 +376,10 @@ T.~Karagiannis, J.-Y. Le~Boudec, and M.~Vojnovi\'{c}, ``Power law and
   \emph{Proceedings of ACM MobiCom '07}, 2007.
 
 \bibitem{Akis:IJAACS2008}
-T.~Spyropoulos, A.~Jindal, and K.~Psounis, ``An analytical study of fundamental
-  mobility properties for encounter-based protocols,'' \emph{International
-  Journal of Autonomous and Adaptive Communications Systems}, 2008.
+T.~Spyropoulos, A.~Jindal, and K.~Psounis, ``{A}n analytical study of
+  fundamental mobility properties for encounter-based protocols,''
+  \emph{International Journal of Autonomous and Adaptive Communications
+  Systems}, 2008.
 
 \bibitem{LeBoudec:Sigmetrics09}
 A.~Chaintreau, J.-Y. Le~Boudec, and N.~Ristanovic, ``The age of gossip: spatial
@@ -440,6 +441,9 @@ D.~Hadaller, S.~Keshav, T.~Brecht, and S.~Agarwal, ``Vehicular opportunistic
 \bibitem{TMC:Report}
 A.~Krifa, C.~Barakat, and T.~Spyropoulos, ``Message drop and scheduling in
   {DTN}s: Theory and practice,'' HAL INRIA, Tech. Rep., 2010.
+
+\bibitem{HBSDDTN2}
+``{HBSD DTN2} external router,'' http://planete.inria.fr/{HBSD}\_{DTN2}.
 
 \bibitem{BitThief}
 T.~Locher, P.~Moor, S.~Schmid, and R.~Wattenhofer, ``Free riding in bittorrent

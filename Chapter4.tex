@@ -2,21 +2,24 @@
 \label{chapter:HBSD}
 \minitoc
 
-We have implemented HBSD for the Delay-Tolerant Networking Research Group's DTN reference implementation (DTN2). 
-In our DTN2 implementation of HBSD, users can choose either to maximise the
-delivery probability or to minimise the delivery delay for all DTN2 bundles. HBSD executes as an external DTN2 router, using DTN2's XML-based External Router
-Interface. HBSD is implemented in C++. This Chapter provides an overview of the implementation of HBSD for DTN2. We start by describing shortly the DTN2 architecture, we detail the DTN2 external router interface operation and we describe the implementation of the HBSD external router.
+We have implemented the HBSD framework for the Delay-Tolerant Networking Research Group's DTN reference implementation (DTN2). 
+In our DTN2 implementation of HBSD, users can tune the configuration and choose either to maximise the
+delivery probability or to minimise the delivery delay for all DTN2 bundles. HBSD executes as an external DTN2 router, using DTN2's XML-based External Router Interface. HBSD is implemented in C++. 
+
+This Chapter provides an overview of the implementation of HBSD for DTN2. We start by describing shortly the DTN2 architecture, we detail the DTN2 external router interface operation then we describe the implementation of the HBSD external router.
 
 \section{An Overview of the DTN2 Platform}
 \label{DTN2}
 
-Figure~\ref{DTN2-Arch} is a block diagram enumerating the major components of the DTN Bundle (application specified data 
+The goal of the Delay-Tolerant Networking Research Group's DTN2  implementation is to clearly embody the components of the DTN architecture, while also providing a robust and flexible software framework for experimentation, extension, and real-world deployment.
+
+Figure~\ref{DTN2-Arch} is a block diagram enumerating the major components of the DTN2 Bundle (application specified data 
 unit) forwarding system. As can be seen from the diagram, the bundle router module represents the most central component of the implementation; in general, it requires the most detailed information regarding the state of the system upon which to base routing decisions. Decisions made by the router are passed as a set of instructions (actions) to the forwarder which is responsible for executing the actions. This separation between policy and function allows for easy extension, modification, and
 replacement of the potentially complex router module. 
 
-\begin{figure}[t]
+\begin{figure}[!h]
 \centering
-\includegraphics[width=4in,height=2in]{Chapitre4/HBSD-DTN2.eps}
+\includegraphics[width=5in,height=3in]{Chapitre4/HBSD-DTN2.eps}
 \caption{DTN2 Architecture}
 \label{DTN2-Arch}
 \end{figure}
@@ -103,10 +106,10 @@ subsequent meetings between nodes and to decide of the bundles to be deleted in 
 The exchanged meta data consist of a subset of the matrix described in Figure~\ref{Stat-Mat}. The subset is defined based on the received list of (Message\_ID, Node\_ID) entries and their associated statistics versions.
 
 
-\begin{figure}[t]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=4in,height=2in]{Chapitre4/Stat_Matrix.eps}
-\caption{Matrix used to maintain network statistics}
+\caption{HBSD: matrix used to maintain network statistics}
 \label{Stat-Mat}
 \end{figure}
 
@@ -133,10 +136,10 @@ bundles are to be transmitted or deleted.
 
 \section{Main HBSD external router building blocks}
 
-\begin{figure}[t]
+\begin{figure}[!h]
 \centering
-\includegraphics[width=5in,height=4in]{Chapitre4/HBSDClasses.png}
-\caption{HBSD Class Diagram}
+\includegraphics[width=6in,height=6in]{Chapitre4/HBSDClasses.png}
+\caption{HBSD class diagram}
 \label{DTN2-Arch}
 \end{figure}
 
@@ -181,11 +184,11 @@ creates a Bundle object for an injected bundle, but it does not retain
 knowledge of the bundle in the Bundles class.
 
 \paragraph{GBOF class:}
-This is another utility class, and it contains static methods for manipulating
-the GBOF. This includes formatting the GBOF as XML as required by DTN2. It
+This is another utility class. In DTN2, a bundle is uniquely identified by a global 
+identifier known as a GBOF (global bundle or fragment) identifier, or simply GBOF. The GBOF utility class contains static methods for manipulating the GBOF. This includes formatting the GBOF as XML as required by DTN2. It
 also includes methods for creating a hash key from the values that make up the
 GBOF. This hash key is used extensively and consistently throughout HBSD and
-the Policy Manager for referencing a bundle.
+the Policy Manager for referencing uniquely a bundle.
 
 \paragraph{HBSD Class:}
 
@@ -288,4 +291,78 @@ will be able to replicate only a subset of its bundles on each node that it
 meets, and that some of the bundles will expire before HBSD comes in contact
 with the actual destination node.
 
+
+\section{Configuring HBSD}
+
+HBSD can be customized through a configuration file specified in the runtime command line.  
+There must be no more that one configuration option per line in the file, and must be specified using the syntax: variable=value. The value may be double or single-quoted. Lines that begin with a hash character ($\#$) are treated as comments and ignored. Comments should not appear on the same line as a configuration value. The options defined in the following table are supported. The default values for most, if not all variables should be sufficient.
+
+\begin{longtable}[!h]{|p{4cm}|p{1cm}|p{2cm}|p{5cm}|}
+\hline
+\textbf{Variable}& \textbf{Type} & \textbf{Default} & \textbf{Description} \\
+\hline
+routerEndpoint &  string & ext.rtr/HBS & Defines the external router's endpoint, which is typically  used to receive control 
+messages from peer  instances of the router. An 
+example is meta data exchanged between the 
+routers. DTN2 special-cases endpoints that begin with 
+"ext.rtr/". All communicating routers need to agree on the  endpoint name.\\
+\hline
+multicastGroup & string &  224.0.0.2 & Defines the multicast group the router is to join for  exchanging XML messages 
+with the DTN2 daemon. This is defined by DTN2.\\
+\hline
+multicastPort & int & 8001 & Defines the multicast port  used by the DTN2 daemon. This is defined by DTN2.\\
+\hline
+multicastSends & bool & false & Defines the type of socket used to send requests to
+dtnd. If true, use a multicast socket joined to the multicast group and a TTL of 0. If false, use a datagram socket bound to the 
+loopback address. The goal is to send messages with their scope limited to the 
+local system. On some systems the TTL is not honored. On other systems, not using a multicast socket does not work. \\
+\hline
+loopbackAddress & string & 127.0.0.1 & Address to bind to if multicastSends=false.\\
+\hline
+xmlSchema & string  & router.xsd& File containing the XML schema definition for the 
+messages exchanged with dtnd, the DTN2 daemon. This file should be supplied by DTN2. The command line has precedence.\\
+\hline
+xmlValidate & bool & true & If set to false then the XML received from the daemon is 
+not validated against the schema.\\
+\hline
+loggingClass & string & Console\_\ Logging & Allows for a user-specified logging class. The default is Console\_Logging.\\
+\hline
+logConfiguration & string  & & Logging configuration file. The command line has precedence. The format of the file is logging class 
+specific. The command line has precedence.\\
+\hline
+logLevel & int  & 6& Logging level. The command line has precedence. If not specified, the default is defined by the logger. \\
+\hline
+terminateWithDTN & bool & true& By default HBSD terminates when dtnd indicates that it is shutting down. Set to false to override this behavior.\\
+\hline
+bundlesActiveCapacity & int  &384 & Initial capacity of the Map of all bundles on the system.\\
+\hline
+linksHashCapacity & int & 16& Initial capacity of the Map of all links.\\
+\hline
+nodesHashCapacity & int & 32& Initial capacity of the Map of all nodes.\\
+\hline
+enableHbsdOptimization & bool  & false & Says whether to enable or disable the HBSD statistics based optimization or to just run the epidemic routing protocol. \\
+\hline
+hbsdOptimize\ Performance & int & 0 & Selection of the optimization problem 0 means that the HBSD policy will try to manage both the buffer and links congestion in order to maximize the network average delivery rate. 1 means that the HBSD policy will try to manage both the buffer and links congestion in order to minimize the network average delivery delay. \\
+\hline
+numberOfNodesWithin\ TheNetwork & int & - &The approximated number of nodes in the Network.\\
+\hline
+useOnlineAproximated\ NumberOfNodes  & bool & true &  If set to true  then the HBSD policy will use the online approximated number of nodes instead of the user provided one (numberNodes above) .\\
+\hline
+binSize & int & 100&The bin size. Could be approximated by the average nodes meeting time.\\
+\hline
+numberOfBins & int & 36& The length of the Bins table. Should be equal to the messages TTL (total time to live) devided 
+by binSize. Here we are supposing that all the generated messages have the same TTL value.\\
+\hline
+mumBufferCapacity & int & 50& The maximum capacity of the MUM buffer, the one holding the message under monitoring. \\
+\hline
+mchBufferCapacity & int & 1000 & The maximum capacity of the MCH buffer, the one holding the message with complete history. 
+(Note: keep this  buffer infinite if you are sure that your network will maintain the same behaviour during time otherwise choose the correct capacity in order to track the network dinamicity.\\
+\hline
+useBinSizeAsAvg\ MeetingTime & bool & true& Specifies either to use the binSize as an expected average meeting time or to calculate online the average meeting time between nodes. Note that you should figure out an approximation of your network average meeting time in order to correctly trak the dinamicity of the network  through the binSize.\\
+\hline
+\end{longtable}
+
+Please note that more details about how to install/run both the DTN2 daemon as well as our HBSD external router could be found in HBSD webpage~\cite{HBSDDTN2}. HBSD open source code is also available for downloading from~\cite{HBSDDTN2}. 
+
 \section{Summary and Open Issues}
+

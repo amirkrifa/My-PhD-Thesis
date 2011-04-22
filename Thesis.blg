@@ -59,6 +59,10 @@ Unbalanced braces---line 2234 of file Thesis.bib
  :  title = "{B}itTorrent protocol
  :                                },
 I'm skipping whatever remains of this entry
+Repeated entry---line 2352 of file Thesis.bib
+ : @inproceedings{OptimalChannelChoice
+ :                                    ,
+I'm skipping whatever remains of this entry
 A bad cross reference---entry "PellegriniAOC2009"
 refers to entry "DBLP:conf/wowmom/2009", which doesn't exist
 Warning--I didn't find a database entry for "DTN2"
@@ -85,45 +89,45 @@ Too many commas in name 1 of "A. Seth, M. Zaharia, S. Keshav, S. Bhattacharyya" 
 while executing---line 2419 of file IEEEtran.bst
 
 Done.
-You've used 97 entries,
+You've used 98 entries,
             4039 wiz_defined-function locations,
-            1292 strings with 21935 characters,
-and the built_in function-call counts, 43989 in all, are:
-= -- 3020
-> -- 1164
+            1296 strings with 22024 characters,
+and the built_in function-call counts, 44252 in all, are:
+= -- 3036
+> -- 1165
 < -- 27
-+ -- 557
++ -- 558
 - -- 265
-* -- 1896
-:= -- 6944
-add.period$ -- 191
-call.type$ -- 97
-change.case$ -- 92
+* -- 1902
+:= -- 6983
+add.period$ -- 193
+call.type$ -- 98
+change.case$ -- 93
 chr.to.int$ -- 39
-cite$ -- 102
-duplicate$ -- 3829
-empty$ -- 4831
+cite$ -- 103
+duplicate$ -- 3857
+empty$ -- 4865
 format.name$ -- 339
-if$ -- 10037
+if$ -- 10096
 int.to.chr$ -- 0
-int.to.str$ -- 97
-missing$ -- 821
-newline$ -- 314
+int.to.str$ -- 98
+missing$ -- 827
+newline$ -- 317
 num.names$ -- 80
-pop$ -- 2338
+pop$ -- 2357
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3540
+skip$ -- 3564
 stack$ -- 0
-substring$ -- 183
-swap$ -- 2102
+substring$ -- 184
+swap$ -- 2114
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 97
+type$ -- 98
 warning$ -- 5
 while$ -- 89
-width$ -- 99
-write$ -- 772
-(There were 15 error messages)
+width$ -- 100
+write$ -- 778
+(There were 16 error messages)

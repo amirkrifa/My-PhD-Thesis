@@ -2,14 +2,49 @@
 \label{chapter:MobiTrade}
 \minitoc
 
-In this chapter we present the design of MobiTrade, an architecture for opportunistic
+In this chapter we present the design of MobiTrade, our architecture for opportunistic
 collaborative content dissemination. We start by giving a high level overview of the system
-and its design principles in~\cite{}. Then we present the actual design and implementation
-in Section~\cite{}. We describe a set of initial functionalities that we implement as an Android mobile application on top
-of MobiTrade in Section~\cite{}. We conclude the chapter with a discussion of the open issues in
-Section~\cite{} and a summary in Section~\cite{}.
+and its design principles in~\ref{MobiTradeArchitecture}. Then we present the actual design and implementation
+in Section~\ref{MobiTradeDesignAndImplementation}. We describe a set of initial functionalities that we implement as an Android mobile application on top of MobiTrade architecture in Section~\ref{MobiTradeCurrentFunctionalities}. We conclude the chapter with a discussion of the open issues and a summary in Section~\ref{MobiTradeSoftSummary}.
 
-\section{An Overview of Bluetooth}
+
+\section{MobiTrade Architecture Overview}
+\label{MobiTradeArchitecture}
+
+\subsection{MobiTrade Device Model}
+\label{MobiTrade-node}
+
+Having described the various MobiTrade algorithms in chapter~\ref{chapter:PTMP}, we give here some more details of the MobiTrade device architecture. Figure~\ref{MobiTrade-node-architecture} is a schematic of the core MobiTrade device, which has five building blocks. We have  implemented this architecture on Android phones in order to conduct small scale tests/experiments.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=3.5in,height=3in]{Chapitre5/MobiTrade_Node.eps}
+\vspace{-0.1in}
+\caption{MobiTrade building blocks}
+\label{MobiTrade-node-architecture}
+\vspace{-0.1in}
+\end{figure}
+
+The \textit{Application Interface} is designed so that developers can easily extend MobiTrade and create new content sharing applications that use the MobiTrade functionalities. Each MobiTrade application has a unique ID that it registers at the application interface. The application then simply communicates with the MobiTrade system using event handlers.
+
+The \textit{Scheduling Block} defines the order to follow while forwarding a set of requested contents within a limited contact opportunity. As explained before, this ordering is done based on the utility values.
+
+The \textit{Tit-For-Tat Trading and Forwarding Block} takes in charge \emph{(i)} the forwarding of the stored channels records whenever a new contact is established, and \emph{(ii)} the negotiation and forwarding of the requested contents.
+
+The \textit{Content/Channel Management Block} manages the channel and content storage space. It provides an API for storing and retrieving channel and content records that hides the storage technology specifics. This block also takes in charge utility updates for the stored channels and buffer management (as described in Section~\ref{buffer-management}).
+
+The \textit{Link Controller Block} is the lowest layer in the MobiTrade architecture. It provides a common interface for sending and receiving data across the different available wireless interfaces. It is also responsible for periodically scanning the neighborhood for devices, for establishing the contacts whenever meeting opportunities arise and for triggering the Tit-For-Tat trading and forwarding block. The link controller provides an API that hides network technology specifics (Bluetooth and Wi-Fi) from the rest of the upstream blocks.
+
+
+\section{Design and Implementation}
+\label{MobiTradeDesignAndImplementation}
+
+We have implemented MobiTrade in Java for the Google Android OS platform. Our implementation is based on Bluetooth but we also intend to support the 802.11 in ad-hoc mode in the future. The current Android Java libraries do not currently support the ad-hoc mode of 802.11 although this is supported by both the driver and the hardware interface on the HTC Desire device. Therefore, making our implementation supporting the ad-hoc mode requires the device to be run in privileged user mode (i.e. rooted mode) so that the interface can be reconfigured to run in ad-hoc mode.
+
+
+
+\subsection{An Overview of Bluetooth}
+
 Bluetooth is a low-power short-range wireless communication technology intended to replace the cables connecting electronic devices. Below we give a short 
 overview on the Bluetooth protocol stack, the device discovery procedure (called inquiry scan in Bluetooth terminology), supported higher 
 layer protocols and application programming interfaces.
@@ -33,7 +68,7 @@ implemented in various client libraries (see below).
 The most commonly adopted Bluetooth specifications include v1.2, v2.0 and v2.1 all being backwards compatible. The specifications differ mainly in supported bit rates and support for some advanced features. The nominal rate for Bluetooth v1.2 is 1Mbit/s. Bluetooth v2.0 increases the bit rate up to 2Mbit/s (Basic Rate) and 3Mbit/s (Enhanced Data Rate or EDR). v2.1 extends the inquiry responses (more on this below) and adds secure pairing among other minor tweaks. The operational
 ranges of Bluetooth devices vary from approximately 1, 10 to 100 meters (class 3, class 2 and class 1 respectively). Smartphones are generally class 2 devices.
 
-\subsection{Inquery Scan Procedure}
+\paragraph*{Inquery Scan Procedure}
 
 The Bluetooth specification defines two separate physical channels for device discovery (inquiry scan channel) and connection setup (page scan channel). 
 Each Bluetooth devices can be in one of the four states: (1) connectable and discoverable, (2) connectable, (3) discoverable, or (4) neither discoverable nor connectable. A device
@@ -54,7 +89,7 @@ directly in the inquiry response. Older Bluetooth devices must use the separate 
 Once a device is discovered, a connection setup can take place. A connectable device is listening on its page scan channel for connection requests that are send in a
 similar fashion as inquiry scans. The connection setup must be completed before any data can be transmitted between the devices.
 
-\subsection{Higher Layer Protocols}
+\paragraph*{Higher Layer Protocols}
 
 Each Bluetooth device must support the Service Discovery Protocol (SDP). The service discovery mechanism provides the means for client applications to discover
 the existence of services provided by server applications as well as the attributes of those services. The attributes of a service include the type or class of the service and
@@ -67,93 +102,114 @@ simultaneously depending on the implementation). It provides a simple reliable d
 RFCOMM, the client must know the server channel which can be resolved using SDP. It is also possible to use hard-coded channels, but dynamic channel numbers are 
 recommended since the number of available channels is very limited (30).
 
-\subsection{Application Programming Interfaces}
+\paragraph*{Application Programming Interfaces}
 
 The main interface between user level applications and the Bluetooth device is
 called Host Controller Interface (HCI) that is standardized in the Bluetooth specification. However, existing Bluetooth protocol stack implementations typically do not
 allow direct access to the HCI interface but provide their own abstractions of the main Bluetooth operations. The main stacks in use include BlueZ for Linux based devices 2 ,
-Windows Bluetooth stack and WinSock for Windows and Windows CE based devices 3 and Broadcom's Bluetooth stack for Windows based devices 4 .
+Windows Bluetooth stack and WinSock for Windows and Windows CE based devices 3 and Broadcom's Bluetooth stack for Windows based devices 4.
 
 The client APIs let the applications control the device state (discoverable and/or connectable), the human readable Bluetooth device name and very often the CoD
 value. The device inquiry can be initiated at anytime through the Bluetooth API and the applications can typically control the duration of the inquiry and/or the number of
 responses to wait for. The applications can also query for the human readable names of the discovered devices, create local SDP records for the services they provide and
 query the records of nearby devices. The data services such as RFCOMM are typically accessed using a special type of socket and the familiar socket API.
 
-\section{Mobile Platforms}
-The system prototype and real-life experiments presented in this dissertation are
-designed for off-the-shelf consumer devices running Windows Mobile operating system. However, the choice of an experimental platform is not an obvious one due to
-availability of various mobile hardware and software platforms. In this section we
-overview some of the commonly used mobile research platforms and related work on
-platform considerations and their performance evaluation.
+\section{Current Available Functionalities}
+\label{MobiTradeCurrentFunctionalities}
 
-\subsection{The iMote Platform}
+The current Android implementation of MobiTrade provides to the user a simplified dashboard (see Figure~\ref{dashboard}) from which he can both follow and interact on real time with the MobiTrade daemon. Indeed, the user have access to the current device Bluetooth state (whether the adapter is on or off, whether it is in discoverable mode or not and whether the device is currently running a discovery session or not). A set of statistics are also presented within the dashboard like the total number of contents stored within the device, the \% of used space with respect to the total space allocated to the MobiTrade application, the total number of channels maintained within the system, how much among the latter ones the user requested locally and finally the number of Bluetooth discovered devices that run MobiTrade.
+ 
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=2in,height=3in]{Chapitre6/Dashboard.png}
+\end{center}
+\caption{MobiTrade dashboard.}
+\label{dashboard}
+\end{figure}
 
-The Intel Mote (iMote) has been a popular platform in opportunistic networks research [49, 75, 18, 131]. The iMote is a small ARM based system running TinyOS
-with 64kB of SRAM, 512kB of flash storage, a multi-colored LED, and a Bluetooth 1.1
-radio [93]. As a small single-purpose sensor platform, iMote programming demonstrates well the basic challenges of mobile computing, most notably need to take into
-account the limited storage and memory, and battery life (and resulting spurious resets) as reported in [99]. In addition, due to their simple configuration iMotes cannot
-be used for much more than Bluetooth contact logging. This is a limitation for us as one of the major goals of our experiments is to gather real application traffic in an
-opportunistic setting.
+In terms of functionalities, from within the dashboard depicted in Figure~\ref{dashboard}, the user is able to control the device Bluetooth discoverability, to control 
+the Bluetooth discovery session, to manage channels (create new ones or join existing ones) and contents (create new contents or publish existing ones). We details in the following paragraphs the latter functionalities.
 
-\subsection{Smartphones in Mobile Systems Research}
+\paragraph{Bluetooth Interface Management}
 
-Mobile systems research is often done using ordinary smartphones. All major smartphone platforms, Android 13 , BlackBerry 14 , iPhone 15 , Symbian 16 and Windows
-Mobile 17 , support development of third party applications. Each platform provides its own approaches to application development and application level resource management. The solution space varies from application specific strategies to mobile application development frameworks that hide all the details of
-resource management from applications [118]. Borrowing Windows Mobile terminology, the two extreme approaches are also known as managed code and native code.
+One of the limitations that we faced along the implementation of MobiTrade was related to the Android Bluetooth stack. Indeed, there
+was no way to keep the mobile device discovrable to other non paired devices for more than 300 seconds. Enabling discoverability is necessary for MobiTrade to host a server socket that will accept incoming connections, because the remote non paired devices must be able to discover the device before it can initiate the connection. According to the Android SDK, by default, enaibling discoverablity makes the device discoverable for $120$ seconds. The Android SDK provides a way to define a different duration by adding the \emph{EXTRA\_DISCOVERABLE\_DURATION} Intent extra, however the maximum duration is fixed to 300 seconds.
 
-Managed applications are typically executed in a separate runtime environment, for example Java Runtime Environment (JRE) in Android and Blackberry or Common
-Runtime Environment (CRL) on Windows Mobile. The runtimes and related SDKs typically hide much of the complexity of mobile computing from the developers by
-taking care of task such as memory management, application live cycle, resource sharing and security. But as a result the applications are much more restricted in terms of
-what can be done. For example, as a result in some environments simple background execution may be impossible. In contrast native applications typically have access to
-the full operating system functionality exposing also most of the challenges of mobile computing directly to the developer.
+In order to overcome the latter limitation, we have added a broadcast receiver to MobiTrade to catch Android Bluetooth scan mode changements. Then, whenever the scan mode changes to not discoverable the user is notified, so he can decide wether to re-enable discoverability or not. This is could be done via the Button \emph{"Turn On Discoverable Mode"} provided in the dashboard (see Figure~\ref{dashboard}).
 
-A comprehensive survey of the capabilities of currently (as of 2008) available major mobile platforms for mobile systems research is provided in [101]. The authors
-evaluate five popular smartphone platforms including Android (Linux), BlackBerry, iPhone, Symbian and Windows Mobile. As the evaluation criteria they use 
-the availability (at some API level) of a set of common features required by a variety of mobile systems research prototypes. These features include network scanning (discovery of
-a contact opportunity using any interface), interface selection (the ability to use any available interface in ad hoc and/or infrastructure mode), location services (e.g. GPS),
-energy level monitoring, network interfaces power management (turning on/off the interfaces or the screen, controlling the power saving mode), background processing
-and low-level memory management. Our work shares similar requirements for the mobile platform.
+Through the dashboard as well as the configuration tab described in Figure~\ref{Config}, we also provide to the user the control over the Bluetooth discovery sessions. Indeed, by default, whenever MobiTrade does not have a running content sharing session, it launches a Bluetooth discovery session trying to find new sharing opportunities. It is abvious that the latter behaviour maximizes the probability of identifying new MobiTrade devices (sharing opportunities) however it can turn out very quickly to be a useless waste of energy (device battery). Indeed, if the user knows that he gonna be completely physically isolated from any possible sharing opportunity, he can decide to stop temporary the Bluetooth discovery sessions towards saving some energy then, restarted later. To do this, the user should ask MobiTrade to take control over the Bluetooth discovery session by updating the corresponding entry in the configration tab descripbed in Figure~\ref{Config}. Then, the user can drive the discovery from within the dashboard.
 
-The majority of the studied platforms provide an application programming interface to access most the required features. The main differences are in usability and
-development tools support: some platforms provide native but hard to use or badly documented interfaces while others incorporate most of the required functionality in
-the managed runtimes. We do our own survey on Java ME 18 frameworks for Windows Mobile [109] for its portability and ease of use but find that at the time of writing
-the supported functionality is inadequate and that the memory footprint of the available runtimes is high. We conclude that programmers should rely on native interfaces
-when implementing advanced mobile systems and applications including opportunistic networking on Windows Mobile (versions 5.x and 6.x).
+\paragraph{Contents Management}
 
-Many authors have analyzed the performance and implementation trade-offs of various mobile applications on specific mobile platforms [102, 39, 79, 85] 19 . In [102]
-the authors evaluate the performance of the DTN reference implementation (DRI) on a resource limited computing platform. The authors show that the DRI performance is 
-limited by the slow disk I/O (especially when using Compact Flash storage typical on mobile platforms) and the CPU power. An adaptive location-based micro-blogging
-service and prototype performance on Nokia N95 is analyzed in [39]. More specifically, the adaption mechanism trades-off the location accuracy for energy-efficiency.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=2in,height=3in]{Chapitre6/PublishContent.png}
+\end{center}
+\caption{MobiTrade: Publishing a new content.}
+\label{PublishNewContent}
+\end{figure}
 
-SoundSense [79] is a stand-alone sound profiling application implemented on iPhones that offers a good performance by trading-off memory usage for lower CPU process-
-ing requirements. Darwin [85] is a collaborative sensing system implemented and tested on Nokia N97 devices and iPhones. With the help of collaboration between
-co-located mobile devices and some backend processing support, Darwin achieves high energy efficiency in performing complex classification computations on mobile
-devices.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=2in,height=3in]{Chapitre6/WriteMessage.png}
+\end{center}
+\caption{MobiTrade: Creating a new content/message.}
+\label{CreatingNewContent}
+\end{figure}
 
-The results of these studies are encouraging, and also prone to change rapidly as mobile platforms and application development frameworks evolve. Hence, the main
-take-away is that the available open smartphone platforms and developed implementation techniques offer already the required functionality and system performance for
-implementing advanced opportunistic mobile social networking systems and applications.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=2in,height=3in]{Chapitre6/ListContents.png}
+\end{center}
+\caption{MobiTrade: List of available contents with respect to the selected channel.}
+\label{ListAvailableContents}
+\end{figure}
 
-In this dissertation we develop a middleware for opportunistic communications that provides a clean abstraction of the opportunistic networking layer to the 
-applications. The middleware includes a persistent storage component and provides simple resource management functions related to the networking and energy resources 
-usage. We prototype and test our system on Windows Mobile (5.X and 6.X) devices.
 
-\section{MobiTrade Architecture Overview}
+\paragraph{Channels Management}
 
-\section{Implementation}
 
-We have implemented our system in Java for the Google Android OS platform. Our implementation is based on Bluetooth but we also intend to support the 802.11 in ad-hoc
-mode in the future. The Android Java libraries (version 2.2) do not currently support the ad-hoc mode of 802.11 although this is supported by both the driver
-and the hardware interface on the HTC Desire device. Therefore, making our implementation supporting the ad-hoc mode requires the device to be run in privileged user
-mode (i.e. rooted mode) so that the interface can be reconfigured to run in ad-hoc mode.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=2in,height=3in]{Chapitre6/JoinChannel.png}
+\end{center}
+\caption{MobiTrade: Joining a new channel.}
+\label{JoiningNewChannel}
+\end{figure}
 
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=2in,height=3in]{Chapitre6/JoinExistingChannel.png}
+\end{center}
+\caption{MobiTrade: Joining an existing channel.}
+\label{JoiningExistingChannel}
+\end{figure}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=2in,height=3in]{Chapitre6/CreateChannel.png}
+\end{center}
+\caption{MobiTrade: Creating a new channel.}
+\label{CreatingNewChannel}
+\end{figure}
+
+\paragraph{MobiTrade Configuration}
+
+As described in Figure~\ref{Config}, MobiTrade configuration tab provides to the user the possibility to tune some important parameters within the MobiTrade architecture. 
+
+Namely, towards controlling the device resources usage (both local storage as well as battery), first  \emph{(i)} it is made possible for the user to specify the maximum amount of storage space that MobiTrade is allowed to use both for storing locally requested contents as well as contents used for trading. And second \emph{(ii)}, as decribed above in this section, the user can either leverage the control of the Bluetooth discovery sessions to MobiTrade daemon which will try to keep always discovering new sharing opportunities or he can take the control over that process and decide on the moment at which the device should run a discovery session. Following the latter option, the user can save lot of battery power without loosing in terms of revenues from possible sharing opportunities.
+
+ 
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=2in,height=3in]{Chapitre6/Config.png}
+\end{center}
+\caption{MobiTrade: Configuring the daemon.}
+\label{Config}
+\end{figure}
 
 
 \section{Summary and Open Issues}
-
-We have described the design and implementation of our system for the Google Android platform. Our experience from the implementation is that Android is a very powerful 
-platform and quite mature despite its young age. The Java based environment provides a familiar environment with good support for most common OS primitives such as threads and concurrency, database and content storage and inter process communication through the Android service binding mechanism. Some features are however still missing, in particular support for the 802.11 ad-hoc mode (which needs to be implemented in native code). We believe that our design is general and facilitates the implementation of 
-advanced content-centric applications. There are however some issues that are not, or only partially addressed by our design. We do currently not address particularly 
-the issues of privacy, security and power management.
-
-
+\label{MobiTradeSoftSummary}
+We have described the design and implementation of our system for the Google Android platform. Our experience from the implementation is that Android is a very powerful platform and quite mature despite its young age. The Java based environment provides a familiar environment with good support for most common OS primitives such as threads and concurrency, database and content storage and inter process communication through the Android service binding mechanism. Some features are however still missing, in particular support for the 802.11 ad-hoc mode (which needs to be implemented in native code). We believe that our design is general and facilitates the implementation of 
+advanced content-centric applications. There are however some issues that are not, or only partially addressed by our design. We do currently not address particularly the issues of privacy, security and power management.
