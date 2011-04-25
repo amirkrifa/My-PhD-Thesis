@@ -97,11 +97,10 @@
 \contentsline {section}{\numberline {6.2}Design and Implementation}{86}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}An Overview of Bluetooth}{87}{subsection.6.2.1}
 \contentsline {section}{\numberline {6.3}Current Available Functionalities}{89}{section.6.3}
-\contentsline {paragraph}{Bluetooth Interface Management}{89}{section*.42}
-\contentsline {paragraph}{Contents Management}{91}{figure.6.5}
-\contentsline {paragraph}{Channels Management}{91}{figure.6.8}
+\contentsline {paragraph}{Bluetooth Interface Management}{90}{section*.43}
+\contentsline {paragraph}{Channels/Contents Management}{91}{section*.44}
 \contentsline {paragraph}{MobiTrade Configuration}{92}{section*.45}
-\contentsline {section}{\numberline {6.4}Summary and Open Issues}{94}{section.6.4}
+\contentsline {section}{\numberline {6.4}Summary and Open Issues}{95}{section.6.4}
 \contentsline {chapter}{\numberline {7}Conclusions and perspectives}{97}{chapter.7}
 \contentsline {chapter}{\numberline {A}Appendix Example}{99}{appendix.A}
 \contentsline {section}{\numberline {A.1}Appendix Example section}{99}{section.A.1}

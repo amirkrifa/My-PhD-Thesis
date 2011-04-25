@@ -1,11 +1,11 @@
-﻿\chapter{MobiTrade: Implementation on Android SmartPhones}
+\chapter{MobiTrade: Implementation on Android SmartPhones}
 \label{chapter:MobiTrade}
 \minitoc
 
 In this chapter we present the design of MobiTrade, our architecture for opportunistic
 collaborative content dissemination. We start by giving a high level overview of the system
 and its design principles in~\ref{MobiTradeArchitecture}. Then we present the actual design and implementation
-in Section~\ref{MobiTradeDesignAndImplementation}. We describe a set of initial functionalities that we implement as an Android mobile application on top of MobiTrade architecture in Section~\ref{MobiTradeCurrentFunctionalities}. We conclude the chapter with a discussion of the open issues and a summary in Section~\ref{MobiTradeSoftSummary}.
+for the Android plateform in Section~\ref{MobiTradeDesignAndImplementation}. We describe a set of initial functionalities that we implement as an Android mobile application on top of MobiTrade architecture in Section~\ref{MobiTradeCurrentFunctionalities}. We conclude the chapter with a discussion of the open issues and a summary in Section~\ref{MobiTradeSoftSummary}.
 
 
 \section{MobiTrade Architecture Overview}
@@ -14,7 +14,7 @@ in Section~\ref{MobiTradeDesignAndImplementation}. We describe a set of initial 
 \subsection{MobiTrade Device Model}
 \label{MobiTrade-node}
 
-Having described the various MobiTrade algorithms in chapter~\ref{chapter:PTMP}, we give here some more details of the MobiTrade device architecture. Figure~\ref{MobiTrade-node-architecture} is a schematic of the core MobiTrade device, which has five building blocks. We have  implemented this architecture on Android phones in order to conduct small scale tests/experiments.
+Having described the various MobiTrade algorithms in chapter~\ref{chapter:PTMP}, we give here some more details of the MobiTrade device architecture. Figure~\ref{MobiTrade-node-architecture} is a schematic of the core MobiTrade device, which has five building blocks. We have implemented this architecture on Android phones in order to conduct small scale tests/experiments.
 
 \begin{figure}[!h]
 \centering
@@ -27,55 +27,37 @@ Having described the various MobiTrade algorithms in chapter~\ref{chapter:PTMP},
 
 The \textit{Application Interface} is designed so that developers can easily extend MobiTrade and create new content sharing applications that use the MobiTrade functionalities. Each MobiTrade application has a unique ID that it registers at the application interface. The application then simply communicates with the MobiTrade system using event handlers.
 
-The \textit{Scheduling Block} defines the order to follow while forwarding a set of requested contents within a limited contact opportunity. As explained before, this ordering is done based on the utility values.
+The \textit{Scheduling Block} defines the order to follow while forwarding a set of requested contents within a limited contact opportunity. This ordering is done based on the matching channels utility values.
 
 The \textit{Tit-For-Tat Trading and Forwarding Block} takes in charge \emph{(i)} the forwarding of the stored channels records whenever a new contact is established, and \emph{(ii)} the negotiation and forwarding of the requested contents.
 
-The \textit{Content/Channel Management Block} manages the channel and content storage space. It provides an API for storing and retrieving channel and content records that hides the storage technology specifics. This block also takes in charge utility updates for the stored channels and buffer management (as described in Section~\ref{buffer-management}).
+The \textit{Content/Channel Management Block} manages the channel and content storage space. It provides an API for storing and retrieving channel and content records that hides the storage technology specifics. This block also takes in charge utility updates for the stored channels and buffer management.
 
-The \textit{Link Controller Block} is the lowest layer in the MobiTrade architecture. It provides a common interface for sending and receiving data across the different available wireless interfaces. It is also responsible for periodically scanning the neighborhood for devices, for establishing the contacts whenever meeting opportunities arise and for triggering the Tit-For-Tat trading and forwarding block. The link controller provides an API that hides network technology specifics (Bluetooth and Wi-Fi) from the rest of the upstream blocks.
-
+The \textit{Link Controller Block} is the lowest layer in the MobiTrade architecture. It provides a common interface for sending and receiving data across the different available wireless interfaces. It is also responsible for periodically scanning the neighborhood for devices, for establishing the contacts whenever meeting opportunities arise and for triggering the Tit-For-Tat trading and forwarding block. The link controller provides an API that hides network technology specifics (Bluetooth or Wi-Fi) from the rest of the upstream blocks.
 
 \section{Design and Implementation}
 \label{MobiTradeDesignAndImplementation}
 
-We have implemented MobiTrade in Java for the Google Android OS platform. Our implementation is based on Bluetooth but we also intend to support the 802.11 in ad-hoc mode in the future. The current Android Java libraries do not currently support the ad-hoc mode of 802.11 although this is supported by both the driver and the hardware interface on the HTC Desire device. Therefore, making our implementation supporting the ad-hoc mode requires the device to be run in privileged user mode (i.e. rooted mode) so that the interface can be reconfigured to run in ad-hoc mode.
+We have implemented MobiTrade in Java for the Google Android OS platform. For the moment, we choose to base our implementation on Bluetooth technology but we also intend to support the 802.11 in ad-hoc mode in the future. Indeed, the current Android Java libraries do not support the ad-hoc mode of 802.11 although this is supported by both the driver and the hardware interface on the HTC Desire device. Therefore, making our implementation supporting the ad-hoc mode requires the device to be run in privileged user mode (i.e. rooted mode) so that the interface can be reconfigured to run in ad-hoc mode.
 
-
+Bluetooth is a low-power short-range wireless communication technology intended to replace the cables connecting electronic devices. Below we give a short overview on the Bluetooth protocol stack, the device discovery procedure (called inquiry scan in Bluetooth terminology), supported higher layer protocols and application programming interfaces.
 
 \subsection{An Overview of Bluetooth}
 
-Bluetooth is a low-power short-range wireless communication technology intended to replace the cables connecting electronic devices. Below we give a short 
-overview on the Bluetooth protocol stack, the device discovery procedure (called inquiry scan in Bluetooth terminology), supported higher 
-layer protocols and application programming interfaces.
+Bluetooth operates on a license-free ISM band at 2.4GHz (the same as used by 802.11). The physical layer is based on frequency hopping spread spectrum (FHSS) and transmits data on up to 79 frequency bands (1 MHz each). Each frequency band is divided into time slots and full duplex transmission is provided through the use of a time-division duplex (TDD) scheme.
 
-Bluetooth operates on a license-free ISM band at 2.4GHz (the same as used by 802.11). The physical layer is based on frequency hopping spread spectrum (FHSS)
-and transmits data on up to 79 frequency bands (1 MHz each). Each frequency band is divided into time slots and full duplex transmission is provided through the use of
-a time-division duplex (TDD) scheme.
+Bluetooth network has a master-slave structure. A master device can communicate with up to seven devices forming a so called piconet. In a piconet devices communicate on the same physical channel that is defined by a common clock (set by the master) and a frequency hopping pattern. By definition, the device that initiates a connection becomes the master. Once a piconet has been established, master-slave roles may be exchanged. At any given time, data can be transferred between the master and one other device, but never directly between two slaves. A device can only be synchronized to a single channel at a time. Multiple simultaneous operations (e.g. partici-
+pating in various piconets, being discoverable and connectable) are supported using time-division multiplexing between various channels. However, device can only be the master of a single piconet.
 
-Bluetooth network has a master-slave structure. A master device can communicate with up to seven devices forming a so called piconet. In a piconet devices communicate
-on the same physical channel that is defined by a common clock (set by the master) and a frequency hopping pattern. By definition, the device that initiates a connection
-becomes the master. Once a piconet has been established, master-slave roles may be exchanged. At any given time, data can be transferred between the master and one
-other device, but never directly between two slaves. A device can only be synchronized to a single channel at a time. Multiple simultaneous operations (e.g. partici-
-pating in various piconets, being discoverable and connectable) are supported using time-division multiplexing between various channels. However, device can only be
-the master of a single piconet.
+Above the physical layer in the architecture there is a number of logical links for control and data traffic. These are managed by a L2CAP layer that provides a channel based abstraction for applications. One logical (and physical) link can thus carry data for multiple applications. L2CAP provides reliable transmission performing flow control, CRC checks and retransmissions upon request. The main traffic services provided are asynchronous connection-oriented unicast and isochronous constant rate channel (e.g. for audio streaming). However, these channels are rarely used directly by applications, instead several higher layer protocols have been standardized and implemented in various client libraries (see below). 
 
-Above the physical layer in the architecture there is a number of logical links for control and data traffic. These are managed by a L2CAP layer that provides a channel based abstraction for applications. One logical (and physical) link can thus carry data for multiple applications. L2CAP provides reliable transmission performing flow
-control, CRC checks and retransmissions upon request. The main traffic services provided are asynchronous connection-oriented unicast and isochronous constant rate
-channel (e.g. for audio streaming). However, these channels are rarely used directly by applications, instead several higher layer protocols have been standardized and
-implemented in various client libraries (see below). 
-
-The most commonly adopted Bluetooth specifications include v1.2, v2.0 and v2.1 all being backwards compatible. The specifications differ mainly in supported bit rates and support for some advanced features. The nominal rate for Bluetooth v1.2 is 1Mbit/s. Bluetooth v2.0 increases the bit rate up to 2Mbit/s (Basic Rate) and 3Mbit/s (Enhanced Data Rate or EDR). v2.1 extends the inquiry responses (more on this below) and adds secure pairing among other minor tweaks. The operational
-ranges of Bluetooth devices vary from approximately 1, 10 to 100 meters (class 3, class 2 and class 1 respectively). Smartphones are generally class 2 devices.
+The most commonly adopted Bluetooth specifications include v1.2, v2.0 and v2.1 all being backwards compatible. The specifications differ mainly in supported bit rates and support for some advanced features. The nominal rate for Bluetooth v1.2 is 1Mbit/s. Bluetooth v2.0 increases the bit rate up to 2Mbit/s (Basic Rate) and 3Mbit/s (Enhanced Data Rate or EDR). v2.1 extends the inquiry responses (more on this below) and adds secure pairing among other minor tweaks. The operational ranges of Bluetooth devices vary from approximately 1, 10 to 100 meters (class 3, class 2 and class 1 respectively). Smartphones are generally class 2 devices.
 
 \paragraph*{Inquery Scan Procedure}
 
-The Bluetooth specification defines two separate physical channels for device discovery (inquiry scan channel) and connection setup (page scan channel). 
-Each Bluetooth devices can be in one of the four states: (1) connectable and discoverable, (2) connectable, (3) discoverable, or (4) neither discoverable nor connectable. A device
-cannot be discovered nor connected unless it is configured in the correct state.
+The Bluetooth specification defines two separate physical channels for device discovery (inquiry scan channel) and connection setup (page scan channel).  Each Bluetooth devices can be in one of the four states: (1) connectable and discoverable, (2) connectable, (3) discoverable, or (4) neither discoverable nor connectable. A device cannot be discovered nor connected unless it is configured in the correct state.
 
-A discoverable device listens for inquiry requests periodically (called inquiry scan state) on its inquiry scan channel that has a reduced number of hop frequencies and a
-slower rate of hopping. In order to discover neighboring devices, an inquiring device hops through all possible inquiry scan channel frequencies in a pseudo-random
+A discoverable device listens for inquiry requests periodically (called inquiry scan state) on its inquiry scan channel that has a reduced number of hop frequencies and a slower rate of hopping. In order to discover neighboring devices, an inquiring device hops through all possible inquiry scan channel frequencies in a pseudo-random
  fashion, sending an inquiry request on each frequency and listening for responses. This is done at a faster rate, allowing the inquiring device to cover all inquiry scan 
  frequencies in a reasonably short time period. The Bluetooth specification recommends an inquiry duration of 10.24s. Then, with high probability, all neighboring devices will
 have entered their inquiry scan state and will hear the inquiry.
@@ -102,6 +84,7 @@ simultaneously depending on the implementation). It provides a simple reliable d
 RFCOMM, the client must know the server channel which can be resolved using SDP. It is also possible to use hard-coded channels, but dynamic channel numbers are 
 recommended since the number of available channels is very limited (30).
 
+
 \paragraph*{Application Programming Interfaces}
 
 The main interface between user level applications and the Bluetooth device is
@@ -113,6 +96,22 @@ The client APIs let the applications control the device state (discoverable and/
 value. The device inquiry can be initiated at anytime through the Bluetooth API and the applications can typically control the duration of the inquiry and/or the number of
 responses to wait for. The applications can also query for the human readable names of the discovered devices, create local SDP records for the services they provide and
 query the records of nearby devices. The data services such as RFCOMM are typically accessed using a special type of socket and the familiar socket API.
+
+
+\paragraph*{Android Supported Bluetooth Functionalities}
+
+The Android platform includes support for the Bluetooth network stack, which allows a device to wirelessly exchange data with other Bluetooth devices. The application framework provides access to the Bluetooth functionality through the Android Bluetooth APIs. These APIs let applications wirelessly connect to other Bluetooth devices, enabling point-to-point and multipoint wireless features.
+
+Using the Bluetooth APIs, an Android application can perform the following:
+
+\begin{itemize}
+\item Scan for other Bluetooth devices
+\item Query the local Bluetooth adapter for paired Bluetooth devices
+\item Establish RFCOMM channels
+\item Connect to other devices through service discovery
+\item Transfer data to and from other devices
+\item Manage multiple connections
+\end{itemize}
 
 \section{Current Available Functionalities}
 \label{MobiTradeCurrentFunctionalities}
@@ -139,69 +138,115 @@ In order to overcome the latter limitation, we have added a broadcast receiver t
 
 Through the dashboard as well as the configuration tab described in Figure~\ref{Config}, we also provide to the user the control over the Bluetooth discovery sessions. Indeed, by default, whenever MobiTrade does not have a running content sharing session, it launches a Bluetooth discovery session trying to find new sharing opportunities. It is abvious that the latter behaviour maximizes the probability of identifying new MobiTrade devices (sharing opportunities) however it can turn out very quickly to be a useless waste of energy (device battery). Indeed, if the user knows that he gonna be completely physically isolated from any possible sharing opportunity, he can decide to stop temporary the Bluetooth discovery sessions towards saving some energy then, restarted later. To do this, the user should ask MobiTrade to take control over the Bluetooth discovery session by updating the corresponding entry in the configration tab descripbed in Figure~\ref{Config}. Then, the user can drive the discovery from within the dashboard.
 
-\paragraph{Contents Management}
+\paragraph{Channels/Contents Management}
+
+As describer in Chapter~\ref{chapter:PTMP}, MobiTrade manages autonomously the channels as well as their corresponding content records towards maximizing the revenues of the local user. At the same time, the current MobiTrade prototype provides to the user the possibility to interact and manage the set of locally stored channels/contents. Indeed, as described in Figure~\ref{JoiningNewChannel}, MobiTrade dashboard enables the user to ask for joining a new channel. The latter channel could be either 
+an already discovered foreign channel (see Figure~\ref{JoiningExistingChannel} or a new channel that the user wants to create as depicted in Figure~\ref{CreatingNewChannel}.
 
 \begin{figure}[!h]
-\begin{center}
-\includegraphics[width=2in,height=3in]{Chapitre6/PublishContent.png}
-\end{center}
-\caption{MobiTrade: Publishing a new content.}
-\label{PublishNewContent}
-\end{figure}
-
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=2in,height=3in]{Chapitre6/WriteMessage.png}
-\end{center}
-\caption{MobiTrade: Creating a new content/message.}
-\label{CreatingNewContent}
-\end{figure}
-
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=2in,height=3in]{Chapitre6/ListContents.png}
-\end{center}
-\caption{MobiTrade: List of available contents with respect to the selected channel.}
-\label{ListAvailableContents}
-\end{figure}
-
-
-\paragraph{Channels Management}
-
-
-\begin{figure}[!h]
-\begin{center}
+\begin{minipage}[l]{0.3\linewidth}
+\centering
 \includegraphics[width=2in,height=3in]{Chapitre6/JoinChannel.png}
-\end{center}
+\begin{minipage}[l]{1\linewidth}
+\small
 \caption{MobiTrade: Joining a new channel.}
+\normalsize
 \label{JoiningNewChannel}
-\end{figure}
-
-\begin{figure}[!h]
-\begin{center}
+\end{minipage}
+\end{minipage}
+\hspace{2.1cm}
+\begin{minipage}[l]{0.3\linewidth}
+\centering
 \includegraphics[width=2in,height=3in]{Chapitre6/JoinExistingChannel.png}
-\end{center}
+\begin{minipage}[l]{1\linewidth}
 \caption{MobiTrade: Joining an existing channel.}
 \label{JoiningExistingChannel}
+\end{minipage}
+\end{minipage}
 \end{figure}
 
+The channels tab described in Figure~\ref{ListAllChannels} enables the user to navigate throught the available channels: the foreign channels that MobiTrade decided to collect and maintain loclally for future trading as well as the locally requested ones. All the channel records are orgonized within a scrollable list which makes it easy for the user to navigate forward to the channels' corresponding contents (see Figure~\ref{ListAvailableContents}) and backward to the channels tab. Note that the locally requested channels are also presented apart in a separate tab (see Figure~\ref{ListRequestedChannels}) which we think provides a quick access to the channels of local interest and their matching contents.
+
 \begin{figure}[!h]
-\begin{center}
+\begin{minipage}[l]{0.3\linewidth}
+\centering
+\includegraphics[width=2in,height=3in]{Chapitre6/ListAllChannels.png}
+\begin{minipage}[l]{1\linewidth}
+\small
+\caption{MobiTrade: List of all channels.}
+\normalsize
+\label{ListAllChannels}
+\end{minipage}
+\end{minipage}
+\hspace{2.1cm}
+\begin{minipage}[l]{0.3\linewidth}
+\centering
+\includegraphics[width=2in,height=3in]{Chapitre6/ListRequestedChannels.png}
+\begin{minipage}[l]{1\linewidth}
+\caption{MobiTrade: List of locally requested channels.}
+\label{ListRequestedChannels}
+\end{minipage}
+\end{minipage}
+\end{figure}
+
+From within the dashboard, the user is also able to publish a new content record. Once this task is initiated, the user is first asked to select the channel within which he wants to publish the new content. Then, as described in Figure~\ref{PublishNewContent}, the user can choose to either publish an existing content or crate a new one (see Figure~\ref{CreatingNewContent}) and in both case the user has to associate to the new content a short description which will be used later by MobiTrade to run the matching proccess between the content  and the channels records.
+
+\begin{figure}[!h]
+\begin{minipage}[l]{0.3\linewidth}
+\centering
 \includegraphics[width=2in,height=3in]{Chapitre6/CreateChannel.png}
-\end{center}
+\begin{minipage}[l]{1\linewidth}
+\small
 \caption{MobiTrade: Creating a new channel.}
+\normalsize
 \label{CreatingNewChannel}
+\end{minipage}
+\end{minipage}
+\hspace{2.1cm}
+\begin{minipage}[l]{0.3\linewidth}
+\centering
+\includegraphics[width=2in,height=3in]{Chapitre6/PublishContent.png}
+\begin{minipage}[l]{1\linewidth}
+\caption{MobiTrade: Publishing a new content.}
+\label{PublishNewContent}
+\end{minipage}
+\end{minipage}
+\end{figure}
+
+
+\begin{figure}[!h]
+\begin{minipage}[l]{0.3\linewidth}
+\centering
+\includegraphics[width=2in,height=3in]{Chapitre6/WriteMessage.png}
+\begin{minipage}[l]{1\linewidth}
+\small
+\caption{MobiTrade: Creating a new content/message.}
+\normalsize
+\label{CreatingNewContent}
+\end{minipage}
+\end{minipage}
+\hspace{2.1cm}
+\begin{minipage}[l]{0.3\linewidth}
+\centering
+\includegraphics[width=2in,height=3in]{Chapitre6/ListContents.png}
+\begin{minipage}[l]{1\linewidth}
+\caption{MobiTrade: List of available contents with respect to the selected channel.}
+\label{ListAvailableContents}
+\end{minipage}
+\end{minipage}
 \end{figure}
 
 \paragraph{MobiTrade Configuration}
 
 As described in Figure~\ref{Config}, MobiTrade configuration tab provides to the user the possibility to tune some important parameters within the MobiTrade architecture. 
 
-Namely, towards controlling the device resources usage (both local storage as well as battery), first  \emph{(i)} it is made possible for the user to specify the maximum amount of storage space that MobiTrade is allowed to use both for storing locally requested contents as well as contents used for trading. And second \emph{(ii)}, as decribed above in this section, the user can either leverage the control of the Bluetooth discovery sessions to MobiTrade daemon which will try to keep always discovering new sharing opportunities or he can take the control over that process and decide on the moment at which the device should run a discovery session. Following the latter option, the user can save lot of battery power without loosing in terms of revenues from possible sharing opportunities.
+Namely, towards controlling the device resources usage (both local storage as well as battery), first  \emph{(i)} it is made possible for the user to specify the maximum amount of storage space that MobiTrade is allowed to use both for storing locally requested contents as well as contents used for trading. And second \emph{(ii)}, as decribed above in this section, the user can either leverage the control of the Bluetooth discovery sessions to MobiTrade daemon which will try to keep always discovering new sharing opportunities or he can take the control over that process and decide on the moment at which the device should run a discovery session. Following the latter option, the user can save lot of battery power without loosing in terms of expected revenues from possible sharing opportunities.
 
-Through the Configuration tab, the user also have the possibility the specify whether he wants or not to get notified via the device vibrator (if supported) whenever a new content that matches a locally requested channel is received. Indeed, this is a very interesting option because the user is not supposed to keep tracking on real-time the status of MobiTrade. Instead, the user can start MobiTrade daemon, choose to get notified, then close the MobiTrade UI and head out on the real world. Then, whenever a new content of interest is received, the user will be notified. Note that the MobiTrade UI is completely decoupled from the MobiTrade daemon in terms of life cycle. MobiTrade UI could be down and at the same time MobiTrade daemon is running on background. And any time the user launches the MobiTrade activity (UI), he can control/follow on real from within the dashboard what is going on with the MobiTrade daemon.
+Through the Configuration tab, the user also have the possibility the specify whether he wants or not to get notified via the device vibrator (if supported) whenever a new content that matches a locally requested channel is received. Indeed, this is a very interesting option because the user is not supposed to keep tracking on real-time the status of the content sharing sessions. Instead, the user can start MobiTrade daemon, choose to get notified, then close the MobiTrade UI and head out on the real world. Then, whenever a new content of interest is received, the user will be notified. Note that the MobiTrade UI is completely decoupled from the MobiTrade daemon in terms of life cycle. MobiTrade UI could be down and at the same time MobiTrade daemon is running on background. And any time the user launches the MobiTrade activity (UI), he can control/follow on real from within the dashboard what is going on with the MobiTrade daemon.
 
 Note that MobiTrade configuration is maintained persistently within the mobile device. Thus, each time the user decides to update one of the configuration entries, he should validate the new configuration from within the tab. There will be always the possibility to re-load default configuration entries.
+
+
 
 \begin{figure}[!h]
 \begin{center}
@@ -211,8 +256,8 @@ Note that MobiTrade configuration is maintained persistently within the mobile d
 \label{Config}
 \end{figure}
 
-
 \section{Summary and Open Issues}
 \label{MobiTradeSoftSummary}
-We have described the design and implementation of our system for the Google Android platform. Our experience from the implementation is that Android is a very powerful platform and quite mature despite its young age. The Java based environment provides a familiar environment with good support for most common OS primitives such as threads and concurrency, database and content storage and inter process communication through the Android service binding mechanism. Some features are however still missing, in particular support for the 802.11 ad-hoc mode (which needs to be implemented in native code). We believe that our design is general and facilitates the implementation of 
+
+We have described the design and implementation of our system for the Google Android platform. Our experience from the implementation is that Android is a very powerful platform and quite mature. The Java based environment provides a familiar environment with good support for most common OS primitives such as threads and concurrency, database and content storage and inter process communication through the Android service binding mechanism. Some features are however still missing, in particular support for the 802.11 ad-hoc mode (which needs to be implemented in native code). We believe that our design is general and facilitates the implementation of 
 advanced content-centric applications. There are however some issues that are not, or only partially addressed by our design. We do currently not address particularly the issues of privacy, security and power management.

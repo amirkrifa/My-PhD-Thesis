@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.8)  22 APR 2011 18:13
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.8)  25 APR 2011 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2387,111 +2387,173 @@ e.6.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.51 
-      <./Chapitre5/MobiTrade_Node-eps-converted-to.pdf>] [87] [88]
-<Chapitre6/Dashboard.png, id=1785, 481.8pt x 803.0pt>
+l.44 
+      <./Chapitre5/MobiTrade_Node-eps-converted-to.pdf>] [87] [88] [89]
+<Chapitre6/Dashboard.png, id=1791, 481.8pt x 803.0pt>
 File: Chapitre6/Dashboard.png Graphic file (type png)
 
-<use Chapitre6/Dashboard.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[89] <Chapitre6/PublishContent.png, id=1797, 481.8pt x 803.0pt>
-File: Chapitre6/PublishContent.png Graphic file (type png)
-
-<use Chapitre6/PublishContent.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Chapitre6/WriteMessage.png, id=1798, 481.8pt x 803.0pt>
-File: Chapitre6/WriteMessage.png Graphic file (type png)
-
-<use Chapitre6/WriteMessage.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Chapitre6/ListContents.png, id=1799, 481.8pt x 803.0pt>
-File: Chapitre6/ListContents.png Graphic file (type png)
-
-<use Chapitre6/ListContents.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[90pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2
-}) has been already used, duplicate ignored
+<use Chapitre6/Dashboard.png> [90pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.6.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.169 \paragraph
-                {Channels Management} <./Chapitre6/Dashboard.png (PNG copy)>]
+l.138 
+       <./Chapitre6/Dashboard.png (PNG copy)>]
 <Chapitre6/JoinChannel.png, id=1805, 481.8pt x 803.0pt>
 File: Chapitre6/JoinChannel.png Graphic file (type png)
 
 <use Chapitre6/JoinChannel.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (25.98706pt too wide) in paragraph at lines 149--156
+ [][] 
+ []
 
 <Chapitre6/JoinExistingChannel.png, id=1806, 481.8pt x 803.0pt>
 File: Chapitre6/JoinExistingChannel.png Graphic file (type png)
 
 <use Chapitre6/JoinExistingChannel.png>
+Overfull \hbox (25.98706pt too wide) in paragraph at lines 160--165
+ [][] 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapitre6/CreateChannel.png, id=1807, 481.8pt x 803.0pt>
+<Chapitre6/ListAllChannels.png, id=1810, 481.8pt x 803.0pt>
+File: Chapitre6/ListAllChannels.png Graphic file (type png)
+
+<use Chapitre6/ListAllChannels.png>
+Overfull \hbox (25.98706pt too wide) in paragraph at lines 173--180
+ [][] 
+ []
+
+<Chapitre6/ListRequestedChannels.png, id=1811, 481.8pt x 803.0pt>
+File: Chapitre6/ListRequestedChannels.png Graphic file (type png)
+
+<use Chapitre6/ListRequestedChannels.png>
+Overfull \hbox (25.98706pt too wide) in paragraph at lines 184--189
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapitre6/CreateChannel.png, id=1814, 481.8pt x 803.0pt>
 File: Chapitre6/CreateChannel.png Graphic file (type png)
 
 <use Chapitre6/CreateChannel.png>
+Overfull \hbox (25.98706pt too wide) in paragraph at lines 197--204
+ [][] 
+ []
+
+<Chapitre6/PublishContent.png, id=1815, 481.8pt x 803.0pt>
+File: Chapitre6/PublishContent.png Graphic file (type png)
+
+<use Chapitre6/PublishContent.png>
+Underfull \hbox (badness 1389) in paragraph at lines 210--210
+\T1/cmr/m/n/10.95 Pub-lish-ing a new con-
+ []
+
+
+Overfull \hbox (25.98706pt too wide) in paragraph at lines 208--213
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapitre6/WriteMessage.png, id=1816, 481.8pt x 803.0pt>
+File: Chapitre6/WriteMessage.png Graphic file (type png)
+
+<use Chapitre6/WriteMessage.png>
+Underfull \hbox (badness 6944) in paragraph at lines 223--223
+\T1/cmr/m/n/10.95 Cre-at-ing a new con-
+ []
+
+
+Overfull \hbox (25.98706pt too wide) in paragraph at lines 220--227
+ [][] 
+ []
+
+<Chapitre6/ListContents.png, id=1817, 481.8pt x 803.0pt>
+File: Chapitre6/ListContents.png Graphic file (type png)
+
+<use Chapitre6/ListContents.png>
+Overfull \hbox (25.98706pt too wide) in paragraph at lines 231--236
+ [][] 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 7759) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+ [91]
+Underfull \vbox (badness 1194) has occurred while \output is active []
+
+ [92pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.199 
+l.244 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 6.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.199 
-       <./Chapitre6/PublishContent.png (PNG copy)> <./Chapitre6/WriteMessage.pn
-g (PNG copy)>] [92pdfTeX warning (ext4): destination with the same identifier (
-name{figure.6.5}) has been already used, duplicate ignored
+l.244 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.201 
+l.244 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 6.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.201 
-       <./Chapitre6/ListContents.png (PNG copy)> <./Chapitre6/JoinChannel.png (
-PNG copy)>] [93pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.6.7}) has been already used, duplicate ignored
+l.244 
+       <./Chapitre6/JoinChannel.png (PNG copy)> <./Chapitre6/JoinExistingChanne
+l.png (PNG copy)> <./Chapitre6/ListAllChannels.png (PNG copy)> <./Chapitre6/Lis
+tRequestedChannels.png (PNG copy)>]
+Underfull \vbox (badness 2334) has occurred while \output is active []
+
+ [93pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.201 
+l.244 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 6.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.201 
-       <./Chapitre6/JoinExistingChannel.png (PNG copy)> <./Chapitre6/CreateChan
-nel.png (PNG copy)>] <Chapitre6/Config.png, id=1831, 481.8pt x 803.0pt>
+l.244 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.244 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.244 
+       <./Chapitre6/CreateChannel.png (PNG copy)> <./Chapitre6/PublishContent.p
+ng (PNG copy)> <./Chapitre6/WriteMessage.png (PNG copy)> <./Chapitre6/ListConte
+nts.png (PNG copy)>] <Chapitre6/Config.png, id=1843, 481.8pt x 803.0pt>
 File: Chapitre6/Config.png Graphic file (type png)
 
-<use Chapitre6/Config.png>) [94pdfTeX warning (ext4): destination with the same
- identifier (name{figure.6.9}) has been already used, duplicate ignored
+<use Chapitre6/Config.png>)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2637,10 +2699,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10593 strings out of 493763
- 154426 string characters out of 3144976
- 285697 words of memory out of 3000000
- 12887 multiletter control sequences out of 15000+200000
+ 10607 strings out of 493763
+ 154826 string characters out of 3144976
+ 285933 words of memory out of 3000000
+ 12897 multiletter control sequences out of 15000+200000
  31677 words of font info for 81 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  46i,14n,47p,3476b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2689,10 +2751,10 @@ rm1440.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfrm
 .pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfti1200.p
 fb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb
 >
-Output written on Thesis.pdf (115 pages, 3293554 bytes).
+Output written on Thesis.pdf (115 pages, 3456115 bytes).
 PDF statistics:
- 2300 PDF objects out of 2487 (max. 8388607)
- 1998 compressed objects within 20 object streams
- 435 named destinations out of 1000 (max. 500000)
- 785 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2313 PDF objects out of 2487 (max. 8388607)
+ 2008 compressed objects within 21 object streams
+ 437 named destinations out of 1000 (max. 500000)
+ 795 words of extra memory for PDF output out of 10000 (max. 10000000)
 
