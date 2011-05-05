@@ -1,12 +1,9 @@
-\chapter{MobiTrade: Implementation on Android SmartPhones}
+\chapter{MobiTrade: Implementation on Android Platform}
 \label{chapter:MobiTrade}
 \minitoc
 
-In this chapter we present the design of MobiTrade, our architecture for opportunistic
-collaborative content dissemination. We start by giving a high level overview of the system
-and its design principles in~\ref{MobiTradeArchitecture}. Then we present the actual design and implementation
-for the Android plateform in Section~\ref{MobiTradeDesignAndImplementation}. We describe a set of initial functionalities that we implement as an Android mobile application on top of MobiTrade architecture in Section~\ref{MobiTradeCurrentFunctionalities}. We conclude the chapter with a discussion of the open issues and a summary in Section~\ref{MobiTradeSoftSummary}.
-
+We present in this chapter the design of the MobiTrade application for opportunistic
+collaborative content sharing that we have implemented for the Android platform. We follow a top-down description approach, so, we start by giving a high level overview of the MobiTrade architecture and its design principles in Section~\ref{MobiTradeArchitecture} namely the MobiTrade device model followed by a description of a MobiTrade content sharing session. Then, we dig deeper into the network and link level technical details of MobiTrade in Section~\ref{MobiTradeDesignAndImplementation}. In Section~\ref{MobiTradeCurrentFunctionalities}, we describe the set of functionalities that we have implemented as an Android mobile application. Finally, we conclude this chapter with a discussion of the open issues and a summary in Section~\ref{MobiTradeSoftSummary}.
 
 \section{MobiTrade Architecture Overview}
 \label{MobiTradeArchitecture}
@@ -14,7 +11,7 @@ for the Android plateform in Section~\ref{MobiTradeDesignAndImplementation}. We 
 \subsection{MobiTrade Device Model}
 \label{MobiTrade-node}
 
-Having described the various MobiTrade algorithms in chapter~\ref{chapter:PTMP}, we give here some more details of the MobiTrade device architecture. Figure~\ref{MobiTrade-node-architecture} is a schematic of the core MobiTrade device, which has five building blocks. We have implemented this architecture on Android phones in order to conduct small scale tests/experiments.
+Having described MobiTrade algorithms in chapter~\ref{chapter:PTMP}, we give here some more details of the MobiTrade device model. Figure~\ref{MobiTrade-node-architecture} is a schematic of the core MobiTrade device, which has five building blocks. We have implemented this architecture on Android phones in order to conduct small scale tests and experiments.
 
 \begin{figure}[!h]
 \centering
@@ -35,74 +32,84 @@ The \textit{Content/Channel Management Block} manages the channel and content st
 
 The \textit{Link Controller Block} is the lowest layer in the MobiTrade architecture. It provides a common interface for sending and receiving data across the different available wireless interfaces. It is also responsible for periodically scanning the neighborhood for devices, for establishing the contacts whenever meeting opportunities arise and for triggering the Tit-For-Tat trading and forwarding block. The link controller provides an API that hides network technology specifics (Bluetooth or Wi-Fi) from the rest of the upstream blocks.
 
-\section{Design and Implementation}
+\subsection{MobiTrade Session}
+\label{MobiTrade-session}
+
+As we will see later in this chapter, our implementation of MobiTrade for the Android platform uses the Bluetooth devices discovery mechanism in order to identify any possible content sharing opportunity with any encountered mobile device. Once such an opportunity is identified, one of the peers initiates a MobiTrade session in order to exchange possible matching contents if any.
+
+Figure~\ref{mobitradesession} depicts an UML (Unified Modeling Language) sequence diagram that describes in details the dynamics of a MobiTrade session between two devices $A$ and $B$. The described session is triggered by teh device A that start by serializing the channels records that it stores locally into and xml message (described in Figure~\ref{channelsxml}) then, it sends the serialized message throught the established Bluetooth channel towards the remote peer. Once received, the channels xml record is parsed within the device B using an xml SAX parser. The latter device extracts the chennels attributes (keywords, utilities, ...) and decides based on them of the contents that could interest the device A. Once the later contents are identified, MobiTrade schedules them based on the utilities of thier matching channels and prepares them for forwarding upon a possible request from the TFT block. At the mean time, the device B serializes also its locally stored list of channels and sends them to device A. The latter follows the same steps as done by device B in order to identify any possible matching content. Once done, MobiTrade protocol running within the device A triggers the TFT algorithm to
+manage the contents exchanging process. The TFT block serializes the first sceduled content as an xml message (decribed in Figure~\ref{contentxml}) and forwards the latter one to device B which in return will decide of the content to forward backs based on the size of the received one. And the latter process continues until one of the devices or both exhausts their list of scheduled contents. 
+
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=5in,height=6in]{Chapitre6/MobiTradeSession.png}
+\end{center}
+\caption{MobiTrade session.}
+\label{mobitradesession}
+\end{figure}
+
+
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=4in,height=3in]{Chapitre6/contentxml.eps}
+\end{center}
+\caption{Content XML description.}
+\label{contentxml}
+\end{figure}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=4in,height=3in]{Chapitre6/channelsxml.eps}
+\end{center}
+\caption{Channels xml description .}
+\label{channelsxml}
+\end{figure}
+
+
+\section{MobiTrade Support for Bluetooth}
 \label{MobiTradeDesignAndImplementation}
 
 We have implemented MobiTrade in Java for the Google Android OS platform. For the moment, we choose to base our implementation on Bluetooth technology but we also intend to support the 802.11 in ad-hoc mode in the future. Indeed, the current Android Java libraries do not support the ad-hoc mode of 802.11 although this is supported by both the driver and the hardware interface on the HTC Desire device. Therefore, making our implementation supporting the ad-hoc mode requires the device to be run in privileged user mode (i.e. rooted mode) so that the interface can be reconfigured to run in ad-hoc mode.
 
-Bluetooth is a low-power short-range wireless communication technology intended to replace the cables connecting electronic devices. Below we give a short overview on the Bluetooth protocol stack, the device discovery procedure (called inquiry scan in Bluetooth terminology), supported higher layer protocols and application programming interfaces.
-
-\subsection{An Overview of Bluetooth}
+Bluetooth is a low-power short-range wireless communication technology intended to replace the cables connecting electronic devices. Below we give a short overview on the Bluetooth protocol stack, the device discovery procedure (called inquiry scan in Bluetooth terminology), supported higher layer protocols and the application programming interfaces.
 
 Bluetooth operates on a license-free ISM band at 2.4GHz (the same as used by 802.11). The physical layer is based on frequency hopping spread spectrum (FHSS) and transmits data on up to 79 frequency bands (1 MHz each). Each frequency band is divided into time slots and full duplex transmission is provided through the use of a time-division duplex (TDD) scheme.
 
 Bluetooth network has a master-slave structure. A master device can communicate with up to seven devices forming a so called piconet. In a piconet devices communicate on the same physical channel that is defined by a common clock (set by the master) and a frequency hopping pattern. By definition, the device that initiates a connection becomes the master. Once a piconet has been established, master-slave roles may be exchanged. At any given time, data can be transferred between the master and one other device, but never directly between two slaves. A device can only be synchronized to a single channel at a time. Multiple simultaneous operations (e.g. partici-
 pating in various piconets, being discoverable and connectable) are supported using time-division multiplexing between various channels. However, device can only be the master of a single piconet.
 
-Above the physical layer in the architecture there is a number of logical links for control and data traffic. These are managed by a L2CAP layer that provides a channel based abstraction for applications. One logical (and physical) link can thus carry data for multiple applications. L2CAP provides reliable transmission performing flow control, CRC checks and retransmissions upon request. The main traffic services provided are asynchronous connection-oriented unicast and isochronous constant rate channel (e.g. for audio streaming). However, these channels are rarely used directly by applications, instead several higher layer protocols have been standardized and implemented in various client libraries (see below). 
+Above the physical layer in the architecture there is a number of logical links for control and data traffic. These are managed by a L2CAP layer that provides a channel based abstraction for applications. One logical (and physical) link can thus carry data for multiple applications. L2CAP provides reliable transmission performing flow control, CRC checks and retransmissions upon request. The main traffic services provided are asynchronous connection-oriented unicast and isochronous constant rate channel (e.g. for audio streaming). However, these channels are rarely used directly by applications, instead several higher layer protocols have been standardized and implemented in various client libraries. 
 
 The most commonly adopted Bluetooth specifications include v1.2, v2.0 and v2.1 all being backwards compatible. The specifications differ mainly in supported bit rates and support for some advanced features. The nominal rate for Bluetooth v1.2 is 1Mbit/s. Bluetooth v2.0 increases the bit rate up to 2Mbit/s (Basic Rate) and 3Mbit/s (Enhanced Data Rate or EDR). v2.1 extends the inquiry responses (more on this below) and adds secure pairing among other minor tweaks. The operational ranges of Bluetooth devices vary from approximately 1, 10 to 100 meters (class 3, class 2 and class 1 respectively). Smartphones are generally class 2 devices.
 
 \paragraph*{Inquery Scan Procedure}
 
-The Bluetooth specification defines two separate physical channels for device discovery (inquiry scan channel) and connection setup (page scan channel).  Each Bluetooth devices can be in one of the four states: (1) connectable and discoverable, (2) connectable, (3) discoverable, or (4) neither discoverable nor connectable. A device cannot be discovered nor connected unless it is configured in the correct state.
+The Bluetooth specification defines two separate physical channels for device discovery (inquiry scan channel) and connection setup (page scan channel).  Each Bluetooth devices can be in one of the four states: \emph{(1)} connectable and discoverable, \emph{(2)} connectable, \emph{(3)} discoverable, or \emph{(4)} neither discoverable nor connectable. A device cannot be discovered nor connected unless it is configured in the correct state.
 
-A discoverable device listens for inquiry requests periodically (called inquiry scan state) on its inquiry scan channel that has a reduced number of hop frequencies and a slower rate of hopping. In order to discover neighboring devices, an inquiring device hops through all possible inquiry scan channel frequencies in a pseudo-random
- fashion, sending an inquiry request on each frequency and listening for responses. This is done at a faster rate, allowing the inquiring device to cover all inquiry scan 
- frequencies in a reasonably short time period. The Bluetooth specification recommends an inquiry duration of 10.24s. Then, with high probability, all neighboring devices will
+A discoverable device listens for inquiry requests periodically (called inquiry scan state) on its inquiry scan channel that has a reduced number of hop frequencies and a slower rate of hopping. In order to discover neighboring devices, an inquiring device hops through all possible inquiry scan channel frequencies in a pseudo-random fashion, sending an inquiry request on each frequency and listening for responses. This is done at a faster rate, allowing the inquiring device to cover all inquiry scan frequencies in a reasonably short time period. The Bluetooth specification recommends an inquiry duration of 10.24s. Then, with high probability, all neighboring devices will
 have entered their inquiry scan state and will hear the inquiry.
 
-An inquiry response consists of an unique 48-bit device address of the discovered device and a 24-bit Class-of-Device code (CoD). The CoD consists of a major and 
-minor device codes. The device codes are standardized and provide information about the device type: major code can tell if the device is a computer or a phone for 
-example while the minor code can specify if the device is a cellular or cordless phone. In addition, each device may have a human readable name that can be queried using
-a separate control request. The extended inquiry response available in v2.1 can provided the human readable name and additional information about supported services
-directly in the inquiry response. Older Bluetooth devices must use the separate control request and a service discovery protocol (see below) instead.
+An inquiry response consists of an unique 48-bit device address of the discovered device and a 24-bit Class-of-Device code (CoD). The CoD consists of a major and minor device codes. The device codes are standardized and provide information about the device type: major code can tell if the device is a computer or a phone for example while the minor code can specify if the device is a cellular or cordless phone. In addition, each device may have a human readable name that can be queried using a separate control request. The extended inquiry response available in v2.1 can provided the human readable name and additional information about supported services directly in the inquiry response. Older Bluetooth devices must use the separate control request and a service discovery protocol (see below) instead.
 
-Once a device is discovered, a connection setup can take place. A connectable device is listening on its page scan channel for connection requests that are send in a
-similar fashion as inquiry scans. The connection setup must be completed before any data can be transmitted between the devices.
+Once a device is discovered, a connection setup can take place. A connectable device is listening on its page scan channel for connection requests that are send in a similar fashion as inquiry scans. The connection setup must be completed before any data can be transmitted between the devices.
 
 \paragraph*{Higher Layer Protocols}
 
-Each Bluetooth device must support the Service Discovery Protocol (SDP). The service discovery mechanism provides the means for client applications to discover
-the existence of services provided by server applications as well as the attributes of those services. The attributes of a service include the type or class of the service and
-the protocol information needed to access the service. The SDP protocol itself is run by a SDP server on the device that is responsible of maintaining the local service records
-and answering service discovery queries for SDP clients on other Bluetooth devices.
+Each Bluetooth device must support the Service Discovery Protocol (SDP). The service discovery mechanism provides the means for client applications to discover the existence of services provided by server applications as well as the attributes of those services. The attributes of a service include the type or class of the service and the protocol information needed to access the service. The SDP protocol itself is run by a SDP server on the device that is responsible of maintaining the local service records and answering service discovery queries for SDP clients on other Bluetooth devices.
 
-The Bluetooth specifications define various specialized protocols on top of the L2CAP layer for different purposes such as audio streaming, telephony and data
-transmissions. The most commonly used serial data stream protocol is RFCOMM. The RFCOMM protocol provides emulation of serial ports (up to 60 ports can be used
-simultaneously depending on the implementation). It provides a simple reliable data stream service, similar to TCP. In order to connect to another Bluetooth device over
-RFCOMM, the client must know the server channel which can be resolved using SDP. It is also possible to use hard-coded channels, but dynamic channel numbers are 
-recommended since the number of available channels is very limited (30).
+The Bluetooth specifications define various specialized protocols on top of the L2CAP layer for different purposes such as audio streaming, telephony and data transmissions. The most commonly used serial data stream protocol is RFCOMM. The RFCOMM protocol provides emulation of serial ports (up to 60 ports can be used simultaneously depending on the implementation). It provides a simple reliable data stream service, similar to TCP. In order to connect to another Bluetooth device over RFCOMM, the client must know the server channel which can be resolved using SDP. It is also possible to use hard-coded channels, but dynamic channel numbers are recommended since the number of available channels is very limited (30). 
 
+Our MobiTrade Android implementation makes use of the service discovery protocol (SDP) and and establishes an RFCOMM serial data stream in order to efficiently run a given MobiTrade session and to exchange the needed meta-data messagees as well as the contents themselves. According to MobiTrade architecture, each mobile device plays at the same time the role of a client and a server. So, it hosts a MobiTrade service which in return will accept and manage incomming connections and supports needed functionalities in to initiate and run a MobiTrade session. Indeed,  using SDP, a MobiTrade device has the ability to identify wether the remote peer hosts a MobiTrade service or not. If a runnig service is discovered, then, the mobile device establishes an RFCOMM channel with the remote peer in order to exchange the needed messages.    
 
 \paragraph*{Application Programming Interfaces}
 
-The main interface between user level applications and the Bluetooth device is
-called Host Controller Interface (HCI) that is standardized in the Bluetooth specification. However, existing Bluetooth protocol stack implementations typically do not
-allow direct access to the HCI interface but provide their own abstractions of the main Bluetooth operations. The main stacks in use include BlueZ for Linux based devices 2 ,
-Windows Bluetooth stack and WinSock for Windows and Windows CE based devices 3 and Broadcom's Bluetooth stack for Windows based devices 4.
+The main interface between user level applications and the Bluetooth device is called Host Controller Interface (HCI) that is standardized in the Bluetooth specification. However, existing Bluetooth protocol stack implementations typically do not allow direct access to the HCI interface but provide their own abstractions of the main Bluetooth operations. The main stacks in use include BlueZ for Linux based devices 2, Windows Bluetooth stack and WinSock for Windows and Windows CE based devices 3 and Broadcom's Bluetooth stack for Windows based devices 4.
 
-The client APIs let the applications control the device state (discoverable and/or connectable), the human readable Bluetooth device name and very often the CoD
-value. The device inquiry can be initiated at anytime through the Bluetooth API and the applications can typically control the duration of the inquiry and/or the number of
-responses to wait for. The applications can also query for the human readable names of the discovered devices, create local SDP records for the services they provide and
-query the records of nearby devices. The data services such as RFCOMM are typically accessed using a special type of socket and the familiar socket API.
+The client APIs let the applications control the device state (discoverable and/or connectable), the human readable Bluetooth device name and very often the CoD value. The device inquiry can be initiated at anytime through the Bluetooth API and the applications can typically control the duration of the inquiry and/or the number of responses to wait for. The applications can also query for the human readable names of the discovered devices, create local SDP records for the services they provide and query the records of nearby devices. The data services such as RFCOMM are typically accessed using a special type of socket and the familiar socket API.
 
-
-\paragraph*{Android Supported Bluetooth Functionalities}
-
-The Android platform includes support for the Bluetooth network stack, which allows a device to wirelessly exchange data with other Bluetooth devices. The application framework provides access to the Bluetooth functionality through the Android Bluetooth APIs. These APIs let applications wirelessly connect to other Bluetooth devices, enabling point-to-point and multipoint wireless features.
-
-Using the Bluetooth APIs, an Android application can perform the following:
+Since the Android platform is based on a Linux kernel, the provided Android Bluetooth API is nothing but a java wrapper around the Linux BlueZ stack. These APIs let applications wirelessly connect to other Bluetooth devices, enabling point-to-point and multipoint wireless features. Using the Bluetooth APIs, an Android application can perform the following:
 
 \begin{itemize}
 \item Scan for other Bluetooth devices
@@ -113,7 +120,7 @@ Using the Bluetooth APIs, an Android application can perform the following:
 \item Manage multiple connections
 \end{itemize}
 
-\section{Current Available Functionalities}
+\section{Current Functionalities of the MobiTrade Android Application}
 \label{MobiTradeCurrentFunctionalities}
 
 The current Android implementation of MobiTrade provides to the user a simplified dashboard (see Figure~\ref{dashboard}) from which he can both follow and interact on real time with the MobiTrade daemon. Indeed, the user have access to the current device Bluetooth state (whether the adapter is on or off, whether it is in discoverable mode or not and whether the device is currently running a discovery session or not). A set of statistics are also presented within the dashboard like the total number of contents stored within the device, the \% of used space with respect to the total space allocated to the MobiTrade application, the total number of channels maintained within the system, how much among the latter ones the user requested locally and finally the number of Bluetooth discovered devices that run MobiTrade.

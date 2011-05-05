@@ -1,9 +1,9 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.1}MobiTrade Architecture Overview}{\reset@font\mtcSfont 85}{section.6.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1.1}MobiTrade Device Model}{\reset@font\mtcSSfont 85}{subsection.6.1.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.2}Design and Implementation}{\reset@font\mtcSfont 86}{section.6.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.1}An Overview of Bluetooth}{\reset@font\mtcSSfont 87}{subsection.6.2.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}Current Available Functionalities}{\reset@font\mtcSfont 89}{section.6.3}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Bluetooth Interface Management}{\reset@font\mtcPfont 90}{section*.43}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Channels/Contents Management}{\reset@font\mtcPfont 91}{section*.44}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode MobiTrade Configuration}{\reset@font\mtcPfont 92}{section*.45}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.4}Summary and Open Issues}{\reset@font\mtcSfont 95}{section.6.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1.2}MobiTrade Session}{\reset@font\mtcSSfont 86}{subsection.6.1.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.2}MobiTrade Support for Bluetooth}{\reset@font\mtcSfont 87}{section.6.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}Current Functionalities of the MobiTrade Android Application}{\reset@font\mtcSfont 92}{section.6.3}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Bluetooth Interface Management}{\reset@font\mtcPfont 92}{section*.42}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Channels/Contents Management}{\reset@font\mtcPfont 93}{section*.43}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode MobiTrade Configuration}{\reset@font\mtcPfont 94}{section*.44}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.4}Summary and Open Issues}{\reset@font\mtcSfont 97}{section.6.4}}

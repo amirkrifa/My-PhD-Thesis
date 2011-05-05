@@ -42,7 +42,7 @@
 \contentsline {section}{\numberline {3.5}Distribution of HBSD Utilities}{49}{section.3.5}
 \contentsline {section}{\numberline {3.6}Summary and Open Issues}{52}{section.3.6}
 \contentsline {chapter}{\numberline {4}HBSD: Implementation on top of the DTN2 reference architecture}{53}{chapter.4}
-\contentsline {section}{\numberline {4.1}An Overview of the DTN2 Platform}{53}{section.4.1}
+\contentsline {section}{\numberline {4.1}DTN2 Platform Overview}{53}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Message Processing Modules}{54}{subsection.4.1.1}
 \contentsline {paragraph}{Bundle Router and Bundle Forwarder}{54}{section*.12}
 \contentsline {paragraph}{Convergence Layers}{55}{section*.13}
@@ -91,17 +91,17 @@
 \contentsline {subsection}{\numberline {5.3.3}Scenarios with selfish users (SU)}{80}{subsection.5.3.3}
 \contentsline {subsection}{\numberline {5.3.4}Choosing Strategies in MobiTrade}{82}{subsection.5.3.4}
 \contentsline {section}{\numberline {5.4}Summary and Open Issues}{83}{section.5.4}
-\contentsline {chapter}{\numberline {6}MobiTrade: Implementation on Android SmartPhones}{85}{chapter.6}
+\contentsline {chapter}{\numberline {6}MobiTrade: Implementation on Android Platform}{85}{chapter.6}
 \contentsline {section}{\numberline {6.1}MobiTrade Architecture Overview}{85}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}MobiTrade Device Model}{85}{subsection.6.1.1}
-\contentsline {section}{\numberline {6.2}Design and Implementation}{86}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}An Overview of Bluetooth}{87}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Current Available Functionalities}{89}{section.6.3}
-\contentsline {paragraph}{Bluetooth Interface Management}{90}{section*.43}
-\contentsline {paragraph}{Channels/Contents Management}{91}{section*.44}
-\contentsline {paragraph}{MobiTrade Configuration}{92}{section*.45}
-\contentsline {section}{\numberline {6.4}Summary and Open Issues}{95}{section.6.4}
-\contentsline {chapter}{\numberline {7}Conclusions and perspectives}{97}{chapter.7}
-\contentsline {chapter}{\numberline {A}Appendix Example}{99}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Example section}{99}{section.A.1}
-\contentsline {chapter}{Bibliography}{101}{appendix*.46}
+\contentsline {subsection}{\numberline {6.1.2}MobiTrade Session}{86}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}MobiTrade Support for Bluetooth}{87}{section.6.2}
+\contentsline {section}{\numberline {6.3}Current Functionalities of the MobiTrade Android Application}{92}{section.6.3}
+\contentsline {paragraph}{Bluetooth Interface Management}{92}{section*.42}
+\contentsline {paragraph}{Channels/Contents Management}{93}{section*.43}
+\contentsline {paragraph}{MobiTrade Configuration}{94}{section*.44}
+\contentsline {section}{\numberline {6.4}Summary and Open Issues}{97}{section.6.4}
+\contentsline {chapter}{\numberline {7}Conclusions and perspectives}{99}{chapter.7}
+\contentsline {chapter}{\numberline {A}Appendix Example}{101}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Example section}{101}{section.A.1}
+\contentsline {chapter}{Bibliography}{103}{appendix*.45}
