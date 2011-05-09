@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.8)  6 MAY 2011 19:09
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.8)  9 MAY 2011 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -512,11 +512,7 @@ slashbox style by K.Yasuoka, May 1993.
 \c@definition=\count133
 \c@theorem=\count134
 ) (./Thesis.aux (./TitlePage.aux) (./Chapter1.aux) (./Chapter2.aux)
-(./Chapter3.aux) (./Chapter4.aux
-
-LaTeX Warning: Label `DTN2-Arch' multiply defined.
-
-) (./Chapter5.aux
+(./Chapter3.aux) (./Chapter4.aux) (./Chapter5.aux
 
 LaTeX Warning: Label `table:notation' multiply defined.
 
@@ -1692,17 +1688,18 @@ l.28 \include{Chapter3}
 \openout2 = `Chapter4.aux'.
 
 
-(./Chapter4.tex
+(./Chapter4.tex [53
+
+
+] [54
+
+]
 Chapter 4.
 \openout3 = `Thesis.mtc'.
 
 \openout3 = `Thesis.mtc'.
 
-(./Thesis.mtc4) [53
-
-
-
-]
+(./Thesis.mtc4) [55]
 Package epstopdf Info: Source file: <Chapitre4/HBSD-DTN2.eps>
 (epstopdf)                    date: 2011-04-08 15:02:24
 (epstopdf)                    size: 362521 bytes
@@ -1711,10 +1708,10 @@ Package epstopdf Info: Source file: <Chapitre4/HBSD-DTN2.eps>
 (epstopdf)                    size: 66490 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapitre4/HBSD-DTN2-eps-co
 nverted-to.pdf Chapitre4/HBSD-DTN2.eps>
-(epstopdf)             \includegraphics on input line 22.
+(epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre4/HBSD-DTN2-eps-converted-to.pdf, id=1370, 787.94376pt x 425.59pt>
+<Chapitre4/HBSD-DTN2-eps-converted-to.pdf, id=1383, 787.94376pt x 425.59pt>
 File: Chapitre4/HBSD-DTN2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre4/HBSD-DTN2-eps-converted-to.pdf>
@@ -1724,20 +1721,20 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[56pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.36 
-      <./Chapitre4/HBSD-DTN2-eps-converted-to.pdf>] [55]
+l.33 
+      <./Chapitre4/HBSD-DTN2-eps-converted-to.pdf>] [57]
 
 Package Fancyhdr Warning: \headheight is too small (13.6pt): 
  Make it at least 25.23671pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56]
+[58]
 Package epstopdf Info: Source file: <Chapitre4/Stat_Matrix.eps>
 (epstopdf)                    date: 2011-04-08 15:02:24
 (epstopdf)                    size: 221061 bytes
@@ -1747,24 +1744,24 @@ Package epstopdf Info: Source file: <Chapitre4/Stat_Matrix.eps>
 (epstopdf)                    size: 111357 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapitre4/Stat_Matrix-eps-
 converted-to.pdf Chapitre4/Stat_Matrix.eps>
-(epstopdf)             \includegraphics on input line 111.
+(epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre4/Stat_Matrix-eps-converted-to.pdf, id=1397, 713.66624pt x 275.0275pt>
+<Chapitre4/Stat_Matrix-eps-converted-to.pdf, id=1411, 713.66624pt x 275.0275pt>
 File: Chapitre4/Stat_Matrix-eps-converted-to.pdf Graphic file (type pdf)
-<use Chapitre4/Stat_Matrix-eps-converted-to.pdf> [57pdfTeX warning (ext4): dest
+<use Chapitre4/Stat_Matrix-eps-converted-to.pdf> [59pdfTeX warning (ext4): dest
 ination with the same identifier (name{figure.4.2}) has been already used, dupl
 icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.131 
+l.128 
        <./Chapitre4/Stat_Matrix-eps-converted-to.pdf>]
-<Chapitre4/HBSDClasses.png, id=1406, 844.15375pt x 863.225pt>
+<Chapitre4/HBSDClasses.png, id=1422, 844.15375pt x 863.225pt>
 File: Chapitre4/HBSDClasses.png Graphic file (type png)
 
 <use Chapitre4/HBSDClasses.png>
-Overfull \hbox (38.4782pt too wide) in paragraph at lines 141--142
+Overfull \hbox (38.4782pt too wide) in paragraph at lines 140--141
  [][] 
  []
 
@@ -1772,7 +1769,7 @@ Overfull \hbox (38.4782pt too wide) in paragraph at lines 141--142
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 158--170
+Underfull \hbox (badness 2781) in paragraph at lines 157--169
 \T1/cmr/m/n/10.95 spec-i-fies that any EID with an end-point that be-gins with 
 ext.rtr (e.g.,
  []
@@ -1783,149 +1780,140 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58] [59pdfTeX warning (ext4): destination with the same identifier (name{figur
+[60] [61pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.193 \paragraph
-                {HBSD Class:} <./Chapitre4/HBSDClasses.png (PNG copy)>]
+l.191 
+       <./Chapitre4/HBSDClasses.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (13.6pt): 
  Make it at least 25.23671pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60]
-Overfull \hbox (1.00883pt too wide) in paragraph at lines 304--304
+[62]
+Overfull \hbox (1.00883pt too wide) in paragraph at lines 303--303
 []|\T1/cmr/m/n/10.95 ext.rtr/HBS| 
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 304--309
+Underfull \hbox (badness 2512) in paragraph at lines 303--308
 \T1/cmr/m/n/10.95 cases end-points that be-gin
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 313--314
-[]|\T1/cmr/m/n/10.95 Defines the mul-ti-cast port
+Underfull \hbox (badness 1715) in paragraph at lines 312--313
+[]|\T1/cmr/m/n/10.95 Defines the multi-cast port
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--324
+Underfull \hbox (badness 10000) in paragraph at lines 321--323
 []|\T1/cmr/m/n/10.95 File con-tain-ing the XML
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--324
+Underfull \hbox (badness 10000) in paragraph at lines 321--323
 \T1/cmr/m/n/10.95 schema def-i-ni-tion for the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--324
+Underfull \hbox (badness 10000) in paragraph at lines 321--323
 \T1/cmr/m/n/10.95 mes-sages ex-changed with
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 322--324
+Underfull \hbox (badness 4608) in paragraph at lines 321--323
 \T1/cmr/m/n/10.95 dtnd, the DTN2 dae-mon.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
 []|\T1/cmr/m/n/10.95 Console_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--332
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
 []|\T1/cmr/m/n/10.95 Logging con-fig-u-ra-tion file.
  []
 
 
-Overfull \hbox (3.8974pt too wide) in paragraph at lines 343--343
+Overfull \hbox (3.8974pt too wide) in paragraph at lines 342--342
 []|\T1/cmr/m/n/10.95 enableHbsdOptimization| 
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 343--344
+Underfull \hbox (badness 1735) in paragraph at lines 342--343
 []|\T1/cmr/m/n/10.95 Says whether to en-able or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
 []|\T1/cmr/m/n/10.95 hbsdOptimize Per-for-
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 345--346
+Underfull \hbox (badness 1735) in paragraph at lines 344--345
 \T1/cmr/m/n/10.95 prob-lem 0 means that the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--347
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 []|\T1/cmr/m/n/10.95 numberOfNodesWithin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--349
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
 []|\T1/cmr/m/n/10.95 useOnlineAproximated
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 351--352
+Underfull \hbox (badness 2326) in paragraph at lines 350--351
 \T1/cmr/m/n/10.95 prox-i-mated by the av-er-age
  []
 
-
-Underfull \vbox (badness 10000) detected at line 352
+[63]
+Underfull \vbox (badness 10000) detected at line 351
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 358--360
+Underfull \hbox (badness 1014) in paragraph at lines 357--359
 \T1/cmr/m/n/10.95 ing the mes-sage with com-
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 361--362
-[]|\T1/cmr/m/n/10.95 Specifies ei-ther to use the
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 361--362
+Underfull \hbox (badness 1424) in paragraph at lines 360--361
 \T1/cmr/m/n/10.95 that you should fig-ure out
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 361--362
+Underfull \hbox (badness 1824) in paragraph at lines 360--361
 \T1/cmr/m/n/10.95 work av-er-age meet-ing time
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 361--362
-\T1/cmr/m/n/10.95 in or-der to cor-rectly trak
+Underfull \hbox (badness 1668) in paragraph at lines 360--361
+\T1/cmr/m/n/10.95 in or-der to cor-rectly track
  []
 
-[61]
 
 Package Fancyhdr Warning: \headheight is too small (13.6pt): 
  Make it at least 25.23671pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62] [63]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[64] [65]
 
 Package Fancyhdr Warning: \headheight is too small (13.6pt): 
  Make it at least 25.23671pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64]) [65]
+[66]) [67]
 \openout2 = `Chapter5.aux'.
 
- (./Chapter5.tex [66
+ (./Chapter5.tex [68
 
 
 
@@ -1935,7 +1923,7 @@ Chapter 5.
 
 \openout3 = `Thesis.mtc'.
 
-(./Thesis.mtc5) [67]
+(./Thesis.mtc5) [69]
 Package epstopdf Info: Source file: <Chapitre5/ContentsInterestsRecords.eps>
 (epstopdf)                    date: 2011-04-08 15:02:24
 (epstopdf)                    size: 67886 bytes
@@ -1948,7 +1936,7 @@ sRecords-eps-converted-to.pdf Chapitre5/ContentsInterestsRecords.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/ContentsInterestsRecords-eps-converted-to.pdf, id=1491, 402.50375pt 
+<Chapitre5/ContentsInterestsRecords-eps-converted-to.pdf, id=1507, 402.50375pt 
 x 241.90375pt>
 File: Chapitre5/ContentsInterestsRecords-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1959,14 +1947,14 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[68pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+[70pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.31 \subsection
                 {MobiTrade Protocol} <./Chapitre5/ContentsInterestsRecords-eps-
-converted-to.pdf>] [69]
+converted-to.pdf>] [71]
 Package epstopdf Info: Source file: <Chapitre5/MobiTrade-Protocol.eps>
 (epstopdf)                    date: 2011-04-08 15:02:24
 (epstopdf)                    size: 420811 bytes
@@ -1979,7 +1967,7 @@ ol-eps-converted-to.pdf Chapitre5/MobiTrade-Protocol.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/MobiTrade-Protocol-eps-converted-to.pdf, id=1514, 537.00626pt x 457.
+<Chapitre5/MobiTrade-Protocol-eps-converted-to.pdf, id=1531, 537.00626pt x 457.
 71pt>
 File: Chapitre5/MobiTrade-Protocol-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1993,10 +1981,10 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[70]
+[72]
 Underfull \vbox (badness 2512) has occurred while \output is active []
 
- [71pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [73pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2009,23 +1997,23 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[72pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}
+[74pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.126 
-      ] [73]
+      ] [75]
 
-LaTeX Warning: Citation `Podcasting:Secon07' on page 74 undefined on input line
+LaTeX Warning: Citation `Podcasting:Secon07' on page 76 undefined on input line
  163.
 
 
-LaTeX Warning: Citation `Podcasting:Secon07' on page 74 undefined on input line
+LaTeX Warning: Citation `Podcasting:Secon07' on page 76 undefined on input line
  163.
 
 
-LaTeX Warning: Citation `Podcasting:Secon07' on page 74 undefined on input line
+LaTeX Warning: Citation `Podcasting:Secon07' on page 76 undefined on input line
  163.
 
 
@@ -2034,7 +2022,7 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[74] [75]
+[76] [77]
 Underfull \hbox (badness 2096) in paragraph at lines 189--189
 []|\T1/cmr/bx/n/9 Requested CH(s)
  []
@@ -2054,7 +2042,7 @@ Package epstopdf Info: Source file: <Chapitre5/fig3.eps>
 ed-to.pdf Chapitre5/fig3.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre5/fig3-eps-converted-to.pdf, id=1581, 404.51125pt x 468.75125pt>
+<Chapitre5/fig3-eps-converted-to.pdf, id=1597, 404.51125pt x 468.75125pt>
 File: Chapitre5/fig3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig3-eps-converted-to.pdf>
@@ -2071,7 +2059,7 @@ Package epstopdf Info: Source file: <Chapitre5/fig5.eps>
 ed-to.pdf Chapitre5/fig5.eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre5/fig5-eps-converted-to.pdf, id=1582, 404.51125pt x 468.75125pt>
+<Chapitre5/fig5-eps-converted-to.pdf, id=1598, 404.51125pt x 468.75125pt>
 File: Chapitre5/fig5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig5-eps-converted-to.pdf>
@@ -2084,7 +2072,7 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[76pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}
+[78pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2092,14 +2080,14 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
 l.215 
       ]
 
-LaTeX Warning: Citation `Podcasting:Secon07' on page 77 undefined on input line
+LaTeX Warning: Citation `Podcasting:Secon07' on page 79 undefined on input line
  216.
 
 
-LaTeX Warning: Citation `Podcasting:Secon07' on page 77 undefined on input line
+LaTeX Warning: Citation `Podcasting:Secon07' on page 79 undefined on input line
  216.
 
-[77pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
+[79pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2124,7 +2112,7 @@ ed-to.pdf Chapitre5/fig4.eps>
 (epstopdf)             \includegraphics on input line 220.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/fig4-eps-converted-to.pdf, id=1629, 404.51125pt x 468.75125pt>
+<Chapitre5/fig4-eps-converted-to.pdf, id=1647, 404.51125pt x 468.75125pt>
 File: Chapitre5/fig4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig4-eps-converted-to.pdf>
@@ -2139,7 +2127,7 @@ ed-to.pdf Chapitre5/fig7.eps>
 (epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/fig7-eps-converted-to.pdf, id=1630, 404.51125pt x 468.75125pt>
+<Chapitre5/fig7-eps-converted-to.pdf, id=1648, 404.51125pt x 468.75125pt>
 File: Chapitre5/fig7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig7-eps-converted-to.pdf>
@@ -2163,7 +2151,7 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[78pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5
+[80pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2196,7 +2184,7 @@ Package epstopdf Info: Source file: <Chapitre5/fig8.eps>
 ed-to.pdf Chapitre5/fig8.eps>
 (epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
- <Chapitre5/fig8-eps-converted-to.pdf, id=1667, 505.89pt x 468.75125pt>
+ <Chapitre5/fig8-eps-converted-to.pdf, id=1684, 505.89pt x 468.75125pt>
 File: Chapitre5/fig8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig8-eps-converted-to.pdf>
@@ -2211,7 +2199,7 @@ ted-to.pdf Chapitre5/fig12.eps>
 (epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/fig12-eps-converted-to.pdf, id=1668, 505.89pt x 468.75125pt>
+<Chapitre5/fig12-eps-converted-to.pdf, id=1685, 505.89pt x 468.75125pt>
 File: Chapitre5/fig12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig12-eps-converted-to.pdf>
@@ -2221,7 +2209,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 1292) has occurred while \output is active []
 
- [79pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [81pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2234,7 +2222,7 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[80pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8
+[82pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2260,7 +2248,7 @@ ed-to.pdf Chapitre5/fig1.eps>
 (epstopdf)             \includegraphics on input line 312.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/fig1-eps-converted-to.pdf, id=1716, 404.51125pt x 468.75125pt>
+<Chapitre5/fig1-eps-converted-to.pdf, id=1732, 404.51125pt x 468.75125pt>
 File: Chapitre5/fig1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig1-eps-converted-to.pdf>
@@ -2275,7 +2263,7 @@ ed-to.pdf Chapitre5/fig6.eps>
 (epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/fig6-eps-converted-to.pdf, id=1717, 454.69875pt x 468.75125pt>
+<Chapitre5/fig6-eps-converted-to.pdf, id=1733, 454.69875pt x 468.75125pt>
 File: Chapitre5/fig6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig6-eps-converted-to.pdf>
@@ -2308,7 +2296,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 5954) has occurred while \output is active []
 
- [81pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [83pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2330,7 +2318,7 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[82pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+[84pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2342,7 +2330,7 @@ l.395
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.395 
-       <./Chapitre5/fig6-eps-converted-to.pdf>]) [83pdfTeX warning (ext4): dest
+       <./Chapitre5/fig6-eps-converted-to.pdf>]) [85pdfTeX warning (ext4): dest
 ination with the same identifier (name{table.5.7}) has been already used, dupli
 cate ignored
 
@@ -2359,7 +2347,7 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[84
+[86
 
 
 ]
@@ -2381,16 +2369,16 @@ ps-converted-to.pdf Chapitre6/MobiTrade_Node.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre6/MobiTrade_Node-eps-converted-to.pdf, id=1778, 496.85625pt x 376.4062
+<Chapitre6/MobiTrade_Node-eps-converted-to.pdf, id=1795, 496.85625pt x 376.4062
 5pt>
 File: Chapitre6/MobiTrade_Node-eps-converted-to.pdf Graphic file (type pdf)
  <use Chapitre6/MobiTrade_Node-eps-converted-to.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[85
+[87
 
-] [86pdfTeX warning (ext4): destination with the same identifier (name{figure.6
+] [88pdfTeX warning (ext4): destination with the same identifier (name{figure.6
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2398,21 +2386,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 l.39 A
       s we have described before in the previous Chapter, the MobiTrade arch...
  <./Chapitre6/MobiTrade_Node-eps-converted-to.pdf>]
-<Chapitre6/MobiTradeCommunicationArchitecture.png, id=1795, 614.295pt x 794.97p
+<Chapitre6/MobiTradeCommunicationArchitecture.png, id=1811, 614.295pt x 794.97p
 t>
 File: Chapitre6/MobiTradeCommunicationArchitecture.png Graphic file (type png)
  <use Chapitre6/MobiTradeCommunicationArchitecture.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[87] [88pdfTeX warning (ext4): destination with the same identifier (name{figur
+[89] [90pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.6.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.62 
       <./Chapitre6/MobiTradeCommunicationArchitecture.png>]
-<Chapitre6/MobiTradeSession.png, id=1816, 771.88374pt x 808.01875pt>
+<Chapitre6/MobiTradeSession.png, id=1832, 771.88374pt x 808.01875pt>
 File: Chapitre6/MobiTradeSession.png Graphic file (type png)
 
 <use Chapitre6/MobiTradeSession.png>
@@ -2430,7 +2418,7 @@ Package epstopdf Info: Source file: <Chapitre6/channelsxml.eps>
 converted-to.pdf Chapitre6/channelsxml.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre6/channelsxml-eps-converted-to.pdf, id=1817, 530.98375pt x 586.19pt>
+<Chapitre6/channelsxml-eps-converted-to.pdf, id=1833, 530.98375pt x 586.19pt>
 File: Chapitre6/channelsxml-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre6/channelsxml-eps-converted-to.pdf>
@@ -2449,22 +2437,22 @@ onverted-to.pdf Chapitre6/contentxml.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre6/contentxml-eps-converted-to.pdf, id=1820, 643.40375pt x 402.50375pt>
+<Chapitre6/contentxml-eps-converted-to.pdf, id=1836, 643.40375pt x 402.50375pt>
 File: Chapitre6/contentxml-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapitre6/contentxml-eps-converted-to.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[89]
+[91]
 Underfull \vbox (badness 1783) has occurred while \output is active []
 
- [90pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+ [92pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.105 
-       <./Chapitre6/MobiTradeSession.png (PNG copy)>] [91pdfTeX warning (ext4):
+       <./Chapitre6/MobiTradeSession.png (PNG copy)>] [93pdfTeX warning (ext4):
  destination with the same identifier (name{figure.6.4}) has been already used,
  duplicate ignored
 
@@ -2478,22 +2466,22 @@ l.107
                                                   \fi \fi 
 l.107 
        <./Chapitre6/channelsxml-eps-converted-to.pdf> <./Chapitre6/contentxml-e
-ps-converted-to.pdf>] [92] [93]
-<Chapitre6/Dashboard.png, id=1854, 481.8pt x 803.0pt>
+ps-converted-to.pdf>] [94] [95]
+<Chapitre6/Dashboard.png, id=1870, 481.8pt x 803.0pt>
 File: Chapitre6/Dashboard.png Graphic file (type png)
 
 <use Chapitre6/Dashboard.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[94] [95pdfTeX warning (ext4): destination with the same identifier (name{figur
+[96] [97pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.6.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.174 
        <./Chapitre6/Dashboard.png (PNG copy)>]
-<Chapitre6/JoinChannel.png, id=1875, 481.8pt x 803.0pt>
+<Chapitre6/JoinChannel.png, id=1893, 481.8pt x 803.0pt>
 File: Chapitre6/JoinChannel.png Graphic file (type png)
 
 <use Chapitre6/JoinChannel.png>
@@ -2501,7 +2489,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 182--189
  [][] 
  []
 
-<Chapitre6/JoinExistingChannel.png, id=1876, 481.8pt x 803.0pt>
+<Chapitre6/JoinExistingChannel.png, id=1894, 481.8pt x 803.0pt>
 File: Chapitre6/JoinExistingChannel.png Graphic file (type png)
 
 <use Chapitre6/JoinExistingChannel.png>
@@ -2509,7 +2497,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 193--198
  [][] 
  []
 
-<Chapitre6/ListAllChannels.png, id=1880, 481.8pt x 803.0pt>
+<Chapitre6/ListAllChannels.png, id=1898, 481.8pt x 803.0pt>
 File: Chapitre6/ListAllChannels.png Graphic file (type png)
 
 <use Chapitre6/ListAllChannels.png>
@@ -2517,7 +2505,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 206--213
  [][] 
  []
 
-<Chapitre6/ListRequestedChannels.png, id=1881, 481.8pt x 803.0pt>
+<Chapitre6/ListRequestedChannels.png, id=1899, 481.8pt x 803.0pt>
 File: Chapitre6/ListRequestedChannels.png Graphic file (type png)
 
 <use Chapitre6/ListRequestedChannels.png>
@@ -2525,7 +2513,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 217--222
  [][] 
  []
 
-[96pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7
+[98pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2539,7 +2527,7 @@ name{figure.6.8}) has been already used, duplicate ignored
 l.223 \end{figure}
                    <./Chapitre6/JoinChannel.png (PNG copy)> <./Chapitre6/JoinEx
 istingChannel.png (PNG copy)>]
-<Chapitre6/CreateChannel.png, id=1895, 481.8pt x 803.0pt>
+<Chapitre6/CreateChannel.png, id=1912, 481.8pt x 803.0pt>
 File: Chapitre6/CreateChannel.png Graphic file (type png)
 
 <use Chapitre6/CreateChannel.png>
@@ -2547,7 +2535,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 230--237
  [][] 
  []
 
-<Chapitre6/PublishContent.png, id=1896, 481.8pt x 803.0pt>
+<Chapitre6/PublishContent.png, id=1913, 481.8pt x 803.0pt>
 File: Chapitre6/PublishContent.png Graphic file (type png)
 
 <use Chapitre6/PublishContent.png>
@@ -2563,7 +2551,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 241--246
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapitre6/WriteMessage.png, id=1897, 481.8pt x 803.0pt>
+<Chapitre6/WriteMessage.png, id=1914, 481.8pt x 803.0pt>
 File: Chapitre6/WriteMessage.png Graphic file (type png)
 
 <use Chapitre6/WriteMessage.png>
@@ -2576,7 +2564,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 253--260
  [][] 
  []
 
-<Chapitre6/ListContents.png, id=1898, 481.8pt x 803.0pt>
+<Chapitre6/ListContents.png, id=1915, 481.8pt x 803.0pt>
 File: Chapitre6/ListContents.png Graphic file (type png)
 
 <use Chapitre6/ListContents.png>
@@ -2587,7 +2575,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 264--269
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[97pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9
+[99pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2603,8 +2591,8 @@ l.279
 hannels.png (PNG copy)>]
 Underfull \vbox (badness 2334) has occurred while \output is active []
 
- [98pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-11}) has been already used, duplicate ignored
+ [100pdfTeX warning (ext4): destination with the same identifier (name{figure.6
+.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2629,51 +2617,51 @@ l.279
 l.279 
        <./Chapitre6/CreateChannel.png (PNG copy)> <./Chapitre6/PublishContent.p
 ng (PNG copy)> <./Chapitre6/WriteMessage.png (PNG copy)> <./Chapitre6/ListConte
-nts.png (PNG copy)>] <Chapitre6/Config.png, id=1913, 481.8pt x 803.0pt>
+nts.png (PNG copy)>] <Chapitre6/Config.png, id=1929, 481.8pt x 803.0pt>
 File: Chapitre6/Config.png Graphic file (type png)
 
-<use Chapitre6/Config.png>) [99pdfTeX warning (ext4): destination with the same
- identifier (name{figure.6.15}) has been already used, duplicate ignored
+<use Chapitre6/Config.png>) [101pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.6.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.31 \include{Chapter6}
-                        <./Chapitre6/Config.png (PNG copy)>] [100]
+                        <./Chapitre6/Config.png (PNG copy)>] [102]
 \openout2 = `Chapter7.aux'.
 
 
 (./Chapter7.tex
 Chapter 7.
-) [101
+) [103
 
 
 
 ]
 \openout2 = `Appendix1.aux'.
 
- (./Appendix1.tex [102
+ (./Appendix1.tex [104
 
 
 
 ]
 Appendix A.
 
-LaTeX Warning: Citation `Commowick_MICCAI_2007' on page 103 undefined on input 
+LaTeX Warning: Citation `Commowick_MICCAI_2007' on page 105 undefined on input 
 line 6.
 
 
-LaTeX Warning: Citation `Oakes_RStat_1999' on page 103 undefined on input line 
+LaTeX Warning: Citation `Oakes_RStat_1999' on page 105 undefined on input line 
 8.
 
 
-LaTeX Warning: Citation `Guimond_CVIU_2000' on page 103 undefined on input line
+LaTeX Warning: Citation `Guimond_CVIU_2000' on page 105 undefined on input line
  8.
 
-) [103] (./Thesis.bbl (./Thesis.brf)
+) [105] (./Thesis.bbl (./Thesis.brf)
 \tf@brf=\write7
 \openout7 = `Thesis.brf'.
 
- [104
+ [106
 
 
 ]
@@ -2693,12 +2681,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--38
 -network/.
  []
 
-[105] [106]
+[107] [108]
 Underfull \hbox (badness 10000) in paragraph at lines 182--182
 []\T1/cmr/m/n/10.95 ``Delay-tolerant net-works (DTNs) : A tu-to-rial,''
  []
 
-[107] [108] [109]
+[109] [110] [111]
 Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []\T1/cmr/m/n/10.95 D. Al-dous and J. Fill, ``Re-versible markov chains and ran
 -
@@ -2710,7 +2698,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 372--372
 r/m/it/10.95 http://stat-
  []
 
-[110]
+[112]
 Underfull \hbox (badness 7344) in paragraph at lines 397--397
 []\T1/cmr/m/n/10.95 S. K. S. B. A. Seth, M. Za-haria, ``A policy-oriented ar-ch
 i-tec-
@@ -2733,13 +2721,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 411--411
 []\T1/cmr/m/n/10.95 ``Dtn ar-chi-tec-ture for ns-2,'' http://www-
  []
 
-[111]
-Overfull \hbox (84.14914pt too wide) in paragraph at lines 465--465
+[113]
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
+[]\T1/cmr/m/n/10.95 ``DTN2 man-ual,'' http://www.dtnrg.org/docs/code/DTN2/doc/m
+anual.
+ []
+
+
+Overfull \hbox (84.14914pt too wide) in paragraph at lines 472--472
 []\T1/cmr/m/n/10.95 ``Android Blue-tooth API,'' http://developer.android.com/gu
 ide/topics/wireless/bluetooth.html.
  []
 
-) [112]
+) [114]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Thesis.maf file.
@@ -2757,7 +2751,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the Thesis.log file.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
-[113
+[115
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
@@ -2766,9 +2760,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
 (./Chapter7.aux) (./Appendix1.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A8C1C1C6555DD3768FEC399299A40DC7;5741.
+(rerunfilecheck)             Checksum: BB3398A8110F0062416D6D50EC5722E5;5750.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: DDF73B493B0AB02C4A38112DF4C32206;9639.
+(rerunfilecheck)             Checksum: BFD4EDA5236C24DA1DC6C40780A2AD0D;9865.
 
 
 LaTeX Warning: There were undefined references.
@@ -2778,13 +2772,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10661 strings out of 493763
- 156171 string characters out of 3144976
- 286889 words of memory out of 3000000
- 12934 multiletter control sequences out of 15000+200000
+ 10678 strings out of 493763
+ 156500 string characters out of 3144976
+ 284518 words of memory out of 3000000
+ 12947 multiletter control sequences out of 15000+200000
  31677 words of font info for 81 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 46i,14n,47p,3476b,565s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,14n,47p,3476b,575s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></u
@@ -2830,10 +2824,10 @@ rm1440.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfrm
 .pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfti1200.p
 fb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb
 >
-Output written on Thesis.pdf (119 pages, 3671496 bytes).
+Output written on Thesis.pdf (121 pages, 3673986 bytes).
 PDF statistics:
- 2381 PDF objects out of 2487 (max. 8388607)
- 2066 compressed objects within 21 object streams
- 450 named destinations out of 1000 (max. 500000)
+ 2404 PDF objects out of 2487 (max. 8388607)
+ 2087 compressed objects within 21 object streams
+ 454 named destinations out of 1000 (max. 500000)
  839 words of extra memory for PDF output out of 10000 (max. 10000000)
 

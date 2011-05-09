@@ -41,70 +41,70 @@
 \contentsline {subsection}{\numberline {3.4.3}Performance Tradeoffs of Statistics Collection}{44}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Distribution of HBSD Utilities}{49}{section.3.5}
 \contentsline {section}{\numberline {3.6}Summary and Open Issues}{52}{section.3.6}
-\contentsline {chapter}{\numberline {4}HBSD: Implementation on top of the DTN2 reference architecture}{53}{chapter.4}
-\contentsline {section}{\numberline {4.1}DTN2 Platform Overview}{53}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Message Processing Modules}{54}{subsection.4.1.1}
-\contentsline {paragraph}{Bundle Router and Bundle Forwarder}{54}{section*.12}
-\contentsline {paragraph}{Convergence Layers}{55}{section*.13}
-\contentsline {paragraph}{Persistent Store}{55}{section*.14}
-\contentsline {paragraph}{Fragmentation Module}{55}{section*.15}
-\contentsline {subsection}{\numberline {4.1.2}Management Modules}{55}{subsection.4.1.2}
-\contentsline {paragraph}{Contact Manager}{55}{section*.16}
-\contentsline {paragraph}{Management Interface}{55}{section*.17}
-\contentsline {paragraph}{Console / Config}{55}{section*.18}
-\contentsline {subsection}{\numberline {4.1.3}Application Support Module}{56}{subsection.4.1.3}
-\contentsline {paragraph}{Application IPC / Registration Module}{56}{section*.19}
-\contentsline {section}{\numberline {4.2}DTN2 External Router Interface Operation}{56}{section.4.2}
-\contentsline {section}{\numberline {4.3}HBSD Implementation Overview}{57}{section.4.3}
-\contentsline {section}{\numberline {4.4}Main HBSD external router building blocks}{58}{section.4.4}
-\contentsline {paragraph}{StatisticsManager class:}{58}{section*.20}
-\contentsline {paragraph}{PeerListener Class:}{58}{section*.21}
-\contentsline {paragraph}{Requester Class:}{58}{section*.22}
-\contentsline {paragraph}{GBOF class:}{59}{section*.23}
-\contentsline {paragraph}{HBSD Class:}{60}{section*.24}
-\contentsline {paragraph}{HBSD SAX class:}{60}{section*.25}
-\contentsline {paragraph}{Handlers class:}{60}{section*.26}
-\contentsline {paragraph}{XMLTree class:}{60}{section*.27}
-\contentsline {paragraph}{HBSD Routing class:}{60}{section*.28}
-\contentsline {paragraph}{Logging class:}{60}{section*.29}
-\contentsline {paragraph}{Console Logging class:}{60}{section*.30}
-\contentsline {paragraph}{ConfFile class:}{60}{section*.31}
-\contentsline {paragraph}{Bundles class:}{60}{section*.32}
-\contentsline {paragraph}{Node class:}{61}{section*.33}
-\contentsline {paragraph}{Nodes class:}{61}{section*.34}
-\contentsline {paragraph}{Link class:}{61}{section*.35}
-\contentsline {paragraph}{Links class:}{61}{section*.36}
-\contentsline {paragraph}{Policy class:}{61}{section*.37}
-\contentsline {paragraph}{HBSD Policy class:}{61}{section*.38}
-\contentsline {section}{\numberline {4.5}Configuring HBSD}{61}{section.4.5}
-\contentsline {section}{\numberline {4.6}Summary and Open Issues}{65}{section.4.6}
-\contentsline {chapter}{\numberline {5}Interest Driven Content Dissemination Architecture for Disruption Tolerant Networks}{67}{chapter.5}
-\contentsline {section}{\numberline {5.1}MobiTrade Architecture}{67}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}MobiTrade Data Records}{67}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}MobiTrade Protocol}{69}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Proportional Storage and Bandwidth Allocation}{70}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Tit-For-Tat Trading}{71}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Inference of Channel Utility}{72}{section.5.2}
-\contentsline {section}{\numberline {5.3}Performance Evaluation}{74}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Experimental Setup}{74}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Collaborative scenarios}{76}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Scenarios with selfish users (SU)}{80}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Choosing Strategies in MobiTrade}{82}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Summary and Open Issues}{83}{section.5.4}
-\contentsline {chapter}{\numberline {6}MobiTrade: Implementation on Android Platform}{85}{chapter.6}
-\contentsline {section}{\numberline {6.1}MobiTrade Architecture Overview}{85}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}MobiTrade Functional Architecture}{85}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}MobiTrade Android Device Model}{86}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}MobiTrade Session}{88}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}MobiTrade Support for Bluetooth}{89}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Bluetooth Overview}{89}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Android Platform Support for Bluetooth}{94}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Functionalities provided by the MobiTrade Android Application}{94}{section.6.3}
-\contentsline {paragraph}{Bluetooth Interface Management}{95}{section*.42}
-\contentsline {paragraph}{Channels/Contents Management}{96}{section*.43}
-\contentsline {paragraph}{MobiTrade Configuration}{97}{section*.44}
-\contentsline {section}{\numberline {6.4}Summary and Open Issues}{99}{section.6.4}
-\contentsline {chapter}{\numberline {7}Conclusions and perspectives}{101}{chapter.7}
-\contentsline {chapter}{\numberline {A}Appendix Example}{103}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Example section}{103}{section.A.1}
-\contentsline {chapter}{Bibliography}{105}{appendix*.45}
+\contentsline {chapter}{\numberline {4}HBSD: Implementation on top of the DTN2 reference architecture}{55}{chapter.4}
+\contentsline {section}{\numberline {4.1}DTN2 Platform Overview}{55}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Bundles/Messages Processing Modules}{56}{subsection.4.1.1}
+\contentsline {paragraph}{Bundle Router and Bundle Forwarder}{56}{section*.12}
+\contentsline {paragraph}{Convergence Layers}{57}{section*.13}
+\contentsline {paragraph}{Persistent Store}{57}{section*.14}
+\contentsline {paragraph}{Fragmentation Module}{57}{section*.15}
+\contentsline {subsection}{\numberline {4.1.2}Management Modules}{57}{subsection.4.1.2}
+\contentsline {paragraph}{Contact Manager}{57}{section*.16}
+\contentsline {paragraph}{Management Interface}{57}{section*.17}
+\contentsline {paragraph}{Console / Config}{57}{section*.18}
+\contentsline {subsection}{\numberline {4.1.3}Application Support Module}{58}{subsection.4.1.3}
+\contentsline {paragraph}{Application IPC / Registration Module}{58}{section*.19}
+\contentsline {section}{\numberline {4.2}DTN2 External Router Interface Operation}{58}{section.4.2}
+\contentsline {section}{\numberline {4.3}HBSD Implementation Overview}{59}{section.4.3}
+\contentsline {section}{\numberline {4.4}Main HBSD external router building blocks}{60}{section.4.4}
+\contentsline {paragraph}{StatisticsManager class:}{60}{section*.20}
+\contentsline {paragraph}{PeerListener Class:}{60}{section*.21}
+\contentsline {paragraph}{Requester Class:}{60}{section*.22}
+\contentsline {paragraph}{GBOF class:}{61}{section*.23}
+\contentsline {paragraph}{HBSD Class:}{62}{section*.24}
+\contentsline {paragraph}{HBSD SAX class:}{62}{section*.25}
+\contentsline {paragraph}{Handlers class:}{62}{section*.26}
+\contentsline {paragraph}{XMLTree class:}{62}{section*.27}
+\contentsline {paragraph}{HBSD Routing class:}{62}{section*.28}
+\contentsline {paragraph}{Logging class:}{62}{section*.29}
+\contentsline {paragraph}{Console Logging class:}{62}{section*.30}
+\contentsline {paragraph}{ConfFile class:}{62}{section*.31}
+\contentsline {paragraph}{Bundles class:}{63}{section*.32}
+\contentsline {paragraph}{Node class:}{63}{section*.33}
+\contentsline {paragraph}{Nodes class:}{63}{section*.34}
+\contentsline {paragraph}{Link class:}{63}{section*.35}
+\contentsline {paragraph}{Links class:}{63}{section*.36}
+\contentsline {paragraph}{Policy class:}{63}{section*.37}
+\contentsline {paragraph}{HBSD Policy class:}{63}{section*.38}
+\contentsline {section}{\numberline {4.5}Configuring HBSD}{63}{section.4.5}
+\contentsline {section}{\numberline {4.6}Summary and Open Issues}{67}{section.4.6}
+\contentsline {chapter}{\numberline {5}Interest Driven Content Dissemination Architecture for Disruption Tolerant Networks}{69}{chapter.5}
+\contentsline {section}{\numberline {5.1}MobiTrade Architecture}{69}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}MobiTrade Data Records}{69}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}MobiTrade Protocol}{71}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Proportional Storage and Bandwidth Allocation}{72}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Tit-For-Tat Trading}{73}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Inference of Channel Utility}{74}{section.5.2}
+\contentsline {section}{\numberline {5.3}Performance Evaluation}{76}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Experimental Setup}{76}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Collaborative scenarios}{78}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Scenarios with selfish users (SU)}{82}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Choosing Strategies in MobiTrade}{84}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Summary and Open Issues}{85}{section.5.4}
+\contentsline {chapter}{\numberline {6}MobiTrade: Implementation on Android Platform}{87}{chapter.6}
+\contentsline {section}{\numberline {6.1}MobiTrade Architecture Overview}{87}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}MobiTrade Functional Architecture}{87}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}MobiTrade Android Device Model}{88}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}MobiTrade Session}{90}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}MobiTrade Support for Bluetooth}{91}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Bluetooth Overview}{91}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Android Platform Support for Bluetooth}{96}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Functionalities provided by the MobiTrade Android Application}{96}{section.6.3}
+\contentsline {paragraph}{Bluetooth Interface Management}{97}{section*.42}
+\contentsline {paragraph}{Channels/Contents Management}{98}{section*.43}
+\contentsline {paragraph}{MobiTrade Configuration}{99}{section*.44}
+\contentsline {section}{\numberline {6.4}Summary and Open Issues}{101}{section.6.4}
+\contentsline {chapter}{\numberline {7}Conclusions and perspectives}{103}{chapter.7}
+\contentsline {chapter}{\numberline {A}Appendix Example}{105}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Example section}{105}{section.A.1}
+\contentsline {chapter}{Bibliography}{107}{appendix*.45}

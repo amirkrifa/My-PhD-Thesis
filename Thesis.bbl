@@ -438,12 +438,19 @@ D.~Hadaller, S.~Keshav, T.~Brecht, and S.~Agarwal, ``Vehicular opportunistic
 ``Nyquist shannon sampling theorem,''
   http://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem.
 
-\bibitem{TMC:Report}
-A.~Krifa, C.~Barakat, and T.~Spyropoulos, ``Message drop and scheduling in
-  {DTN}s: Theory and practice,'' HAL INRIA, Tech. Rep., 2010.
+\bibitem{DTN2Manual}
+``{DTN2} manual,'' http://www.dtnrg.org/docs/code/DTN2/doc/manual.
+
+\bibitem{Demmer03implementingdelay}
+M.~Demmer, E.~Brewer, K.~Fall, M.~Ho, and R.~Patra, ``Implementing delay
+  tolerant networking,'' Tech. Rep., 2003.
 
 \bibitem{HBSDDTN2}
 ``{HBSD DTN2} external router,'' http://planete.inria.fr/{HBSD}\_{DTN2}.
+
+\bibitem{TMC:Report}
+A.~Krifa, C.~Barakat, and T.~Spyropoulos, ``Message drop and scheduling in
+  {DTN}s: Theory and practice,'' HAL INRIA, Tech. Rep., 2010.
 
 \bibitem{BitThief}
 T.~Locher, P.~Moor, S.~Schmid, and R.~Wattenhofer, ``Free riding in bittorrent

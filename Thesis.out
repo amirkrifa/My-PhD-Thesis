@@ -34,7 +34,7 @@
 \BOOKMARK [1][]{section.3.6}{Summary and Open Issues}{chapter.3}% 34
 \BOOKMARK [0][]{chapter.4}{HBSD: Implementation on top of the DTN2 reference architecture}{}% 35
 \BOOKMARK [1][]{section.4.1}{DTN2 Platform Overview}{chapter.4}% 36
-\BOOKMARK [2][]{subsection.4.1.1}{Message Processing Modules}{section.4.1}% 37
+\BOOKMARK [2][]{subsection.4.1.1}{Bundles/Messages Processing Modules}{section.4.1}% 37
 \BOOKMARK [2][]{subsection.4.1.2}{Management Modules}{section.4.1}% 38
 \BOOKMARK [2][]{subsection.4.1.3}{Application Support Module}{section.4.1}% 39
 \BOOKMARK [1][]{section.4.2}{DTN2 External Router Interface Operation}{chapter.4}% 40
