@@ -355,6 +355,10 @@ L.~Buttyan, M.~Felegyhazi, and I.~Vajda, ``Barter-based cooperation in
 B.~Sonja and J.~Y.~L. Boudec, ``A robust reputation system for peer-to-peer and
   mobile ad-hoc networks,'' in \emph{Proc. of P2PEcon}, 2004.
 
+\bibitem{Glance:pollen}
+N.~Glance, D.~Snowdon, and J.-L. Meunier, ``Pollen: using people as a
+  communication medium,'' \emph{Computer Networks}, vol.~35, no.~4, Mar. 2001.
+
 \bibitem{akis:ton-multi}
 T.~Spyropoulos, K.~Psounis, and C.~S. Raghavendra, ``Efficient routing in
   intermittently connected mobile networks: The multiple-copy case,''
@@ -451,6 +455,15 @@ M.~Demmer, E.~Brewer, K.~Fall, M.~Ho, and R.~Patra, ``Implementing delay
 \bibitem{TMC:Report}
 A.~Krifa, C.~Barakat, and T.~Spyropoulos, ``Message drop and scheduling in
   {DTN}s: Theory and practice,'' HAL INRIA, Tech. Rep., 2010.
+
+\bibitem{podnet07}
+V.~Lenders, G.~Karlsson, and M.~May, ``Wireless ad hoc podcasting,'' in
+  \emph{IEEE SECON}, 2007.
+
+\bibitem{Boldrini:2008:MDD}
+C.~Boldrini, M.~Conti, and A.~Passarella, ``Modelling data dissemination in
+  opportunistic networks,'' in \emph{Proceedings of the third ACM workshop on
+  Challenged networks}, ser. CHANTS, San Francisco, California, USA, 2008.
 
 \bibitem{BitThief}
 T.~Locher, P.~Moor, S.~Schmid, and R.~Wattenhofer, ``Free riding in bittorrent

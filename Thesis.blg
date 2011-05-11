@@ -63,6 +63,10 @@ Repeated entry---line 2352 of file Thesis.bib
  : @inproceedings{OptimalChannelChoice
  :                                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2409 of file Thesis.bib
+ : @inproceedings{Boldrini:2008:MDD
+ :                                 ,
+I'm skipping whatever remains of this entry
 A bad cross reference---entry "PellegriniAOC2009"
 refers to entry "DBLP:conf/wowmom/2009", which doesn't exist
 Warning--I didn't find a database entry for "DTN2"
@@ -90,45 +94,45 @@ while executing---line 2419 of file IEEEtran.bst
 Warning--missing institution in Demmer03implementingdelay
 
 Done.
-You've used 102 entries,
+You've used 105 entries,
             4039 wiz_defined-function locations,
-            1312 strings with 22429 characters,
-and the built_in function-call counts, 45549 in all, are:
-= -- 3120
-> -- 1189
-< -- 27
-+ -- 571
-- -- 270
-* -- 1944
-:= -- 7182
-add.period$ -- 201
-call.type$ -- 102
-change.case$ -- 97
+            1325 strings with 22774 characters,
+and the built_in function-call counts, 47092 in all, are:
+= -- 3237
+> -- 1228
+< -- 29
++ -- 589
+- -- 279
+* -- 2021
+:= -- 7436
+add.period$ -- 207
+call.type$ -- 105
+change.case$ -- 100
 chr.to.int$ -- 39
-cite$ -- 108
-duplicate$ -- 3983
-empty$ -- 5005
-format.name$ -- 345
-if$ -- 10381
+cite$ -- 111
+duplicate$ -- 4115
+empty$ -- 5165
+format.name$ -- 357
+if$ -- 10732
 int.to.chr$ -- 0
-int.to.str$ -- 102
-missing$ -- 858
-newline$ -- 329
-num.names$ -- 81
-pop$ -- 2447
+int.to.str$ -- 105
+missing$ -- 886
+newline$ -- 338
+num.names$ -- 84
+pop$ -- 2516
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3670
+skip$ -- 3792
 stack$ -- 0
-substring$ -- 188
-swap$ -- 2181
-text.length$ -- 14
+substring$ -- 191
+swap$ -- 2263
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 102
+type$ -- 105
 warning$ -- 6
-while$ -- 90
-width$ -- 105
-write$ -- 804
-(There were 16 error messages)
+while$ -- 93
+width$ -- 108
+write$ -- 831
+(There were 17 error messages)
