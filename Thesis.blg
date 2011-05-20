@@ -4,6 +4,11 @@ The top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: TitlePage.aux
 A level-1 auxiliary file: Chapter1.aux
 A level-1 auxiliary file: Chapter2.aux
+Case mismatch error between cite keys PeopleNet and Peoplenet
+---line 215 of file Chapter2.aux
+ : \citation{PeopleNet
+ :                    }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter3.aux
 A level-1 auxiliary file: Chapter4.aux
 A level-1 auxiliary file: Chapter5.aux
@@ -16,6 +21,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 10130 items from 5000.
 Database file #1: Thesis.bib
 Repeated entry---line 1090 of file Thesis.bib
  : @inproceedings{LeBoudec:Mobicom07
@@ -71,6 +77,7 @@ A bad cross reference---entry "PellegriniAOC2009"
 refers to entry "DBLP:conf/wowmom/2009", which doesn't exist
 Warning--I didn't find a database entry for "DTN2"
 Warning--I didn't find a database entry for "Podcasting:Secon07"
+Warning--I didn't find a database entry for "DisseminationSummary"
 Warning--I didn't find a database entry for "Commowick_MICCAI_2007"
 Warning--I didn't find a database entry for "Oakes_RStat_1999"
 Warning--I didn't find a database entry for "Guimond_CVIU_2000"
@@ -94,45 +101,45 @@ while executing---line 2419 of file IEEEtran.bst
 Warning--missing institution in Demmer03implementingdelay
 
 Done.
-You've used 105 entries,
+You've used 108 entries,
             4039 wiz_defined-function locations,
-            1325 strings with 22774 characters,
-and the built_in function-call counts, 47092 in all, are:
-= -- 3237
-> -- 1228
+            1342 strings with 23176 characters,
+and the built_in function-call counts, 48565 in all, are:
+= -- 3336
+> -- 1267
 < -- 29
-+ -- 589
-- -- 279
-* -- 2021
-:= -- 7436
-add.period$ -- 207
-call.type$ -- 105
-change.case$ -- 100
++ -- 607
+- -- 288
+* -- 2087
+:= -- 7663
+add.period$ -- 213
+call.type$ -- 108
+change.case$ -- 103
 chr.to.int$ -- 39
-cite$ -- 111
-duplicate$ -- 4115
-empty$ -- 5165
-format.name$ -- 357
-if$ -- 10732
+cite$ -- 114
+duplicate$ -- 4242
+empty$ -- 5340
+format.name$ -- 369
+if$ -- 11076
 int.to.chr$ -- 0
-int.to.str$ -- 105
-missing$ -- 886
-newline$ -- 338
-num.names$ -- 84
-pop$ -- 2516
+int.to.str$ -- 108
+missing$ -- 913
+newline$ -- 347
+num.names$ -- 87
+pop$ -- 2594
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3792
+skip$ -- 3911
 stack$ -- 0
-substring$ -- 191
-swap$ -- 2263
+substring$ -- 194
+swap$ -- 2330
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 105
+type$ -- 108
 warning$ -- 6
-while$ -- 93
-width$ -- 108
-write$ -- 831
-(There were 17 error messages)
+while$ -- 96
+width$ -- 111
+write$ -- 855
+(There were 18 error messages)

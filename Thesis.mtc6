@@ -1,12 +1,12 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.1}MobiTrade Architecture Overview}{\reset@font\mtcSfont 91}{section.6.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1.1}MobiTrade Functional Architecture}{\reset@font\mtcSSfont 91}{subsection.6.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1.2}MobiTrade Android Device Model}{\reset@font\mtcSSfont 92}{subsection.6.1.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1.3}MobiTrade Session}{\reset@font\mtcSSfont 94}{subsection.6.1.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.2}MobiTrade Support for Bluetooth}{\reset@font\mtcSfont 95}{section.6.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.1}Bluetooth Overview}{\reset@font\mtcSSfont 95}{subsection.6.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.2}Android Platform Support for Bluetooth}{\reset@font\mtcSSfont 100}{subsection.6.2.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}Functionalities provided by the MobiTrade Android Application}{\reset@font\mtcSfont 100}{section.6.3}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Bluetooth Interface Management}{\reset@font\mtcPfont 101}{section*.42}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Channels/Contents Management}{\reset@font\mtcPfont 102}{section*.43}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode MobiTrade Configuration}{\reset@font\mtcPfont 103}{section*.44}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.4}Summary and Open Issues}{\reset@font\mtcSfont 105}{section.6.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.1}MobiTrade Architecture Overview}{\reset@font\mtcSfont 93}{section.6.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1.1}MobiTrade Functional Architecture}{\reset@font\mtcSSfont 93}{subsection.6.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1.2}MobiTrade Android Device Model}{\reset@font\mtcSSfont 94}{subsection.6.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1.3}MobiTrade Session}{\reset@font\mtcSSfont 96}{subsection.6.1.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.2}MobiTrade Support for Bluetooth}{\reset@font\mtcSfont 97}{section.6.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.1}Bluetooth Overview}{\reset@font\mtcSSfont 97}{subsection.6.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.2}Android Platform Support for Bluetooth}{\reset@font\mtcSSfont 102}{subsection.6.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}Functionalities provided by the MobiTrade Android Application}{\reset@font\mtcSfont 102}{section.6.3}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Bluetooth Interface Management}{\reset@font\mtcPfont 103}{section*.42}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Channels/Contents Management}{\reset@font\mtcPfont 104}{section*.43}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode MobiTrade Configuration}{\reset@font\mtcPfont 105}{section*.44}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.4}Summary and Open Issues}{\reset@font\mtcSfont 107}{section.6.4}}

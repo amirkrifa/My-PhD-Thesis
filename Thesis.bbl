@@ -331,10 +331,15 @@ N.~A. Thompson, R.~Crepaldi, and R.~Kravets, ``Locus: A location-based data
 \bibitem{MobiSim}
 ``Mobisim:,'' http://www.mobisim.org/fr-home.html.
 
+\bibitem{Boldrini:2008:MDD}
+C.~Boldrini, M.~Conti, and A.~Passarella, ``Modelling data dissemination in
+  opportunistic networks,'' in \emph{Proceedings of the third ACM workshop on
+  Challenged networks}, ser. CHANTS, San Francisco, California, USA, 2008.
+
 \bibitem{Boldrini:SocialForwarding}
-C.~Boldrini, M.~Conti, and A.~Passarella, ``Exploiting users' social relations
-  to forward data in opportunistic networks: the hibop solution,'' in
-  \emph{Proceedings of Pervasive Mob. Comput.}, 2008.
+------, ``Exploiting users' social relations to forward data in opportunistic
+  networks: the hibop solution,'' in \emph{Proceedings of Pervasive Mob.
+  Comput.}, 2008.
 
 \bibitem{OptimalChannelChoice}
 L.~Hu, J.~L. Boudec, and M.~Vojnovic, ``Optimal channel choice for
@@ -350,6 +355,19 @@ P.~Br\'emaud, \emph{Markov chains : Gibbs fields, Monte Carlo simulation, and
 L.~Buttyan, M.~Felegyhazi, and I.~Vajda, ``Barter-based cooperation in
   delay-tolerant personal wireless networks,'' in \emph{Proc. of IEEE AOC},
   Helsinki, Finland, 2007.
+
+\bibitem{MoB}
+R.~Chakravorty, S.~Agarwal, and S.~Banerjee, ``{M}o{B}: A mobile bazaar for
+  wide-area wireless services,'' in \emph{in Proc. ACM MobiCom}, Cologne,
+  Germany, 2005.
+
+\bibitem{MobiCent}
+B.~B. Chen and M.~C. Chan, ``Mobicent: a credit based incentive system for
+  disruption tolerant network,'' in \emph{Proc. of IEEE INFOCOM}, 2010.
+
+\bibitem{IADTN}
+U.~Shevade, H.~Song, L.~Qiu, and Y.~Zhang, ``Incentive aware routing in dtns,''
+  in \emph{Proc. of IEEE ICNP}, 2008.
 
 \bibitem{Reputation}
 B.~Sonja and J.~Y.~L. Boudec, ``A robust reputation system for peer-to-peer and
@@ -459,11 +477,6 @@ A.~Krifa, C.~Barakat, and T.~Spyropoulos, ``Message drop and scheduling in
 \bibitem{podnet07}
 V.~Lenders, G.~Karlsson, and M.~May, ``Wireless ad hoc podcasting,'' in
   \emph{IEEE SECON}, 2007.
-
-\bibitem{Boldrini:2008:MDD}
-C.~Boldrini, M.~Conti, and A.~Passarella, ``Modelling data dissemination in
-  opportunistic networks,'' in \emph{Proceedings of the third ACM workshop on
-  Challenged networks}, ser. CHANTS, San Francisco, California, USA, 2008.
 
 \bibitem{BitThief}
 T.~Locher, P.~Moor, S.~Schmid, and R.~Wattenhofer, ``Free riding in bittorrent
