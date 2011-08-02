@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<channels number="">
+	<channel>
+		<ch_keywords> ... </ch_keywords>
+		<ch_utility> ... </ch_utility>
+		<ch_keywords> ... </ch_keywords>
+		<ch_creation_date> ... </ch_creation_date>
+		<have_content> ... </have_content>
+		<have_content> ... </have_content>
+		<have_content> ... </have_content>
+		...
+	<channel>
+
+	<channel>
+		<ch_keywords> ... </ch_keywords>
+		<ch_utility> ... </ch_utility>
+		<ch_keywords> ... </ch_keywords>
+		<ch_creation_date> ... </ch_creation_date>
+		<have_content> ... </have_content>
+		<have_content> ... </have_content>
+		<have_content> ... </have_content>
+		...
+	<channel>
+
+	...
+</channels>
+

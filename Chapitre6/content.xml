@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<content>
+	<c_name> ... </c_name>
+	<c_type> ... </c_type>
+	<c_size> ... </c_size>
+	<c_message> ... </c_message>
+	<c_description> ... </c_description>
+	<c_utility> ... </c_utility>
+	<c_source_id> ... </c_source_id>
+	<c_expiration_date> ... </c_expiration_date>
+	<c_age_days> ... </c_age_days>
+	<c_age_hours> ... </c_age_hours>
+	<c_age_mins> ... </c_age_mins>
+	<c_associated_channel> ... </c_associated_channel>
+	<c_binary_data> ... </c_binary_data>
+</content>

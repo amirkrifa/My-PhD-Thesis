@@ -1,0 +1,82 @@
+format 74
+
+classinstancecanvas 128003 classinstance_ref 128003 // Device A
+  xyz 95 33 2005 life_line_z 2000
+end
+classinstancecanvas 128131 classinstance_ref 128131 // Device B
+  xyz 502 32 2005 life_line_z 2000
+end
+textcanvas 128899 "1 - Identify the matching contents
+2 - Schedule the matching contents
+3 - Serialize the first content"
+  xyzwh 14 205 2025 179 105
+textcanvas 129027 "1 - Identify the matching contents
+2 - Schedule the matching contents
+3 - Serialize the first content
+"
+  xyzwh 591.5 150.5 2025 167 99
+textcanvas 129411 "Evaluate the amount 
+of received bytes and decide on the next content to be sent if any.
+"
+  xyzwh 603 319 2000 120 115
+textcanvas 129795 "Evaluate the amount 
+of received bytes and decide on the next content to be sent if any.
+"
+  xyzwh 48 439.5 2000 120 115
+textcanvas 130179 "Evaluate the amount 
+of received bytes and decide on the next content to be sent if any.
+"
+  xyzwh 597 538.5 2000 120 115
+textcanvas 130435 "Once the session timer is expired, update the channels utilities and accordingly the storage space dispatching."
+  xyzwh 22 584 2005 156 138
+textcanvas 130563 "Once the session timer is expired, update the channels utilities and accordingly the storage space dispatching."
+  xyzwh 599 656 2005 156 138
+durationcanvas 128259 classinstance_ref 128003 // Device A:MobiTradeDevice
+  xyzwh 170 149 2010 11 541
+  overlappingdurationcanvas 128643
+    xyzwh 176 185 2020 11 123
+  end
+  overlappingdurationcanvas 129539
+    xyzwh 176 426 2020 11 119
+  end
+end
+durationcanvas 128387 classinstance_ref 128131 // Device B:MobiTradeDevice
+  xyzwh 577 144 2010 11 607
+  overlappingdurationcanvas 129155
+    xyzwh 583 297 2020 11 140
+  end
+  overlappingdurationcanvas 129923
+    xyzwh 583 534 2020 11 98
+  end
+end
+msg 128515 synchronous
+  from durationcanvas_ref 128259
+  to durationcanvas_ref 128387
+  yz 152 2015 explicitmsg "Send the list of channels (keywords, utility, creation date, content(s))"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 198 136
+msg 128771 synchronous
+  from durationcanvas_ref 128387
+  to durationcanvas_ref 128643
+  yz 187 2025 explicitmsg "Send the list of channels (keywords, utility, creation date, contents)"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 181 171
+msg 129283 synchronous
+  from durationcanvas_ref 128643
+  to durationcanvas_ref 129155
+  yz 297 2025 explicitmsg "TFT: send the first scheduled content"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 277 281
+msg 129667 synchronous
+  from durationcanvas_ref 129155
+  to durationcanvas_ref 129539
+  yz 426 2025 explicitmsg "TFT: send the next selected content"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 288 410
+msg 130051 synchronous
+  from durationcanvas_ref 129539
+  to durationcanvas_ref 129923
+  yz 534 2025 explicitmsg "TFT: send the next selected content"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 288 518
+end

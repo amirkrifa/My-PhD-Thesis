@@ -1,0 +1,11 @@
+window_sizes 1440 876 337 1097 677 120
+diagrams
+  active  sequencediagram_ref 128003 // session_seq
+    1097 677 100 4 0 0
+end
+show_stereotypes
+selected sequencediagram_ref 128003 // session_seq
+open
+  usecaseview_ref 128003 // session
+end
+end
