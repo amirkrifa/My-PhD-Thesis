@@ -10,17 +10,33 @@
 
 \pagenumbering{roman}
 
- \cleardoublepage
+\cleardoublepage
 
 \section*{Acknowledgments}
 
-I would like to express my deepest gratitude to Professor Chadi Barakat, my advisor and Professor Thrasyvoulos Spyropoulos. I thank you for your continuing guidance and support during my three years of research. Your sharp sense of research direction, great enthusiasm, and strong belief in the potential of this research has been a tremendous force for the completion of this work. I have learned so many things from you, including the research work process, writing papers, giving talks, and many more. Most importantly, I thank you for encouraging me in each step of my growing path. Your strong belief in me and continuous encouragement have made this research such an exciting experience that our collaboration finally produces something that we are both proud of.
+I would like to express my deepest gratitude to Professor Chadi Barakat, my advisor and Professor Thrasyvoulos Spyropoulos. I thank you for your continuing guidance and support during my three years of research. Your sharp sense of research direction, great enthusiasm, and strong belief in the potential of this research has been a tremendous force for the completion of this work. I have learned so many things from you. Most importantly, I thank you for encouraging me in each step of my growing path. Your strong belief in me and continuous encouragement have made this research such an exciting experience that our collaboration finally produces something that we are both proud of.
 
 This thesis would not have been possible without the assistance of many people. I would also like to express my extreme appreciation to my thesis committee members: ... . They contributed their precious time to read my thesis, and provided valuable suggestions and comments that helped to improve the quality of this thesis. I would also like to thank my colleagues and friends at Planete team. There are many other people whose names are not mentioned here. It does not mean that I have forgotten you or your help. It is a privilege for me to work and share life with so many bright and energetic people. 
 
 I would never get this far without the support of my parents. Thank you for always believing in me and supporting me. Your love and encouragement have been and will always be a great source of inspiration in my life.  
 
 Meriem, my dear fiance, you are always my strength. I owe my deepest gratitude to you for your infinite patience that accompanied me along this long journey. Your love pulled me through many difficult times. 
+
+\cleardoublepage
+
+\section*{Abstract}
+The rapid proliferation of advanced mobile devices has created a growing demand for data content. Existing approaches cannot keep up with the large volume of content generated and requested, without the deployment of new expensive infrastructure. Exchanging content of interest \emph{opportunistically}, when two nodes are in range, presents a low cost and high bandwidth alternative for popular, bulky content. Yet, efficiently collecting, storing, and sharing the content while preventing selfish users from impairing collaborative ones, poses major challenges.
+
+In this thesis, we start by discussing the state of the art in terms of proposed solution for both point-to-point content routing and point-to-multipoint content sharing solutions in DTN(s). Our main observations were first that \emph{(i)} despite a large amount of effort invested in the design of efficient routing and content dissemination protocols for DTN, there has not been a similar focus on storage management and scheduling policies. And second \emph{(ii)}, that in addition to dealing with the resources management challenges, distributed (or peer-to-peer) content sharing systems over non-altruistic mobile devices have one more important issue to deal with: the one to ensure enough nodes collaborate to make the system interesting to participants. This latter goal is often conflicting with optimal resources management algorithms. 
+
+Following the latter preliminary study, we tried to solve the highlighted problems in their foundations. So, we focus first \emph{(i)} on the problem of point-to-point content routing through a DTN. Such a problem is frequently encountered in environment and habitat monitoring based on sensor networks where sensor nodes try to deliver in an efficient way the collected observations and measures to a gateway node. We propose a practical and efficient joint scheduling and drop policy that can optimize different performance metrics, such as average delay and delivery probability. We first use the theory of encounter-based message dissemination to derive the optimal policy based on global knowledge about the network (GBSD, Global knowledge Based Scheduling and Drop). Then, we introduce a method that estimates all necessary parameters using locally collected statistics. Based on this, we derive a distributed scheduling and drop policy that can approximate the performance of the optimal policy in practice (HBSD, History Based Scheduling and Drop). Finally, we study how sampled statistics can reduce the \textit{signaling} overhead of our algorithm and examine its behavior under different congestion regimes. 
+
+In a second step \emph{(ii)}, we addressed the problem of efficiently handling \emph{large scale} content sharing over non-altruistic mobile devices. Our ultimate goal was to enable people throught a channel based architecture to express their interests, head out in the real world and wait to get notified whenever a content that matches their interests is retrieved. To achieve this, we proposed MobiTrade as a candidate architecture. The latter is an utility driven trading system for efficient content sharing on top of a DTN. MobiTrade does not only take care of the network and device resources, but also carefully consider: \emph{(i)} the propagation of interests of participating users, \emph{(ii)} the matching of these interests to individual node mobility patterns, and \emph{(iii)} the willingness of involved users to collaborate. While simple tit-for-tat (TFT) mechanisms can force nodes to \emph{give one to get one}, dealing with the inherent tendency of peers to take much but give back little, they can quickly lead to deadlocks when some (or most) of interesting content must be somehow fetched across the network. To resolve this, MobiTrade relies on a \emph{trading} mechanism that allows a node \emph{merchant} to buy, store, and carry content \emph{for other nodes  (its clients)} so that it can later trade it for content it is personally interested in. To exploit this extra degree of freedom, MobiTrade nodes continuously \emph{profile} the type of content requested and the collaboration level of encountered devices. An appropriate utility function is then used to collect an optimal inventory that maximizes the expected value of stored content for future encounters, \emph{matched} to the observed mobility patterns, interest patterns, and collaboration levels of encountered nodes. 
+
+Both of our resources management systems for point-to-point DTN routing (HBSD) and our channel based content sharing architecture (MobiTrade) have been validated respectively through extensive NS-2 and NS-3 simulations along with a multitude of synthetic mobility models and real mobility traces. Furthermore, in order to ensure the feasibility of our protocols and offer them to users, we implemented respectively HBSD and MobiTrade for the DTN2 reference architecture and on real Android powered mobile devices and did further experiments in real environments.  
+\\
+{\large\textbf{Keywords:}}
+Resources Management, Content Dissemination Architecture, Disruption Tolerant Networks, DTN2, Android  
 
 \tableofcontents
 
@@ -43,19 +59,5 @@ Meriem, my dear fiance, you are always my strength. I owe my deepest gratitude t
 \bibliography{Thesis}
 
 %\printnomenclature
-
-\cleardoublepage
-\begin{vcenterpage}
-\noindent\rule[2pt]{\textwidth}{0.5pt}
-\begin{center}
-{\large\textbf{Towards a better content sharing architecture for Disruption Tolerant Networks
-\\}}
-\end{center}
-{\large\textbf{Abstract:}}
-{\large\textbf{Keywords:}}
-Buffer Management, Scheduling, Content Dissemination Architecture, Disruption Tolerant Networks, DTN2, Android  
-\\
-\noindent\rule[2pt]{\textwidth}{0.5pt}
-\end{vcenterpage}
 
 \end{document}

@@ -102,31 +102,15 @@ M.~Felegyhazi, J.~P. Hubaux, and L.~Buttyan, ``Nash equilibria of packet
   forwarding strategies in wireless ad hoc networks,'' \emph{Transactions on
   Mobile Computing}, 2006.
 
-\bibitem{May07wirelessopportunistic}
-M.~May, C.~Wacha, V.~Lenders, and G.~Karlsson, ``Wireless opportunistic
-  podcasting: Implementation and design tradeoffs,'' in \emph{Proc. of ACM
-  CHANTS}, 2007.
-
-\bibitem{ContentPlace}
-C.~Boldrini, M.~Conti, and A.~Passarella, ``Design and performance evaluation
-  of contentplace, a social-aware data dissemination system for opportunistic
-  networks,'' \emph{in Elsevier Computer Networks}, 2010.
-
-\bibitem{SocialCast}
-O.~Helgason, E.~Yavuz, S.~Kouyoumdjieva, L.~Pajevic, and G.~Karlsson, ``A
-  mobile peer-to-peer system for opportunistic content-centric networking,'' in
-  \emph{Proc. of ACM MobiHeld}, 2010.
-
-\bibitem{Peoplenet}
-M.~Motani, V.~Srinivasan, and P.~S. Nuggehalli, ``Peoplenet: engineering a
-  wireless virtual social network,'' in \emph{MobiCom '05: Proceedings of the
-  11th annual international conference on Mobile computing and networking},
-  2005.
-
 \bibitem{BitHoc}
 A.~Krifa, M.~K. Sbai, C.~Barakat, and T.~Turletti, ``Bithoc: A content sharing
   application for wireless ad hoc networks,'' in \emph{Proc. of IEEE PerCom},
   2009.
+
+\bibitem{BarterDTN}
+L.~Buttyan, M.~Felegyhazi, and I.~Vajda, ``Barter-based cooperation in
+  delay-tolerant personal wireless networks,'' in \emph{Proc. of IEEE AOC},
+  Helsinki, Finland, 2007.
 
 \bibitem{BlueTorrent}
 S.~Jung, U.~Lee, A.~Chang, D.~Cho, and M.~Gerla, ``Bluetorrent: Cooperative
@@ -300,6 +284,11 @@ L.~Pelusi, A.~Passarella, and M.~Conti, ``Opportunistic networking: Data
   forwarding in disconnected mobile ad hoc networks,'' \emph{IEEE Commun.
   Mag.}, vol.~44, no.~11, 2006.
 
+\bibitem{May07wirelessopportunistic}
+M.~May, C.~Wacha, V.~Lenders, and G.~Karlsson, ``Wireless opportunistic
+  podcasting: Implementation and design tradeoffs,'' in \emph{Proc. of ACM
+  CHANTS}, 2007.
+
 \bibitem{Lenders:Podcast}
 V.~Lenders, G.~Karlsson, and M.~May, ``Wireless ad hoc podcasting,'' in
   \emph{IEEE SECON}, 2007.
@@ -323,6 +312,11 @@ P.~Costa, C.~Mascolo, M.~Musolesi, and G.~P. Picco, ``Socially-aware routing
   for publish-subscribe in delay-tolerant mobile ad hoc networks,''
   \emph{Transactions on IEEE Selected Areas in Communications}, 2008.
 
+\bibitem{SocialCast}
+O.~Helgason, E.~Yavuz, S.~Kouyoumdjieva, L.~Pajevic, and G.~Karlsson, ``A
+  mobile peer-to-peer system for opportunistic content-centric networking,'' in
+  \emph{Proc. of ACM MobiHeld}, 2010.
+
 \bibitem{LOCUS}
 N.~A. Thompson, R.~Crepaldi, and R.~Kravets, ``Locus: A location-based data
   overlay for disruption-tolerant networks,'' in \emph{Proc. of ACM CHANTS},
@@ -331,10 +325,21 @@ N.~A. Thompson, R.~Crepaldi, and R.~Kravets, ``Locus: A location-based data
 \bibitem{MobiSim}
 ``Mobisim:,'' http://www.mobisim.org/fr-home.html.
 
+\bibitem{Peoplenet}
+M.~Motani, V.~Srinivasan, and P.~S. Nuggehalli, ``Peoplenet: engineering a
+  wireless virtual social network,'' in \emph{MobiCom '05: Proceedings of the
+  11th annual international conference on Mobile computing and networking},
+  2005.
+
 \bibitem{Boldrini:2008:MDD}
 C.~Boldrini, M.~Conti, and A.~Passarella, ``Modelling data dissemination in
   opportunistic networks,'' in \emph{Proceedings of the third ACM workshop on
   Challenged networks}, ser. CHANTS, San Francisco, California, USA, 2008.
+
+\bibitem{ContentPlace}
+------, ``Design and performance evaluation of contentplace, a social-aware
+  data dissemination system for opportunistic networks,'' \emph{in Elsevier
+  Computer Networks}, 2010.
 
 \bibitem{Boldrini:SocialForwarding}
 ------, ``Exploiting users' social relations to forward data in opportunistic
@@ -350,11 +355,6 @@ L.~Hu, J.~L. Boudec, and M.~Vojnovic, ``Optimal channel choice for
 P.~Br\'emaud, \emph{Markov chains : Gibbs fields, Monte Carlo simulation, and
   queues}.\hskip 1em plus 0.5em minus 0.4em\relax Berlin, Germany: Springer,
   2001.
-
-\bibitem{BarterDTN}
-L.~Buttyan, M.~Felegyhazi, and I.~Vajda, ``Barter-based cooperation in
-  delay-tolerant personal wireless networks,'' in \emph{Proc. of IEEE AOC},
-  Helsinki, Finland, 2007.
 
 \bibitem{MoB}
 R.~Chakravorty, S.~Agarwal, and S.~Banerjee, ``{M}o{B}: A mobile bazaar for

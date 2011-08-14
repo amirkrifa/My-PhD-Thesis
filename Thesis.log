@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.8)  2 AUG 2011 23:47
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.8)  14 AUG 2011 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -703,7 +703,7 @@ Package minitoc Info: I0033
 
 ] [2
 
-] (./Thesis.toc
+] [3] [4] (./Thesis.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -713,11 +713,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [3])
+) [5
+
+])
 \tf@toc=\write6
 \openout6 = `Thesis.toc'.
 
- [4]
+ [6]
 \openout2 = `Chapter1.aux'.
 
 
@@ -736,16 +738,12 @@ l.7
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 
+l.25 
       [2] [3] [4]
 
-LaTeX Warning: Citation `DTN2' on page 5 undefined on input line 43.
+LaTeX Warning: Citation `DTN2' on page 5 undefined on input line 44.
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
-[6]
+) [5] [6]
 \openout2 = `Chapter2.aux'.
 
  (./Chapter2.tex
@@ -795,21 +793,21 @@ icate ignored
                                                   \fi \fi 
 l.56 
       <./Chapitre2/searchengine.png (PNG copy)>]
-<Chapitre2/contentsharing.png, id=547, 225.84375pt x 299.9205pt>
+<Chapitre2/contentsharing.png, id=548, 225.84375pt x 299.9205pt>
 File: Chapitre2/contentsharing.png Graphic file (type png)
 
 <use Chapitre2/contentsharing.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapitre2/sharingratio.png, id=549, 449.88075pt x 352.31625pt>
+<Chapitre2/sharingratio.png, id=550, 449.88075pt x 352.31625pt>
 File: Chapitre2/sharingratio.png Graphic file (type png)
 
 <use Chapitre2/sharingratio.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapitre2/downloadtime.png, id=550, 445.06274pt x 343.88475pt>
+<Chapitre2/downloadtime.png, id=551, 445.06274pt x 343.88475pt>
 File: Chapitre2/downloadtime.png Graphic file (type png)
 
 <use Chapitre2/downloadtime.png>
@@ -1010,7 +1008,7 @@ Package epstopdf Info: Source file: <Chapitre3/GOS.eps>
 d-to.pdf Chapitre3/GOS.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
- <Chapitre3/GOS-eps-converted-to.pdf, id=866, 567.11874pt x 509.905pt>
+ <Chapitre3/GOS-eps-converted-to.pdf, id=869, 567.11874pt x 509.905pt>
 File: Chapitre3/GOS-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/GOS-eps-converted-to.pdf>
@@ -1103,7 +1101,7 @@ Package epstopdf Info: Source file: <Chapitre3/fig2.eps>
 ed-to.pdf Chapitre3/fig2.eps>
 (epstopdf)             \includegraphics on input line 401.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre3/fig2-eps-converted-to.pdf, id=1009, 377.41pt x 421.575pt>
+<Chapitre3/fig2-eps-converted-to.pdf, id=1012, 377.41pt x 421.575pt>
 File: Chapitre3/fig2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig2-eps-converted-to.pdf>
@@ -1120,7 +1118,7 @@ Package epstopdf Info: Source file: <Chapitre3/fig22.eps>
 ted-to.pdf Chapitre3/fig22.eps>
 (epstopdf)             \includegraphics on input line 409.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre3/fig22-eps-converted-to.pdf, id=1010, 404.51125pt x 433.62pt>
+<Chapitre3/fig22-eps-converted-to.pdf, id=1013, 404.51125pt x 433.62pt>
 File: Chapitre3/fig22-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig22-eps-converted-to.pdf>
@@ -1187,7 +1185,7 @@ Package epstopdf Info: Source file: <Chapitre3/fig3.eps>
 ed-to.pdf Chapitre3/fig3.eps>
 (epstopdf)             \includegraphics on input line 477.
 Package epstopdf Info: Output file is already uptodate.
- <Chapitre3/fig3-eps-converted-to.pdf, id=1059, 377.41pt x 421.575pt>
+ <Chapitre3/fig3-eps-converted-to.pdf, id=1063, 377.41pt x 421.575pt>
 File: Chapitre3/fig3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig3-eps-converted-to.pdf>
@@ -1204,7 +1202,7 @@ Package epstopdf Info: Source file: <Chapitre3/fig33.eps>
 ted-to.pdf Chapitre3/fig33.eps>
 (epstopdf)             \includegraphics on input line 484.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre3/fig33-eps-converted-to.pdf, id=1060, 404.51125pt x 433.62pt>
+<Chapitre3/fig33-eps-converted-to.pdf, id=1064, 404.51125pt x 433.62pt>
 File: Chapitre3/fig33-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig33-eps-converted-to.pdf>
@@ -1223,7 +1221,7 @@ ordinate-eps-converted-to.pdf Chapitre3/AvgDistancePerCoordinate.eps>
 (epstopdf)             \includegraphics on input line 502.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre3/AvgDistancePerCoordinate-eps-converted-to.pdf, id=1066, 404.51125pt 
+<Chapitre3/AvgDistancePerCoordinate-eps-converted-to.pdf, id=1070, 404.51125pt 
 x 468.75125pt>
 File: Chapitre3/AvgDistancePerCoordinate-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1243,7 +1241,7 @@ s-converted-to.pdf Chapitre3/NbrCopiesDiff.eps>
 (epstopdf)             \includegraphics on input line 509.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre3/NbrCopiesDiff-eps-converted-to.pdf, id=1067, 404.51125pt x 468.75125
+<Chapitre3/NbrCopiesDiff-eps-converted-to.pdf, id=1071, 404.51125pt x 468.75125
 pt>
 File: Chapitre3/NbrCopiesDiff-eps-converted-to.pdf Graphic file (type pdf)
  <use Chapitre3/NbrCopiesDiff-eps-converted-to.pdf>
@@ -1345,7 +1343,7 @@ converted-to.pdf Chapitre3/Stat_Matrix.eps>
 (epstopdf)             \includegraphics on input line 551.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre3/Stat_Matrix-eps-converted-to.pdf, id=1162, 713.66624pt x 275.0275pt>
+<Chapitre3/Stat_Matrix-eps-converted-to.pdf, id=1165, 713.66624pt x 275.0275pt>
 File: Chapitre3/Stat_Matrix-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapitre3/Stat_Matrix-eps-converted-to.pdf>
 
@@ -1361,7 +1359,7 @@ Package epstopdf Info: Source file: <Chapitre3/Bin_Array.eps>
 nverted-to.pdf Chapitre3/Bin_Array.eps>
 (epstopdf)             \includegraphics on input line 557.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre3/Bin_Array-eps-converted-to.pdf, id=1163, 504.88625pt x 94.3525pt>
+<Chapitre3/Bin_Array-eps-converted-to.pdf, id=1166, 504.88625pt x 94.3525pt>
 File: Chapitre3/Bin_Array-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/Bin_Array-eps-converted-to.pdf>
@@ -1377,7 +1375,7 @@ ging-eps-converted-to.pdf Chapitre3/StatisticsExchanging.eps>
 (epstopdf)             \includegraphics on input line 564.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre3/StatisticsExchanging-eps-converted-to.pdf, id=1164, 546.04pt x 363.3
+<Chapitre3/StatisticsExchanging-eps-converted-to.pdf, id=1167, 546.04pt x 363.3
 575pt>
 File: Chapitre3/StatisticsExchanging-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1426,7 +1424,7 @@ ed-to.pdf Chapitre3/fig7.eps>
 (epstopdf)             \includegraphics on input line 582.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre3/fig7-eps-converted-to.pdf, id=1187, 377.41pt x 457.71pt>
+<Chapitre3/fig7-eps-converted-to.pdf, id=1191, 377.41pt x 457.71pt>
 File: Chapitre3/fig7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig7-eps-converted-to.pdf> [49pdfTeX warning (ext4): destination
@@ -1448,7 +1446,7 @@ ed-to.pdf Chapitre3/fig8.eps>
 (epstopdf)             \includegraphics on input line 592.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre3/fig8-eps-converted-to.pdf, id=1207, 377.41pt x 457.71pt>
+<Chapitre3/fig8-eps-converted-to.pdf, id=1210, 377.41pt x 457.71pt>
 File: Chapitre3/fig8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig8-eps-converted-to.pdf>
@@ -1463,7 +1461,7 @@ ed-to.pdf Chapitre3/fig9.eps>
 (epstopdf)             \includegraphics on input line 607.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre3/fig9-eps-converted-to.pdf, id=1209, 375.4025pt x 474.77374pt>
+<Chapitre3/fig9-eps-converted-to.pdf, id=1212, 375.4025pt x 474.77374pt>
 File: Chapitre3/fig9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig9-eps-converted-to.pdf>
@@ -1494,7 +1492,7 @@ ted-to.pdf Chapitre3/fig13.eps>
 (epstopdf)             \includegraphics on input line 618.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre3/fig13-eps-converted-to.pdf, id=1232, 377.41pt x 452.69125pt>
+<Chapitre3/fig13-eps-converted-to.pdf, id=1235, 377.41pt x 452.69125pt>
 File: Chapitre3/fig13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig13-eps-converted-to.pdf>
@@ -1511,7 +1509,7 @@ Package epstopdf Info: Source file: <Chapitre3/fig14.eps>
 ted-to.pdf Chapitre3/fig14.eps>
 (epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre3/fig14-eps-converted-to.pdf, id=1233, 383.4325pt x 473.77pt>
+<Chapitre3/fig14-eps-converted-to.pdf, id=1236, 383.4325pt x 473.77pt>
 File: Chapitre3/fig14-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig14-eps-converted-to.pdf>
@@ -1536,7 +1534,7 @@ ted-to.pdf Chapitre3/fig11.eps>
 (epstopdf)             \includegraphics on input line 638.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre3/fig11-eps-converted-to.pdf, id=1255, 377.41pt x 457.71pt>
+<Chapitre3/fig11-eps-converted-to.pdf, id=1258, 377.41pt x 457.71pt>
 File: Chapitre3/fig11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig11-eps-converted-to.pdf>
@@ -1553,7 +1551,7 @@ Package epstopdf Info: Source file: <Chapitre3/fig12.eps>
 ted-to.pdf Chapitre3/fig12.eps>
 (epstopdf)             \includegraphics on input line 646.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre3/fig12-eps-converted-to.pdf, id=1256, 377.41pt x 457.71pt>
+<Chapitre3/fig12-eps-converted-to.pdf, id=1259, 377.41pt x 457.71pt>
 File: Chapitre3/fig12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig12-eps-converted-to.pdf>
@@ -1604,7 +1602,7 @@ ted-to.pdf Chapitre3/fig18.eps>
 (epstopdf)             \includegraphics on input line 662.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre3/fig18-eps-converted-to.pdf, id=1323, 385.44pt x 456.70625pt>
+<Chapitre3/fig18-eps-converted-to.pdf, id=1327, 385.44pt x 456.70625pt>
 File: Chapitre3/fig18-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig18-eps-converted-to.pdf>
@@ -1619,7 +1617,7 @@ ted-to.pdf Chapitre3/fig16.eps>
 (epstopdf)             \includegraphics on input line 670.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre3/fig16-eps-converted-to.pdf, id=1324, 368.37625pt x 461.725pt>
+<Chapitre3/fig16-eps-converted-to.pdf, id=1328, 368.37625pt x 461.725pt>
 File: Chapitre3/fig16-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig16-eps-converted-to.pdf>
@@ -1655,7 +1653,7 @@ Package epstopdf Info: Source file: <Chapitre3/fig17.eps>
 ted-to.pdf Chapitre3/fig17.eps>
 (epstopdf)             \includegraphics on input line 704.
 Package epstopdf Info: Output file is already uptodate.
- <Chapitre3/fig17-eps-converted-to.pdf, id=1357, 385.44pt x 456.70625pt>
+ <Chapitre3/fig17-eps-converted-to.pdf, id=1361, 385.44pt x 456.70625pt>
 File: Chapitre3/fig17-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig17-eps-converted-to.pdf>
@@ -1672,7 +1670,7 @@ Package epstopdf Info: Source file: <Chapitre3/fig15.eps>
 ted-to.pdf Chapitre3/fig15.eps>
 (epstopdf)             \includegraphics on input line 712.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre3/fig15-eps-converted-to.pdf, id=1358, 368.37625pt x 461.725pt>
+<Chapitre3/fig15-eps-converted-to.pdf, id=1362, 368.37625pt x 461.725pt>
 File: Chapitre3/fig15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre3/fig15-eps-converted-to.pdf>
@@ -1703,13 +1701,13 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.31 \include{Chapter3}
+l.47 \include{Chapter3}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{figure.3.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.31 \include{Chapter3}
+l.47 \include{Chapter3}
                         <./Chapitre3/fig17-eps-converted-to.pdf> <./Chapitre3/f
 ig15-eps-converted-to.pdf>] [57]
 \openout2 = `Chapter4.aux'.
@@ -1744,7 +1742,7 @@ nverted-to.pdf Chapitre4/HBSD-DTN2.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre4/HBSD-DTN2-eps-converted-to.pdf, id=1417, 787.94376pt x 425.59pt>
+<Chapitre4/HBSD-DTN2-eps-converted-to.pdf, id=1421, 787.94376pt x 425.59pt>
 File: Chapitre4/HBSD-DTN2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre4/HBSD-DTN2-eps-converted-to.pdf>
@@ -1780,7 +1778,7 @@ converted-to.pdf Chapitre4/Stat_Matrix.eps>
 (epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre4/Stat_Matrix-eps-converted-to.pdf, id=1445, 713.66624pt x 275.0275pt>
+<Chapitre4/Stat_Matrix-eps-converted-to.pdf, id=1448, 713.66624pt x 275.0275pt>
 File: Chapitre4/Stat_Matrix-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapitre4/Stat_Matrix-eps-converted-to.pdf> [63pdfTeX warning (ext4): dest
 ination with the same identifier (name{figure.4.2}) has been already used, dupl
@@ -1790,7 +1788,7 @@ icate ignored
                                                   \fi \fi 
 l.128 
        <./Chapitre4/Stat_Matrix-eps-converted-to.pdf>]
-<Chapitre4/HBSDClasses.png, id=1456, 844.15375pt x 863.225pt>
+<Chapitre4/HBSDClasses.png, id=1459, 844.15375pt x 863.225pt>
 File: Chapitre4/HBSDClasses.png Graphic file (type png)
 
 <use Chapitre4/HBSDClasses.png>
@@ -1980,7 +1978,7 @@ sRecords-eps-converted-to.pdf Chapitre5/ContentsInterestsRecords.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/ContentsInterestsRecords-eps-converted-to.pdf, id=1593, 402.50375pt 
+<Chapitre5/ContentsInterestsRecords-eps-converted-to.pdf, id=1596, 402.50375pt 
 x 241.90375pt>
 File: Chapitre5/ContentsInterestsRecords-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2017,7 +2015,7 @@ ol-eps-converted-to.pdf Chapitre5/MobiTrade-Protocol.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/MobiTrade-Protocol-eps-converted-to.pdf, id=1620, 537.00626pt x 457.
+<Chapitre5/MobiTrade-Protocol-eps-converted-to.pdf, id=1624, 537.00626pt x 457.
 71pt>
 File: Chapitre5/MobiTrade-Protocol-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2082,7 +2080,7 @@ Package epstopdf Info: Source file: <Chapitre5/fig3.eps>
 ed-to.pdf Chapitre5/fig3.eps>
 (epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre5/fig3-eps-converted-to.pdf, id=1682, 404.51125pt x 468.75125pt>
+<Chapitre5/fig3-eps-converted-to.pdf, id=1686, 404.51125pt x 468.75125pt>
 File: Chapitre5/fig3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig3-eps-converted-to.pdf>
@@ -2099,7 +2097,7 @@ Package epstopdf Info: Source file: <Chapitre5/fig5.eps>
 ed-to.pdf Chapitre5/fig5.eps>
 (epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre5/fig5-eps-converted-to.pdf, id=1683, 404.51125pt x 468.75125pt>
+<Chapitre5/fig5-eps-converted-to.pdf, id=1687, 404.51125pt x 468.75125pt>
 File: Chapitre5/fig5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig5-eps-converted-to.pdf>
@@ -2152,7 +2150,7 @@ ed-to.pdf Chapitre5/fig4.eps>
 (epstopdf)             \includegraphics on input line 246.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/fig4-eps-converted-to.pdf, id=1731, 404.51125pt x 468.75125pt>
+<Chapitre5/fig4-eps-converted-to.pdf, id=1734, 404.51125pt x 468.75125pt>
 File: Chapitre5/fig4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig4-eps-converted-to.pdf>
@@ -2167,7 +2165,7 @@ ed-to.pdf Chapitre5/fig7.eps>
 (epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/fig7-eps-converted-to.pdf, id=1732, 404.51125pt x 468.75125pt>
+<Chapitre5/fig7-eps-converted-to.pdf, id=1735, 404.51125pt x 468.75125pt>
 File: Chapitre5/fig7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig7-eps-converted-to.pdf>
@@ -2219,7 +2217,7 @@ ed-to.pdf Chapitre5/fig8.eps>
 (epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/fig8-eps-converted-to.pdf, id=1770, 505.89pt x 468.75125pt>
+<Chapitre5/fig8-eps-converted-to.pdf, id=1773, 505.89pt x 468.75125pt>
 File: Chapitre5/fig8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig8-eps-converted-to.pdf>
@@ -2236,7 +2234,7 @@ Package epstopdf Info: Source file: <Chapitre5/fig12.eps>
 ted-to.pdf Chapitre5/fig12.eps>
 (epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre5/fig12-eps-converted-to.pdf, id=1771, 505.89pt x 468.75125pt>
+<Chapitre5/fig12-eps-converted-to.pdf, id=1774, 505.89pt x 468.75125pt>
 File: Chapitre5/fig12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig12-eps-converted-to.pdf>
@@ -2290,7 +2288,7 @@ ed-to.pdf Chapitre5/fig1.eps>
 (epstopdf)             \includegraphics on input line 338.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/fig1-eps-converted-to.pdf, id=1817, 404.51125pt x 468.75125pt>
+<Chapitre5/fig1-eps-converted-to.pdf, id=1820, 404.51125pt x 468.75125pt>
 File: Chapitre5/fig1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig1-eps-converted-to.pdf>
@@ -2305,7 +2303,7 @@ ed-to.pdf Chapitre5/fig6.eps>
 (epstopdf)             \includegraphics on input line 346.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre5/fig6-eps-converted-to.pdf, id=1818, 454.69875pt x 468.75125pt>
+<Chapitre5/fig6-eps-converted-to.pdf, id=1821, 454.69875pt x 468.75125pt>
 File: Chapitre5/fig6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre5/fig6-eps-converted-to.pdf>
@@ -2375,7 +2373,7 @@ cate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.33 \include{Chapter5}
+l.49 \include{Chapter5}
                        ]
 \openout2 = `Chapter6.aux'.
 
@@ -2402,7 +2400,7 @@ ps-converted-to.pdf Chapitre6/MobiTrade_Node.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre6/MobiTrade_Node-eps-converted-to.pdf, id=1880, 496.85625pt x 376.4062
+<Chapitre6/MobiTrade_Node-eps-converted-to.pdf, id=1883, 496.85625pt x 376.4062
 5pt>
 File: Chapitre6/MobiTrade_Node-eps-converted-to.pdf Graphic file (type pdf)
  <use Chapitre6/MobiTrade_Node-eps-converted-to.pdf>
@@ -2417,7 +2415,7 @@ e.6.1}) has been already used, duplicate ignored
 l.39 A
       s we have described before in the previous Chapter, the MobiTrade arch...
  <./Chapitre6/MobiTrade_Node-eps-converted-to.pdf>]
-<Chapitre6/MobiTradeCommunicationArchitecture.png, id=1897, 614.295pt x 794.97p
+<Chapitre6/MobiTradeCommunicationArchitecture.png, id=1900, 614.295pt x 794.97p
 t>
 File: Chapitre6/MobiTradeCommunicationArchitecture.png Graphic file (type png)
  <use Chapitre6/MobiTradeCommunicationArchitecture.png>
@@ -2431,7 +2429,7 @@ e.6.2}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.62 
       <./Chapitre6/MobiTradeCommunicationArchitecture.png>]
-<Chapitre6/MobiTradeSession.png, id=1918, 771.88374pt x 808.01875pt>
+<Chapitre6/MobiTradeSession.png, id=1922, 771.88374pt x 808.01875pt>
 File: Chapitre6/MobiTradeSession.png Graphic file (type png)
 
 <use Chapitre6/MobiTradeSession.png>
@@ -2449,7 +2447,7 @@ Package epstopdf Info: Source file: <Chapitre6/channelsxml.eps>
 converted-to.pdf Chapitre6/channelsxml.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
-<Chapitre6/channelsxml-eps-converted-to.pdf, id=1919, 530.98375pt x 586.19pt>
+<Chapitre6/channelsxml-eps-converted-to.pdf, id=1923, 530.98375pt x 586.19pt>
 File: Chapitre6/channelsxml-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapitre6/channelsxml-eps-converted-to.pdf>
@@ -2468,7 +2466,7 @@ onverted-to.pdf Chapitre6/contentxml.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapitre6/contentxml-eps-converted-to.pdf, id=1922, 643.40375pt x 402.50375pt>
+<Chapitre6/contentxml-eps-converted-to.pdf, id=1926, 643.40375pt x 402.50375pt>
 File: Chapitre6/contentxml-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapitre6/contentxml-eps-converted-to.pdf>
 
@@ -2498,7 +2496,7 @@ l.107
 l.107 
        <./Chapitre6/channelsxml-eps-converted-to.pdf> <./Chapitre6/contentxml-e
 ps-converted-to.pdf>] [100] [101]
-<Chapitre6/Dashboard.png, id=1956, 481.8pt x 803.0pt>
+<Chapitre6/Dashboard.png, id=1960, 481.8pt x 803.0pt>
 File: Chapitre6/Dashboard.png Graphic file (type png)
 
 <use Chapitre6/Dashboard.png>
@@ -2512,7 +2510,7 @@ ure.6.6}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.174 
        <./Chapitre6/Dashboard.png (PNG copy)>]
-<Chapitre6/JoinChannel.png, id=1978, 481.8pt x 803.0pt>
+<Chapitre6/JoinChannel.png, id=1981, 481.8pt x 803.0pt>
 File: Chapitre6/JoinChannel.png Graphic file (type png)
 
 <use Chapitre6/JoinChannel.png>
@@ -2520,7 +2518,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 182--189
  [][] 
  []
 
-<Chapitre6/JoinExistingChannel.png, id=1979, 481.8pt x 803.0pt>
+<Chapitre6/JoinExistingChannel.png, id=1982, 481.8pt x 803.0pt>
 File: Chapitre6/JoinExistingChannel.png Graphic file (type png)
 
 <use Chapitre6/JoinExistingChannel.png>
@@ -2528,7 +2526,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 193--198
  [][] 
  []
 
-<Chapitre6/ListAllChannels.png, id=1983, 481.8pt x 803.0pt>
+<Chapitre6/ListAllChannels.png, id=1986, 481.8pt x 803.0pt>
 File: Chapitre6/ListAllChannels.png Graphic file (type png)
 
 <use Chapitre6/ListAllChannels.png>
@@ -2536,7 +2534,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 206--213
  [][] 
  []
 
-<Chapitre6/ListRequestedChannels.png, id=1984, 481.8pt x 803.0pt>
+<Chapitre6/ListRequestedChannels.png, id=1987, 481.8pt x 803.0pt>
 File: Chapitre6/ListRequestedChannels.png Graphic file (type png)
 
 <use Chapitre6/ListRequestedChannels.png>
@@ -2558,7 +2556,7 @@ name{figure.6.8}) has been already used, duplicate ignored
 l.223 \end{figure}
                    <./Chapitre6/JoinChannel.png (PNG copy)> <./Chapitre6/JoinEx
 istingChannel.png (PNG copy)>]
-<Chapitre6/CreateChannel.png, id=1997, 481.8pt x 803.0pt>
+<Chapitre6/CreateChannel.png, id=2000, 481.8pt x 803.0pt>
 File: Chapitre6/CreateChannel.png Graphic file (type png)
 
 <use Chapitre6/CreateChannel.png>
@@ -2566,7 +2564,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 230--237
  [][] 
  []
 
-<Chapitre6/PublishContent.png, id=1998, 481.8pt x 803.0pt>
+<Chapitre6/PublishContent.png, id=2001, 481.8pt x 803.0pt>
 File: Chapitre6/PublishContent.png Graphic file (type png)
 
 <use Chapitre6/PublishContent.png>
@@ -2582,7 +2580,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 241--246
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapitre6/WriteMessage.png, id=1999, 481.8pt x 803.0pt>
+<Chapitre6/WriteMessage.png, id=2002, 481.8pt x 803.0pt>
 File: Chapitre6/WriteMessage.png Graphic file (type png)
 
 <use Chapitre6/WriteMessage.png>
@@ -2595,7 +2593,7 @@ Overfull \hbox (25.98706pt too wide) in paragraph at lines 253--260
  [][] 
  []
 
-<Chapitre6/ListContents.png, id=2000, 481.8pt x 803.0pt>
+<Chapitre6/ListContents.png, id=2003, 481.8pt x 803.0pt>
 File: Chapitre6/ListContents.png Graphic file (type png)
 
 <use Chapitre6/ListContents.png>
@@ -2648,7 +2646,7 @@ l.279
 l.279 
        <./Chapitre6/CreateChannel.png (PNG copy)> <./Chapitre6/PublishContent.p
 ng (PNG copy)> <./Chapitre6/WriteMessage.png (PNG copy)> <./Chapitre6/ListConte
-nts.png (PNG copy)>] <Chapitre6/Config.png, id=2015, 481.8pt x 803.0pt>
+nts.png (PNG copy)>] <Chapitre6/Config.png, id=2018, 481.8pt x 803.0pt>
 File: Chapitre6/Config.png Graphic file (type png)
 
 <use Chapitre6/Config.png>) [107pdfTeX warning (ext4): destination with the sam
@@ -2656,7 +2654,7 @@ e identifier (name{figure.6.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.34 \include{Chapter6}
+l.50 \include{Chapter6}
                         <./Chapitre6/Config.png (PNG copy)>] [108]
 \openout2 = `Chapter7.aux'.
 
@@ -2713,7 +2711,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--38
  []
 
 [113] [114]
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 []\T1/cmr/m/n/10.95 ``Delay-tolerant net-works (DTNs) : A tu-to-rial,''
  []
 
@@ -2764,9 +2762,7 @@ Overfull \hbox (84.14914pt too wide) in paragraph at lines 498--498
 ide/topics/wireless/bluetooth.html.
  []
 
-[120]) [121] [122
-
-]
+[120])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Thesis.maf file.
@@ -2783,17 +2779,17 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Thesis.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
-[123]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
+[121]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
  (./Thesis.aux (./TitlePage.aux) (./Chapter1.aux) (./Chapter2.aux)
 (./Chapter3.aux) (./Chapter4.aux) (./Chapter5.aux) (./Chapter6.aux)
 (./Chapter7.aux) (./Appendix1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BB3398A8110F0062416D6D50EC5722E5;5750.
+(rerunfilecheck)             Checksum: D1C7EA4929377F1641949C30F5DE4B86;5685.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 96F85CA54974C6BA011B60C6D1679DB1;11993.
+(rerunfilecheck)             Checksum: 3BA37B82639304DB0EABE3EC012CF07E;11816.
 
 
 LaTeX Warning: There were undefined references.
@@ -2803,13 +2799,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10726 strings out of 493763
- 157136 string characters out of 3144976
- 288912 words of memory out of 3000000
- 12989 multiletter control sequences out of 15000+200000
+ 10727 strings out of 493763
+ 157133 string characters out of 3144976
+ 288346 words of memory out of 3000000
+ 12988 multiletter control sequences out of 15000+200000
  28773 words of font info for 73 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 46i,14n,45p,3476b,615s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,14n,48p,3034b,615s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></u
@@ -2853,10 +2849,10 @@ rm1728.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfti
 0900.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfti10
 95.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfxc1440
 .pfb>
-Output written on Thesis.pdf (129 pages, 3661923 bytes).
+Output written on Thesis.pdf (129 pages, 3665361 bytes).
 PDF statistics:
- 2531 PDF objects out of 2984 (max. 8388607)
- 2206 compressed objects within 23 object streams
- 464 named destinations out of 1000 (max. 500000)
- 839 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2523 PDF objects out of 2984 (max. 8388607)
+ 2199 compressed objects within 22 object streams
+ 466 named destinations out of 1000 (max. 500000)
+ 831 words of extra memory for PDF output out of 10000 (max. 10000000)
 
