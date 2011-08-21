@@ -103,6 +103,4 @@
 \contentsline {paragraph}{MobiTrade Configuration}{105}{section*.45}
 \contentsline {section}{\numberline {6.4}Summary and Open Issues}{107}{section.6.4}
 \contentsline {chapter}{\numberline {7}Conclusions and perspectives}{109}{chapter.7}
-\contentsline {chapter}{\numberline {A}Appendix Example}{111}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Example section}{111}{section.A.1}
-\contentsline {chapter}{Bibliography}{113}{appendix*.46}
+\contentsline {chapter}{Bibliography}{111}{chapter*.46}

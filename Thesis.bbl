@@ -112,6 +112,9 @@ L.~Buttyan, M.~Felegyhazi, and I.~Vajda, ``Barter-based cooperation in
   delay-tolerant personal wireless networks,'' in \emph{Proc. of IEEE AOC},
   Helsinki, Finland, 2007.
 
+\bibitem{HBSDDTN2}
+``{HBSD DTN2} external router,'' http://planete.inria.fr/{HBSD}\_{DTN2}.
+
 \bibitem{BlueTorrent}
 S.~Jung, U.~Lee, A.~Chang, D.~Cho, and M.~Gerla, ``Bluetorrent: Cooperative
   content sharing for bluetooth users,'' in \emph{Proc. of IEEE PerCom}, 2007.
@@ -336,10 +339,14 @@ C.~Boldrini, M.~Conti, and A.~Passarella, ``Modelling data dissemination in
   opportunistic networks,'' in \emph{Proceedings of the third ACM workshop on
   Challenged networks}, ser. CHANTS, San Francisco, California, USA, 2008.
 
+\bibitem{podnet07}
+V.~Lenders, G.~Karlsson, and M.~May, ``Wireless ad hoc podcasting,'' in
+  \emph{IEEE SECON}, 2007.
+
 \bibitem{ContentPlace}
-------, ``Design and performance evaluation of contentplace, a social-aware
-  data dissemination system for opportunistic networks,'' \emph{in Elsevier
-  Computer Networks}, 2010.
+C.~Boldrini, M.~Conti, and A.~Passarella, ``Design and performance evaluation
+  of contentplace, a social-aware data dissemination system for opportunistic
+  networks,'' \emph{in Elsevier Computer Networks}, 2010.
 
 \bibitem{Boldrini:SocialForwarding}
 ------, ``Exploiting users' social relations to forward data in opportunistic
@@ -467,16 +474,9 @@ D.~Hadaller, S.~Keshav, T.~Brecht, and S.~Agarwal, ``Vehicular opportunistic
 M.~Demmer, E.~Brewer, K.~Fall, M.~Ho, and R.~Patra, ``Implementing delay
   tolerant networking,'' Tech. Rep., 2003.
 
-\bibitem{HBSDDTN2}
-``{HBSD DTN2} external router,'' http://planete.inria.fr/{HBSD}\_{DTN2}.
-
 \bibitem{TMC:Report}
 A.~Krifa, C.~Barakat, and T.~Spyropoulos, ``Message drop and scheduling in
   {DTN}s: Theory and practice,'' HAL INRIA, Tech. Rep., 2010.
-
-\bibitem{podnet07}
-V.~Lenders, G.~Karlsson, and M.~May, ``Wireless ad hoc podcasting,'' in
-  \emph{IEEE SECON}, 2007.
 
 \bibitem{BitThief}
 T.~Locher, P.~Moor, S.~Schmid, and R.~Wattenhofer, ``Free riding in bittorrent

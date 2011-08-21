@@ -15,7 +15,7 @@
 \backcite {NashEquilibria}{{4}{1.2}{section.1.2}}
 \backcite {BitHoc}{{4}{1.2}{section.1.2}}
 \backcite {BarterDTN}{{4}{1.2}{section.1.2}}
-\backcite {DTN2}{{5}{1.2}{Item.2}}
+\backcite {HBSDDTN2}{{5}{1.2}{Item.2}}
 \backcite {BitHoc}{{8}{2}{chapter.2}}
 \backcite {BlueTorrent}{{8}{2}{chapter.2}}
 \backcite {RefBT}{{9}{2.1}{section.2.1}}
@@ -97,22 +97,21 @@
 \backcite {Peoplenet}{{21}{2.3.2}{table.2.3}}
 \backcite {Peoplenet}{{21}{2.3.2}{table.2.3}}
 \backcite {Peoplenet}{{21}{2.3.2}{table.2.3}}
-\backcite {PeopleNet}{{21}{2.3.2}{table.2.3}}
+\backcite {Peoplenet}{{21}{2.3.2}{table.2.3}}
 \backcite {NashEquilibria}{{21}{2.3.2}{table.2.3}}
 \backcite {BlueTorrent}{{21}{2.3.2}{table.2.3}}
 \backcite {RefBT}{{21}{2.3.2}{table.2.3}}
 \backcite {SocialCast2, SocialCast}{{22}{2.3.2}{table.2.3}}
 \backcite {Boldrini:2008:MDD}{{22}{2.3.2}{table.2.3}}
-\backcite {Podcasting:Secon07, May07wirelessopportunistic}{{22}{2.3.2}{table.2.3}}
+\backcite {May07wirelessopportunistic, podnet07}{{22}{2.3.2}{table.2.3}}
 \backcite {May07wirelessopportunistic}{{22}{2.3.2}{table.2.3}}
-\backcite {Podcasting:Secon07}{{22}{2.3.2}{table.2.3}}
+\backcite {podnet07}{{22}{2.3.2}{table.2.3}}
 \backcite {ContentPlace}{{22}{2.3.2}{table.2.3}}
 \backcite {Boldrini:SocialForwarding}{{22}{2.3.2}{table.2.3}}
 \backcite {OptimalChannelChoice}{{23}{2.3.2}{table.2.3}}
 \backcite {mcmc-bremaud}{{23}{2.3.2}{table.2.3}}
 \backcite {NashEquilibria}{{23}{2.3.2}{table.2.3}}
 \backcite {BarterDTN}{{23}{2.3.2}{table.2.3}}
-\backcite {DisseminationSummary}{{23}{2.3.2}{table.2.3}}
 \backcite {MoB}{{23}{1}{Item.3}}
 \backcite {MobiCent}{{24}{2}{Item.4}}
 \backcite {IADTN}{{24}{3}{Item.5}}
@@ -213,6 +212,3 @@
 \backcite {game}{{91}{5.3.4}{table.5.7}}
 \backcite {SQLite}{{95}{6.1.2}{figure.6.2}}
 \backcite {AndroidBluetoothAPI}{{102}{6.2.2}{subsection.6.2.2}}
-\backcite {Commowick_MICCAI_2007}{{111}{A.1}{section.A.1}}
-\backcite {Oakes_RStat_1999}{{111}{A.1}{section.A.1}}
-\backcite {Guimond_CVIU_2000}{{111}{A.1}{section.A.1}}

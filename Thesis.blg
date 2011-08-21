@@ -4,24 +4,17 @@ The top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: TitlePage.aux
 A level-1 auxiliary file: Chapter1.aux
 A level-1 auxiliary file: Chapter2.aux
-Case mismatch error between cite keys PeopleNet and Peoplenet
----line 215 of file Chapter2.aux
- : \citation{PeopleNet
- :                    }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter3.aux
 A level-1 auxiliary file: Chapter4.aux
 A level-1 auxiliary file: Chapter5.aux
 A level-1 auxiliary file: Chapter6.aux
 A level-1 auxiliary file: Chapter7.aux
-A level-1 auxiliary file: Appendix1.aux
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10130 items from 5000.
 Database file #1: Thesis.bib
 Repeated entry---line 1090 of file Thesis.bib
  : @inproceedings{LeBoudec:Mobicom07
@@ -75,12 +68,7 @@ Repeated entry---line 2409 of file Thesis.bib
 I'm skipping whatever remains of this entry
 A bad cross reference---entry "PellegriniAOC2009"
 refers to entry "DBLP:conf/wowmom/2009", which doesn't exist
-Warning--I didn't find a database entry for "DTN2"
 Warning--I didn't find a database entry for "Podcasting:Secon07"
-Warning--I didn't find a database entry for "DisseminationSummary"
-Warning--I didn't find a database entry for "Commowick_MICCAI_2007"
-Warning--I didn't find a database entry for "Oakes_RStat_1999"
-Warning--I didn't find a database entry for "Guimond_CVIU_2000"
 Warning--I didn't find a database entry for "DBLP:conf/wowmom/2009"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -103,7 +91,7 @@ Warning--missing institution in Demmer03implementingdelay
 Done.
 You've used 108 entries,
             4039 wiz_defined-function locations,
-            1342 strings with 23176 characters,
+            1331 strings with 23007 characters,
 and the built_in function-call counts, 48565 in all, are:
 = -- 3336
 > -- 1267
@@ -111,7 +99,7 @@ and the built_in function-call counts, 48565 in all, are:
 + -- 607
 - -- 288
 * -- 2087
-:= -- 7662
+:= -- 7663
 add.period$ -- 213
 call.type$ -- 108
 change.case$ -- 103
@@ -120,7 +108,7 @@ cite$ -- 114
 duplicate$ -- 4242
 empty$ -- 5340
 format.name$ -- 369
-if$ -- 11077
+if$ -- 11076
 int.to.chr$ -- 0
 int.to.str$ -- 108
 missing$ -- 913
@@ -142,4 +130,4 @@ warning$ -- 6
 while$ -- 96
 width$ -- 111
 write$ -- 855
-(There were 18 error messages)
+(There were 17 error messages)
