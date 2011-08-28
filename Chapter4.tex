@@ -1,4 +1,4 @@
-﻿\chapter{HBSD: Implementation on top of the DTN2 reference architecture}
+\chapter{HBSD: Implementation on top of the DTN2 reference architecture}
 \label{chapter:HBSD}
 \minitoc
 
@@ -112,7 +112,7 @@ The exchanged meta data consist of a subset of the matrix described in Figure~\r
 
 By default, when the DTN2 daemon successfully transmits a bundle it then deletes the bundle. This is
 not the desired behavior; otherwise HBSD would not be able to replicate bundles on
-multiple nodes. That is why it's important to set early\_deletion to false in the DTN2
+multiple nodes. That is why it's important to set \emph{early\_deletion} to false in the DTN2
 configuration~\cite{HBSDDTN2}. The proper behavior is for dtnd to retain a copy of the bundle after
 transmission.
 
@@ -296,11 +296,11 @@ with the actual destination node.
 HBSD can be customized through a configuration file specified in the runtime command line.  
 There must be no more that one configuration option per line in the file, and must be specified using the syntax: variable=value. The value may be double or single-quoted. Lines that begin with a hash character ($\#$) are treated as comments and ignored. Comments should not appear on the same line as a configuration value. The options defined in the following table are supported. The default values for most, if not all variables should be sufficient.
 
-\begin{longtable}[!h]{|p{4cm}|p{1cm}|p{2cm}|p{5cm}|}
+\begin{longtable}[!h]{|p{4cm}|p{1cm}|p{2.2cm}|p{5cm}|}
 \hline
 \textbf{Variable}& \textbf{Type} & \textbf{Default} & \textbf{Description} \\
 \hline
-routerEndpoint &  string & ext.rtr/HBS & Defines the external router's endpoint, which is typically  used to receive control 
+routerEndpoint &  string & ext.rtr/HBSD & Defines the external router's endpoint, which is typically  used to receive control 
 messages from peer  instances of the router. An 
 example is meta data exchanged between the 
 routers. DTN2 special-cases endpoints that begin with 

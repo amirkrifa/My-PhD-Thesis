@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.8)  21 AUG 2011 17:25
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.8)  28 AUG 2011 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1686,14 +1686,8 @@ l.47 \include{Chapter3}
 ig15-eps-converted-to.pdf>] [57]
 \openout2 = `Chapter4.aux'.
 
- (./Chapter4.tex
+ (./Chapter4.tex [58
 
-Package Fancyhdr Warning: \headheight is too small (13.6pt): 
- Make it at least 25.23671pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[58
 
 
 ]
@@ -1702,9 +1696,7 @@ Chapter 4.
 
 \openout3 = `Thesis.mtc'.
 
-(./Thesis.mtc4) [59
-
-]
+(./Thesis.mtc4) [59]
 Package epstopdf Info: Source file: <Chapitre4/HBSD-DTN2.eps>
 (epstopdf)                    date: 2011-04-08 15:02:24
 (epstopdf)                    size: 362521 bytes
@@ -1799,8 +1791,8 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  This may cause the page layout to be inconsistent, however.
 
 [66]
-Overfull \hbox (1.00883pt too wide) in paragraph at lines 303--303
-[]|\T1/cmr/m/n/10.95 ext.rtr/HBS| 
+Overfull \hbox (3.63202pt too wide) in paragraph at lines 303--303
+[]|\T1/cmr/m/n/10.95 ext.rtr/HBSD| 
  []
 
 
@@ -1878,6 +1870,11 @@ Underfull \hbox (badness 2326) in paragraph at lines 350--351
 \T1/cmr/m/n/10.95 prox-i-mated by the av-er-age
  []
 
+
+Overfull \hbox (1.97182pt too wide) in alignment at lines 299--351
+ [] [] [] [] 
+ []
+
 [67]
 Underfull \vbox (badness 10000) detected at line 351
  []
@@ -1900,6 +1897,11 @@ Underfull \hbox (badness 1824) in paragraph at lines 360--361
 
 Underfull \hbox (badness 1668) in paragraph at lines 360--361
 \T1/cmr/m/n/10.95 in or-der to cor-rectly track
+ []
+
+
+Overfull \hbox (1.97182pt too wide) in alignment at lines 351--362
+ [] [] [] [] 
  []
 
 
@@ -2635,18 +2637,15 @@ l.50 \include{Chapter6}
 
 (./Chapter7.tex
 Chapter 7.
-) [109
+[109
 
 
 
-] (./Thesis.bbl (./Thesis.brf)
+]) [110] (./Thesis.bbl (./Thesis.brf)
 \tf@brf=\write7
 \openout7 = `Thesis.brf'.
 
- [110
 
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
 []\T1/cmr/m/n/10.95 ``AT&T: Im-prov-ing 3G net-work,'' http://gigaom.com/2008/0
 6/08/3g-
@@ -2663,7 +2662,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--38
 -network/.
  []
 
-[111] [112]
+[111
+
+
+] [112]
 Underfull \hbox (badness 10000) in paragraph at lines 169--169
 []\T1/cmr/m/n/10.95 ``Delay-tolerant net-works (DTNs) : A tu-to-rial,''
  []
@@ -2715,6 +2717,11 @@ Overfull \hbox (84.14914pt too wide) in paragraph at lines 498--498
 ide/topics/wireless/bluetooth.html.
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\T1/cmr/m/n/10.95 ``MobiTrade im-ple-men-ta-tion for An-droid OS,''
+ []
+
 )
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
@@ -2742,7 +2749,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 757F3E7A0141F6307F491735E0DD9205;5561.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: ED19F7A96AEBE7349441E090349E9D42;11575.
+(rerunfilecheck)             Checksum: E37FAC6941B98A0C28DF3F6DE3E0DBB6;11823.
 
 
 LaTeX Warning: There were undefined references.
@@ -2752,13 +2759,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10673 strings out of 493763
- 156273 string characters out of 3144976
- 287588 words of memory out of 3000000
- 12948 multiletter control sequences out of 15000+200000
+ 10680 strings out of 493763
+ 156413 string characters out of 3144976
+ 287993 words of memory out of 3000000
+ 12954 multiletter control sequences out of 15000+200000
  28773 words of font info for 73 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 46i,14n,48p,3035b,585s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,14n,48p,3035b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></u
@@ -2802,10 +2809,10 @@ rm1728.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfti
 0900.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfti10
 95.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfxc1440
 .pfb>
-Output written on Thesis.pdf (127 pages, 3663513 bytes).
+Output written on Thesis.pdf (127 pages, 3666246 bytes).
 PDF statistics:
- 2511 PDF objects out of 2984 (max. 8388607)
- 2189 compressed objects within 22 object streams
- 462 named destinations out of 1000 (max. 500000)
+ 2524 PDF objects out of 2984 (max. 8388607)
+ 2201 compressed objects within 23 object streams
+ 463 named destinations out of 1000 (max. 500000)
  815 words of extra memory for PDF output out of 10000 (max. 10000000)
 

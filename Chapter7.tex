@@ -1,2 +1,16 @@
 \chapter{Conclusions and perspectives}
 \label{chapter:conclusions}
+
+In this thesis, we have investigated the problems of scheduling and buffer management in DTNs. We have proposed an optimal joint scheduling and buffer management policy and introduced an approximation scheme for the required global knowledge of the optimal algorithm. Using NS2 simulations based on a synthetic and real mobility traces we showed that our policy based on statistical learning successfully approximates the performance of the optimal algorithm. Both
+policies (GBSD and HBSD) plugged into the Epidemic routing protocol
+outperform current state-of-the-art protocols like RAPID~\cite{Levine:Sigcomm07} with respect to both delivery rate and delivery delay, in all considered scenarios. Moreover, we discussed how to implement our HBSD policy in practice, by using a distributed statistics collection method, illustrating that our approach is realistic and effective. We showed also that, unlike related works~\cite{Levine:Sigcomm07, AOBM}, our statistics collection method scales well, not increasing the amount of signalling overhead during high congestion. We have also studied the distributions of HBSD' utilities under different congestion levels and showed that the optimal policy heavily depends on the congestion level. The above findings suggest that methods to signal the congestion level could allow nodes to switch off the more sophisticated but ``heavier-duty'' HBSD policy and use simpler local policies, when congestion is below some threshold. 
+
+We then, investigated the content dissemination problem over DTN while considering the possible existence of selfish users.
+Inspired from real life trading behavior, we proposed MobiTrade, a complete framework that incites users to collaborate, profiles their needs and manages their device resources optimally towards maximizing their revenues in terms of contents. Using NS3 simulations based on a synthetic mobility model (HCMM), and a real mobility trace (KAIST), we show that selfish users are isolated and system resources are only allocated among collaborative users. 
+
+To consolidate the NS-2/NS-3 simulations, we implemented our HBSD and MobiTrade protocols respectively as an external router for the DTN2 reference platform and as standalone mobile application for the Android powered devices. HBSD real implementation is available on our web site \cite{HBSDDTN2}, users can easily download and deploy both the DTN2 platform along with the HBSD external router and tune latter if needed. With respect to MobiTrade, its Android mobile application prototype is available for download on our web site \cite{MobiTradeAndroid}. We detail in \cite{MobiTradeAndroid} the architecture as well as the features of the MobiTrade prototype. 
+
+As a future work, we aim at implementing our MobiTrade protocol for other types of devices and experiment with real large scale communities of users. Furthermore, we intend to consider more complex content structures and their effect on our system. ... Many optimizations can be done on the ... 
+
+Moreover, one can go one step further with the study of the HBSD framework and look in details into and end-to-end congestion schem. Indeed, one can ...
+
