@@ -55,6 +55,9 @@ M.~R. Ra, J.~Paek, A.~B. Sharma, R.~Govindan, M.~H. Krieger, and M.~J. Neely,
   ``Energy-delay tradeoffs in smartphone applications,'' in \emph{Proc. of
   MobiSys}, San Francisco, California, USA, 2010.
 
+\bibitem{dtnrg}
+``Delay tolerant networking research group,'' \emph{http://www.dtnrg.org}.
+
 \bibitem{Juang:zebranet}
 P.~Juang, H.~Oki, Y.~Wang, M.~Martonosi, L.~S. Peh, and D.~Rubenstein,
   ``Energy-efficient computing for wildlife tracking: design tradeoffs and
@@ -92,10 +95,65 @@ R.Groenevelt, G.~Koole, and P.~Nain, ``Message delay in manet (extended
 T.~Spyropoulos, K.~Psounis, and C.~S. Raghavendra, ``Performance analysis of
   mobility-assisted routing,'' in \emph{Proceedings of ACM/IEEE MOBIHOC}, 2006.
 
+\bibitem{KrifaBS08}
+A.~Krifa, C.~Barakat, and T.~Spyropoulos, ``Optimal buffer management policies
+  for delay tolerant networks,'' in \emph{IEEE SECON}, 2008.
+
+\bibitem{HBSDDTN2}
+``{HBSD DTN2} external router,'' http://planete.inria.fr/{HBSD}\_{DTN2}.
+
 \bibitem{QueuingPolicies}
 A.~Lindgren and K.~S. Phanse, ``Evaluation of queuing policies and forwarding
   strategies for routing in intermittently connected networks,'' in
   \emph{Proceedings of IEEE COMSWARE}, 2006.
+
+\bibitem{MobiCent}
+B.~B. Chen and M.~C. Chan, ``Mobicent: a credit based incentive system for
+  disruption tolerant network,'' in \emph{Proc. of IEEE INFOCOM}, 2010.
+
+\bibitem{IADTN}
+U.~Shevade, H.~Song, L.~Qiu, and Y.~Zhang, ``Incentive aware routing in dtns,''
+  in \emph{Proc. of IEEE ICNP}, 2008.
+
+\bibitem{MoB}
+R.~Chakravorty, S.~Agarwal, and S.~Banerjee, ``{M}o{B}: A mobile bazaar for
+  wide-area wireless services,'' in \emph{in Proc. ACM MobiCom}, Cologne,
+  Germany, 2005.
+
+\bibitem{OptimalChannelChoice}
+L.~Hu, J.~L. Boudec, and M.~Vojnovic, ``Optimal channel choice for
+  collaborative ad-hoc dissemination,'' in \emph{Proc. of IEEE INFOCOM}, San
+  Diego, CA, USA, 2010.
+
+\bibitem{ContentPlace}
+C.~Boldrini, M.~Conti, and A.~Passarella, ``Design and performance evaluation
+  of contentplace, a social-aware data dissemination system for opportunistic
+  networks,'' \emph{in Elsevier Computer Networks}, 2010.
+
+\bibitem{SocialCast2}
+P.~Costa, C.~Mascolo, M.~Musolesi, and G.~P. Picco, ``Socially-aware routing
+  for publish-subscribe in delay-tolerant mobile ad hoc networks,''
+  \emph{Transactions on IEEE Selected Areas in Communications}, 2008.
+
+\bibitem{SocialCast}
+O.~Helgason, E.~Yavuz, S.~Kouyoumdjieva, L.~Pajevic, and G.~Karlsson, ``A
+  mobile peer-to-peer system for opportunistic content-centric networking,'' in
+  \emph{Proc. of ACM MobiHeld}, 2010.
+
+\bibitem{BlueTorrent}
+S.~Jung, U.~Lee, A.~Chang, D.~Cho, and M.~Gerla, ``Bluetorrent: Cooperative
+  content sharing for bluetooth users,'' in \emph{Proc. of IEEE PerCom}, 2007.
+
+\bibitem{TACODTN}
+G.~Sollazzo, M.~Musolesi, and C.~Mascolo, ``{TACO-DTN}: A time-aware
+  content-based dissemination system for delay tolerant networks,'' in
+  \emph{Proc. of ACM MobiOpp}, 2007.
+
+\bibitem{Peoplenet}
+M.~Motani, V.~Srinivasan, and P.~S. Nuggehalli, ``Peoplenet: engineering a
+  wireless virtual social network,'' in \emph{MobiCom '05: Proceedings of the
+  11th annual international conference on Mobile computing and networking},
+  2005.
 
 \bibitem{NashEquilibria}
 M.~Felegyhazi, J.~P. Hubaux, and L.~Buttyan, ``Nash equilibria of packet
@@ -112,12 +170,8 @@ L.~Buttyan, M.~Felegyhazi, and I.~Vajda, ``Barter-based cooperation in
   delay-tolerant personal wireless networks,'' in \emph{Proc. of IEEE AOC},
   Helsinki, Finland, 2007.
 
-\bibitem{HBSDDTN2}
-``{HBSD DTN2} external router,'' http://planete.inria.fr/{HBSD}\_{DTN2}.
-
-\bibitem{BlueTorrent}
-S.~Jung, U.~Lee, A.~Chang, D.~Cho, and M.~Gerla, ``Bluetorrent: Cooperative
-  content sharing for bluetooth users,'' in \emph{Proc. of IEEE PerCom}, 2007.
+\bibitem{BitHocWeb}
+``{B}it{H}oc,'' http://planete.inria.fr/bithoc/.
 
 \bibitem{RefBT}
 
@@ -126,18 +180,12 @@ S.~Jung, U.~Lee, A.~Chang, D.~Cho, and M.~Gerla, ``Bluetorrent: Cooperative
 T.~Clausen and P.~Jacquet, \emph{Optimized Link State Routing Protocol,
   draft-ietfmanet-olsr-11.txt}, 2003.
 
-\bibitem{BitHocWeb}
-``{B}it{H}oc,'' http://planete.inria.fr/bithoc/.
-
 \bibitem{Bundle}
 ``{B}undle protocol specification,'' http://www.ietf.org/rfc/rfc5050.txt.
 
 \bibitem{fall03}
 K.~Fall, ``A delay-tolerant network architecture for challenged internets,'' in
   \emph{ACM SIGCOMM}, 2003.
-
-\bibitem{dtnrg}
-``Delay tolerant networking research group,'' \emph{http://www.dtnrg.org}.
 
 \bibitem{DriveThru}
 J.~Ott and D.~Kutscher, ``A disconnection-tolerant transport for drive-thru
@@ -251,16 +299,6 @@ H.~P. Dohyung~Kim and I.~Yeom, ``Minimizing the impact of buffer overflow in
   dtn,'' in \emph{Proceedings International Conference on Future Internet
   Technologies (CFI)}, 2008.
 
-\bibitem{Lindgren:probabilistic}
-A.~Lindgren, A.~Doria, and O.~Schelen, ``Probabilistic routing in
-  intermittently connected networks,'' \emph{SIGMOBILE Mobile Computing and
-  Communication Review}, vol.~7, no.~3, 2003.
-
-\bibitem{PRESTO}
-P.~Desnoyers, D.~Ganesan, H.~Li, M.~Li, and P.~Shenoy, ``Presto: A predictive
-  storage arch- itecture for sensor networks,'' in \emph{In Proc. USENIX
-  HotOS}, 2005.
-
 \bibitem{DTNSpace}
 J.~Leguay, T.~Friedman, and V.~Conan, ``{DTN} routing in a mobility pattern
   space,'' in \emph{In Proc. ACM Chants Workshop}, 2005.
@@ -272,6 +310,16 @@ A.~Lindgren, A.~Doria, and O.~Schel\'{e}n, ``Probabilistic routing in
 \bibitem{Levine:Sigcomm07}
 A.~Balasubramanian, B.~Levine, and A.~Venkataramani, ``Dtn routing as a
   resource allocation problem,'' in \emph{Proceedings of ACM SIGCOMM}, 2007.
+
+\bibitem{Lindgren:probabilistic}
+A.~Lindgren, A.~Doria, and O.~Schelen, ``Probabilistic routing in
+  intermittently connected networks,'' \emph{SIGMOBILE Mobile Computing and
+  Communication Review}, vol.~7, no.~3, 2003.
+
+\bibitem{PRESTO}
+P.~Desnoyers, D.~Ganesan, H.~Li, M.~Li, and P.~Shenoy, ``Presto: A predictive
+  storage arch- itecture for sensor networks,'' in \emph{In Proc. USENIX
+  HotOS}, 2005.
 
 \bibitem{AOBM}
 D.~J. L. S. L.~Z. Yong~L., Mengjiong~Q., ``Adaptive optimal buffer management
@@ -296,11 +344,6 @@ M.~May, C.~Wacha, V.~Lenders, and G.~Karlsson, ``Wireless opportunistic
 V.~Lenders, G.~Karlsson, and M.~May, ``Wireless ad hoc podcasting,'' in
   \emph{IEEE SECON}, 2007.
 
-\bibitem{TACODTN}
-G.~Sollazzo, M.~Musolesi, and C.~Mascolo, ``{TACO-DTN}: A time-aware
-  content-based dissemination system for delay tolerant networks,'' in
-  \emph{Proc. of ACM MobiOpp}, 2007.
-
 \bibitem{Chiara:MSWIM08}
 C.~Boldrini, M.~Conti, and A.~Passarella, ``Contentplace: social-aware data
   dissemination in opportunistic networks,'' in \emph{Proceedings ACM MSWiM},
@@ -310,16 +353,6 @@ C.~Boldrini, M.~Conti, and A.~Passarella, ``Contentplace: social-aware data
 ------, ``Users mobility models for opportunistic networks: the role of
   physical locations,'' in \emph{Proc. of IEEE WRECOM}, 2007.
 
-\bibitem{SocialCast2}
-P.~Costa, C.~Mascolo, M.~Musolesi, and G.~P. Picco, ``Socially-aware routing
-  for publish-subscribe in delay-tolerant mobile ad hoc networks,''
-  \emph{Transactions on IEEE Selected Areas in Communications}, 2008.
-
-\bibitem{SocialCast}
-O.~Helgason, E.~Yavuz, S.~Kouyoumdjieva, L.~Pajevic, and G.~Karlsson, ``A
-  mobile peer-to-peer system for opportunistic content-centric networking,'' in
-  \emph{Proc. of ACM MobiHeld}, 2010.
-
 \bibitem{LOCUS}
 N.~A. Thompson, R.~Crepaldi, and R.~Kravets, ``Locus: A location-based data
   overlay for disruption-tolerant networks,'' in \emph{Proc. of ACM CHANTS},
@@ -327,12 +360,6 @@ N.~A. Thompson, R.~Crepaldi, and R.~Kravets, ``Locus: A location-based data
 
 \bibitem{MobiSim}
 ``Mobisim:,'' http://www.mobisim.org/fr-home.html.
-
-\bibitem{Peoplenet}
-M.~Motani, V.~Srinivasan, and P.~S. Nuggehalli, ``Peoplenet: engineering a
-  wireless virtual social network,'' in \emph{MobiCom '05: Proceedings of the
-  11th annual international conference on Mobile computing and networking},
-  2005.
 
 \bibitem{Boldrini:2008:MDD}
 C.~Boldrini, M.~Conti, and A.~Passarella, ``Modelling data dissemination in
@@ -343,38 +370,15 @@ C.~Boldrini, M.~Conti, and A.~Passarella, ``Modelling data dissemination in
 V.~Lenders, G.~Karlsson, and M.~May, ``Wireless ad hoc podcasting,'' in
   \emph{IEEE SECON}, 2007.
 
-\bibitem{ContentPlace}
-C.~Boldrini, M.~Conti, and A.~Passarella, ``Design and performance evaluation
-  of contentplace, a social-aware data dissemination system for opportunistic
-  networks,'' \emph{in Elsevier Computer Networks}, 2010.
-
 \bibitem{Boldrini:SocialForwarding}
-------, ``Exploiting users' social relations to forward data in opportunistic
-  networks: the hibop solution,'' in \emph{Proceedings of Pervasive Mob.
-  Comput.}, 2008.
-
-\bibitem{OptimalChannelChoice}
-L.~Hu, J.~L. Boudec, and M.~Vojnovic, ``Optimal channel choice for
-  collaborative ad-hoc dissemination,'' in \emph{Proc. of IEEE INFOCOM}, San
-  Diego, CA, USA, 2010.
+C.~Boldrini, M.~Conti, and A.~Passarella, ``Exploiting users' social relations
+  to forward data in opportunistic networks: the hibop solution,'' in
+  \emph{Proceedings of Pervasive Mob. Comput.}, 2008.
 
 \bibitem{mcmc-bremaud}
 P.~Br\'emaud, \emph{Markov chains : Gibbs fields, Monte Carlo simulation, and
   queues}.\hskip 1em plus 0.5em minus 0.4em\relax Berlin, Germany: Springer,
   2001.
-
-\bibitem{MoB}
-R.~Chakravorty, S.~Agarwal, and S.~Banerjee, ``{M}o{B}: A mobile bazaar for
-  wide-area wireless services,'' in \emph{in Proc. ACM MobiCom}, Cologne,
-  Germany, 2005.
-
-\bibitem{MobiCent}
-B.~B. Chen and M.~C. Chan, ``Mobicent: a credit based incentive system for
-  disruption tolerant network,'' in \emph{Proc. of IEEE INFOCOM}, 2010.
-
-\bibitem{IADTN}
-U.~Shevade, H.~Song, L.~Qiu, and Y.~Zhang, ``Incentive aware routing in dtns,''
-  in \emph{Proc. of IEEE ICNP}, 2008.
 
 \bibitem{Reputation}
 B.~Sonja and J.~Y.~L. Boudec, ``A robust reputation system for peer-to-peer and
@@ -448,15 +452,6 @@ Y.~Wang, P.~Zhang, T.~Liu, C.~Sadler, and M.~Martonosi, ``Movement data traces
 
 \bibitem{KAIST}
 ``{KAIST} mobility traces,'' http://research.csc.ncsu.edu/netsrv/?q=node/4.
-
-\bibitem{KrifaBS08}
-A.~Krifa, C.~Barakat, and T.~Spyropoulos, ``Optimal buffer management policies
-  for delay tolerant networks,'' in \emph{IEEE SECON}, 2008.
-
-\bibitem{Boldrini:MSWIM08}
-C.~Boldrini, M.~Conti, and A.~Passarella, ``Contentplace: social-aware data
-  dissemination in opportunistic networks,'' in \emph{Proceedings of ACM
-  MSWiM}, 2008.
 
 \bibitem{Keshav:Mobisys07}
 D.~Hadaller, S.~Keshav, T.~Brecht, and S.~Agarwal, ``Vehicular opportunistic

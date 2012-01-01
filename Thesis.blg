@@ -1,5 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2010)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: TitlePage.aux
 A level-1 auxiliary file: Chapter1.aux
@@ -10,11 +9,7 @@ A level-1 auxiliary file: Chapter5.aux
 A level-1 auxiliary file: Chapter6.aux
 A level-1 auxiliary file: Chapter7.aux
 The style file: IEEEtran.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Thesis.bib
 Repeated entry---line 1090 of file Thesis.bib
  : @inproceedings{LeBoudec:Mobicom07
@@ -73,9 +68,9 @@ Warning--I didn't find a database entry for "DBLP:conf/wowmom/2009"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--all relevant fields are empty in RefBT
 Warning--empty author in dtnrg
 Warning--empty year in dtnrg
+Warning--all relevant fields are empty in RefBT
 Warning--empty year in Ward:RoutingSurvey
 Name 1 in "B. Burns, O. Brock, and B. N. Levine" has a comma at the end for entry MVRouting
 while executing---line 2419 of file IEEEtran.bst
@@ -89,45 +84,45 @@ while executing---line 2419 of file IEEEtran.bst
 Warning--missing institution in Demmer03implementingdelay
 
 Done.
-You've used 109 entries,
+You've used 108 entries,
             4039 wiz_defined-function locations,
-            1335 strings with 23123 characters,
-and the built_in function-call counts, 48828 in all, are:
-= -- 3352
-> -- 1268
+            1332 strings with 23067 characters,
+and the built_in function-call counts, 48338 in all, are:
+= -- 3319
+> -- 1255
 < -- 29
-+ -- 608
-- -- 288
-* -- 2093
-:= -- 7702
-add.period$ -- 215
-call.type$ -- 109
-change.case$ -- 104
++ -- 602
+- -- 285
+* -- 2071
+:= -- 7627
+add.period$ -- 213
+call.type$ -- 108
+change.case$ -- 103
 chr.to.int$ -- 39
-cite$ -- 115
-duplicate$ -- 4270
-empty$ -- 5374
-format.name$ -- 369
-if$ -- 11135
+cite$ -- 114
+duplicate$ -- 4228
+empty$ -- 5316
+format.name$ -- 365
+if$ -- 11020
 int.to.chr$ -- 0
-int.to.str$ -- 109
-missing$ -- 919
-newline$ -- 350
-num.names$ -- 87
-pop$ -- 2613
+int.to.str$ -- 108
+missing$ -- 910
+newline$ -- 347
+num.names$ -- 86
+pop$ -- 2587
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3935
+skip$ -- 3895
 stack$ -- 0
-substring$ -- 195
-swap$ -- 2342
+substring$ -- 194
+swap$ -- 2320
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 109
+type$ -- 108
 warning$ -- 6
-while$ -- 96
-width$ -- 112
-write$ -- 861
+while$ -- 95
+width$ -- 111
+write$ -- 853
 (There were 17 error messages)
