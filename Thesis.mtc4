@@ -15,16 +15,16 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Main HBSD external router building blocks}{\reset@font\mtcSfont 68}{section.4.4}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode StatisticsManager class:}{\reset@font\mtcPfont 68}{section*.20}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode PeerListener Class:}{\reset@font\mtcPfont 68}{section*.21}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Requester Class:}{\reset@font\mtcPfont 68}{section*.22}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode GBOF class:}{\reset@font\mtcPfont 69}{section*.23}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Requester Class:}{\reset@font\mtcPfont 69}{section*.22}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode GBOF class:}{\reset@font\mtcPfont 70}{section*.23}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode HBSD Class:}{\reset@font\mtcPfont 70}{section*.24}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode HBSD SAX class:}{\reset@font\mtcPfont 70}{section*.25}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Handlers class:}{\reset@font\mtcPfont 70}{section*.26}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode XMLTree class:}{\reset@font\mtcPfont 70}{section*.27}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode HBSD Routing class:}{\reset@font\mtcPfont 70}{section*.28}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Logging class:}{\reset@font\mtcPfont 70}{section*.29}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Console Logging class:}{\reset@font\mtcPfont 70}{section*.30}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode ConfFile class:}{\reset@font\mtcPfont 70}{section*.31}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Console Logging class:}{\reset@font\mtcPfont 71}{section*.30}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode ConfFile class:}{\reset@font\mtcPfont 71}{section*.31}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Bundles class:}{\reset@font\mtcPfont 71}{section*.32}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Node class:}{\reset@font\mtcPfont 71}{section*.33}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Nodes class:}{\reset@font\mtcPfont 71}{section*.34}}
@@ -32,5 +32,5 @@
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Links class:}{\reset@font\mtcPfont 71}{section*.36}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Policy class:}{\reset@font\mtcPfont 71}{section*.37}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode HBSD Policy class:}{\reset@font\mtcPfont 71}{section*.38}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}Configuring HBSD}{\reset@font\mtcSfont 71}{section.4.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.6}Summary and Open Issues}{\reset@font\mtcSfont 75}{section.4.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}Configuring HBSD}{\reset@font\mtcSfont 72}{section.4.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.6}Summary and Open Issues}{\reset@font\mtcSfont 76}{section.4.6}}

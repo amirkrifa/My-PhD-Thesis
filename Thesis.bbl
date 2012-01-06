@@ -21,20 +21,54 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{MOMO}
+``{MO}nitoring with {M}otes,'' \url{http://www.iteam.upv.es}.
+
+\bibitem{ARNETMINER}
+``{W}ireless {S}ensor {N}etworks for {H}abitat {M}onitoring,''
+  \url{http://www.arnetminer.org/viewpub.do?pid=505717/}.
+
+\bibitem{ResiliNets}
+``{R}esilient and {S}urvivable {N}etworks,''
+  \url{https://wiki.ittc.ku.edu/resilinets/Main_Page}.
+
+\bibitem{UMassDieselNet}
+``{UM}ass {D}iesel{N}et,''
+  \url{http://prisms.cs.umass.edu/dome/umassdieselnet}.
+
+\bibitem{KIOSKNET}
+``{T}he {K}iosk{N}et {P}roject,''
+  \url{http://blizzard.cs.uwaterloo.ca/tetherless/index.php/KioskNet}.
+
+\bibitem{BYTEWALLA}
+``{D}elay {T}olerant {N}etworks on {A}ndroid {P}ones,''
+  \url{http://www.tslab.ssvl.kth.se/csd/projects/092106/}.
+
+\bibitem{TIER}
+``{TIER} project, uc berkeley,'' {http://tier.cs.berkeley.edu/}.
+
+\bibitem{BioServe}
+``{B}io{S}erve, {S}pace {T}echnologies,''
+  \url{http://www.colorado.edu/engineering/BioServe/}.
+
+\bibitem{Saratoga}
+``{I}nterplanetary {I}nternet {D}emonstrated from {S}pace,''
+  \url{http://personal.ee.surrey.ac.uk/Personal/L.Wood/dtn/saratoga?/}.
+
 \bibitem{CCN}
 V.~Jacobson, D.~Smetters, J.~Thornton, M.~Plass, N.~Briggs, and R.~Braynard,
   ``{N}etworking named content,'' in \emph{Proc. of ACM CoNEXT}, 2009.
 
 \bibitem{ComScore}
-``Comscore statistics,'' http://www.comscore.com.
+``Comscore statistics,'' \url{http://www.comscore.com}.
 
 \bibitem{ATT}
 ``{AT\&T}: Improving {3G} network,''
-  http://gigaom.com/2008/06/08/3g-network-iphone/.
+  \url{http://gigaom.com/2008/06/08/3g-network-iphone/}.
 
 \bibitem{ATT2}
 ``Iphone users eating up {AT\&T}'s network,''
-  http://venturebeat.com/2009/05/11/iphone-users-eating-up-atts-network/.
+  \url{http://venturebeat.com/2009/05/11/iphone-users-eating-up-atts-network/}.
 
 \bibitem{Killer-DTN}
 A.~Lindgren and P.~Hui., ``The quest for a killer app for opportunistic and
@@ -56,7 +90,8 @@ M.~R. Ra, J.~Paek, A.~B. Sharma, R.~Govindan, M.~H. Krieger, and M.~J. Neely,
   MobiSys}, San Francisco, California, USA, 2010.
 
 \bibitem{dtnrg}
-``Delay tolerant networking research group,'' \emph{http://www.dtnrg.org}.
+``Delay tolerant networking research group,''
+  \emph{\url{http://www.dtnrg.org}}.
 
 \bibitem{Juang:zebranet}
 P.~Juang, H.~Oki, Y.~Wang, M.~Martonosi, L.~S. Peh, and D.~Rubenstein,
@@ -73,14 +108,11 @@ J.~Burgess, B.~Gallagher, D.~Jensen, and B.~N. Levine, ``{MaxProp: Routing for
   Vehicle-Based Disruption-Tolerant Networks},'' in \emph{Proc. IEEE INFOCOM},
   2006.
 
-\bibitem{TIER}
-``{TIER} project, uc berkeley,'' http://tier.cs.berkeley.edu/.
-
 \bibitem{DSH}
-``Digital studyhall ({DSH}),'' http://dsh.cs.washington.edu/.
+``Digital studyhall ({DSH}),'' \url{http://dsh.cs.washington.edu/}.
 
 \bibitem{OneLaptopPerChild}
-``One laptop per child,'' http://one.laptop.org/.
+``One laptop per child,'' \url{http://one.laptop.org/}.
 
 \bibitem{haas:mobihoc03}
 Z.~J. Haas and T.~Small, ``A new networking model for biological applications
@@ -100,7 +132,7 @@ A.~Krifa, C.~Barakat, and T.~Spyropoulos, ``Optimal buffer management policies
   for delay tolerant networks,'' in \emph{IEEE SECON}, 2008.
 
 \bibitem{HBSDDTN2}
-``{HBSD DTN2} external router,'' http://planete.inria.fr/{HBSD}\_{DTN2}.
+``{HBSD DTN2} external router,'' \url{http://planete.inria.fr/{HBSD}_{DTN2}}.
 
 \bibitem{QueuingPolicies}
 A.~Lindgren and K.~S. Phanse, ``Evaluation of queuing policies and forwarding
@@ -170,8 +202,17 @@ L.~Buttyan, M.~Felegyhazi, and I.~Vajda, ``Barter-based cooperation in
   delay-tolerant personal wireless networks,'' in \emph{Proc. of IEEE AOC},
   Helsinki, Finland, 2007.
 
+\bibitem{Royer:RoutingSurvey}
+E.~Royer and C.-K. Toh, ``A review of current routing protocols for ad-hoc
+  mobile wireless networks,'' \emph{IEEE Communications Magazine}, apr 1999.
+
+\bibitem{Broch:98performance}
+J.~Broch, D.~A. Maltz, D.~B. Johnson, Y.-C. Hu, and J.~Jetcheva, ``A
+  performance comparison of multi-hop wireless ad hoc network routing
+  protocols,'' in \emph{Mobile Computing and Networking}, 1998.
+
 \bibitem{BitHocWeb}
-``{B}it{H}oc,'' http://planete.inria.fr/bithoc/.
+``{B}it{H}oc,'' \url{http://planete.inria.fr/bithoc/}.
 
 \bibitem{RefBT}
 
@@ -181,7 +222,7 @@ T.~Clausen and P.~Jacquet, \emph{Optimized Link State Routing Protocol,
   draft-ietfmanet-olsr-11.txt}, 2003.
 
 \bibitem{Bundle}
-``{B}undle protocol specification,'' http://www.ietf.org/rfc/rfc5050.txt.
+``{B}undle protocol specification,'' \url{http://www.ietf.org/rfc/rfc5050.txt}.
 
 \bibitem{fall03}
 K.~Fall, ``A delay-tolerant network architecture for challenged internets,'' in
@@ -213,7 +254,7 @@ S.~Burleigh, A.~Hooke, L.~Torgerson, K.~Fall, V.~Cerf, B.~Durst, K.~Scott, and
 
 \bibitem{DTNTutorial}
 ``{D}elay-tolerant networks ({DTN}s) : {A} tutorial,''
-  http://www.dtnrg.org/wiki/Docs.
+  \url{http://www.dtnrg.org/wiki/Docs}.
 
 \bibitem{Fall:DTNrouting}
 S.~Jain, K.~Fall, and R.~Patra, ``Routing in a delay tolerant network,'' in
@@ -359,7 +400,7 @@ N.~A. Thompson, R.~Crepaldi, and R.~Kravets, ``Locus: A location-based data
   2010.
 
 \bibitem{MobiSim}
-``Mobisim:,'' http://www.mobisim.org/fr-home.html.
+``Mobisim:,'' \url{http://www.mobisim.org/fr-home.html}.
 
 \bibitem{Boldrini:2008:MDD}
 C.~Boldrini, M.~Conti, and A.~Passarella, ``Modelling data dissemination in
@@ -401,7 +442,7 @@ T.~Spyropoulos, T.~Turletti, and K.~Obrazcka, ``Routing in delay tolerant
 \bibitem{Aldous:book}
 D.~Aldous and J.~Fill, ``Reversible markov chains and random walks on graphs.
   (monograph in preparation.),''
-  \emph{http://stat-www.berkeley.edu/users/aldous/RWG/book.html}.
+  \emph{\url{http://stat-www.berkeley.edu/users/aldous/RWG/book.html}}.
 
 \bibitem{LeBoudec:Mobicom07}
 T.~Karagiannis, J.-Y. Le~Boudec, and M.~Vojnovi\'{c}, ``Power law and
@@ -440,7 +481,8 @@ A.~Guerrieri, A.~Montresor, I.~Carreras, F.~D. Pellegrini, and D.~Miorandi,
   Workshop (colocated with WOWMOM}, 2009, pp. 1--7.
 
 \bibitem{DTN-NS2}
-``Dtn architecture for ns-2,'' http://www-sop.inria.fr/members/Amir.Krifa/DTN.
+``Dtn architecture for ns-2,''
+  \url{http://www-sop.inria.fr/members/Amir.Krifa/DTN}.
 
 \bibitem{ZebraNetMovement}
 Y.~Wang, P.~Zhang, T.~Liu, C.~Sadler, and M.~Martonosi, ``Movement data traces
@@ -448,10 +490,11 @@ Y.~Wang, P.~Zhang, T.~Liu, C.~Sadler, and M.~Martonosi, ``Movement data traces
   http://crawdad.cs.dartmouth.edu/, 2007.
 
 \bibitem{Cabspotting}
-``Cabspotting project,'' http://cabspotting.org/.
+``Cabspotting project,'' \url{http://cabspotting.org/}.
 
 \bibitem{KAIST}
-``{KAIST} mobility traces,'' http://research.csc.ncsu.edu/netsrv/?q=node/4.
+``{KAIST} mobility traces,''
+  \url{http://research.csc.ncsu.edu/netsrv/?q=node/4}.
 
 \bibitem{Keshav:Mobisys07}
 D.~Hadaller, S.~Keshav, T.~Brecht, and S.~Agarwal, ``Vehicular opportunistic
@@ -460,10 +503,10 @@ D.~Hadaller, S.~Keshav, T.~Brecht, and S.~Agarwal, ``Vehicular opportunistic
 
 \bibitem{Nyquist}
 ``Nyquist shannon sampling theorem,''
-  http://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem.
+  http://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon\_sampling\_theorem.
 
 \bibitem{DTN2Manual}
-``{DTN2} manual,'' http://www.dtnrg.org/docs/code/DTN2/doc/manual.
+``{DTN2} manual,'' \url{http://www.dtnrg.org/docs/code/DTN2/doc/manual}.
 
 \bibitem{Demmer03implementingdelay}
 M.~Demmer, E.~Brewer, K.~Fall, M.~Ho, and R.~Patra, ``Implementing delay
@@ -478,21 +521,25 @@ T.~Locher, P.~Moor, S.~Schmid, and R.~Wattenhofer, ``Free riding in bittorrent
   is cheap,'' in \emph{Proc. of ACM HotNets}, Irvine, CA, USA, 2006.
 
 \bibitem{NS3}
-``The {NS-3} network simulator,'' http://www.nsnam.org.
+``The {NS-3} network simulator,'' \url{http://www.nsnam.org}.
+
+\bibitem{Podcasting:Secon07}
+V.~Lenders, G.~Karlsson, and M.~May, ``Wireless ad hoc podcasting,'' in
+  \emph{Proc. of IEEE SECON}, 2007.
 
 \bibitem{game}
 J.~C. Harsany and R.~Selten, \emph{A General Theory of Equilibrium Selection in
   Games}.\hskip 1em plus 0.5em minus 0.4em\relax The MIT Press, 1988.
 
+\bibitem{MobiTradeAndroid}
+``{M}obi{T}rade implementation for {A}ndroid {OS},''
+  \url{http://planete.inria.fr/{M}obi{T}rade}.
+
 \bibitem{SQLite}
-``{SQL}ite database,'' http://www.sqlite.org.
+``{SQL}ite database,'' \url{http://www.sqlite.org}.
 
 \bibitem{AndroidBluetoothAPI}
 ``{A}ndroid {B}luetooth {API},''
-  http://developer.android.com/guide/topics/wireless/bluetooth.html.
-
-\bibitem{MobiTradeAndroid}
-``{M}obi{T}rade implementation for {A}ndroid {OS},''
-  http://planete.inria.fr/{M}obi{T}rade.
+  \url{http://developer.android.com/guide/topics/wireless/bluetooth.html}.
 
 \end{thebibliography}

@@ -10,60 +10,76 @@ A level-1 auxiliary file: Chapter6.aux
 A level-1 auxiliary file: Chapter7.aux
 The style file: IEEEtran.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated field_info (elt_size=4) to 10355 items from 5000.
 Database file #1: Thesis.bib
-Repeated entry---line 1090 of file Thesis.bib
+"{" immediately follows a field part---line 191 of file Thesis.bib
+ :   journal           = \url
+ :                           {"http://www.darpa.mil/ato/solicit/DTN/}",
+I'm skipping whatever remains of this entry
+Repeated entry---line 463 of file Thesis.bib
+ : @inproceedings{Broch:98performance
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1099 of file Thesis.bib
  : @inproceedings{LeBoudec:Mobicom07
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1568 of file Thesis.bib
+Repeated entry---line 1577 of file Thesis.bib
  : @inproceedings{PellegriniAOC2009
  :                                 ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring akis:ton-multi's extra "year" field
---line 1603 of file Thesis.bib
-I was expecting a `,' or a `}'---line 1628 of file Thesis.bib
+--line 1612 of file Thesis.bib
+I was expecting a `,' or a `}'---line 1637 of file Thesis.bib
  : }
  :  ;
 I'm skipping whatever remains of this entry
-Repeated entry---line 1640 of file Thesis.bib
+Repeated entry---line 1649 of file Thesis.bib
  : @article{Aldous:book
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1653 of file Thesis.bib
+Repeated entry---line 1662 of file Thesis.bib
  : @inproceedings{akis:mobihoc06
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1687 of file Thesis.bib
+Repeated entry---line 1696 of file Thesis.bib
  : @inproceedings{Inria:MessageDelay
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1701 of file Thesis.bib
+Repeated entry---line 1710 of file Thesis.bib
  : @inproceedings{Levine:MaxProp
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1708 of file Thesis.bib
+Repeated entry---line 1717 of file Thesis.bib
  : @article{dtnrg
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1775 of file Thesis.bib
+Repeated entry---line 1784 of file Thesis.bib
  : @misc{dtnrg
  :            ,
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 2234 of file Thesis.bib
+"{" immediately follows a field part---line 1867 of file Thesis.bib
+ :  howpublished = \url
+ :                     {"http://www.loopt.com}",
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 2243 of file Thesis.bib
  :  title = "{B}itTorrent protocol
  :                                },
 I'm skipping whatever remains of this entry
-Repeated entry---line 2352 of file Thesis.bib
+Repeated entry---line 2361 of file Thesis.bib
  : @inproceedings{OptimalChannelChoice
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2409 of file Thesis.bib
+Repeated entry---line 2418 of file Thesis.bib
  : @inproceedings{Boldrini:2008:MDD
  :                                 ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2433 of file Thesis.bib
+ : @misc{TIER
+ :           ,
+I'm skipping whatever remains of this entry
 A bad cross reference---entry "PellegriniAOC2009"
 refers to entry "DBLP:conf/wowmom/2009", which doesn't exist
-Warning--I didn't find a database entry for "Podcasting:Secon07"
 Warning--I didn't find a database entry for "DBLP:conf/wowmom/2009"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -84,45 +100,45 @@ while executing---line 2419 of file IEEEtran.bst
 Warning--missing institution in Demmer03implementingdelay
 
 Done.
-You've used 108 entries,
+You've used 119 entries,
             4039 wiz_defined-function locations,
-            1332 strings with 23067 characters,
-and the built_in function-call counts, 48338 in all, are:
-= -- 3319
-> -- 1255
+            1377 strings with 24507 characters,
+and the built_in function-call counts, 51886 in all, are:
+= -- 3547
+> -- 1306
 < -- 29
-+ -- 602
-- -- 285
-* -- 2071
-:= -- 7627
-add.period$ -- 213
-call.type$ -- 108
-change.case$ -- 103
++ -- 630
+- -- 295
+* -- 2184
+:= -- 8169
+add.period$ -- 235
+call.type$ -- 119
+change.case$ -- 114
 chr.to.int$ -- 39
-cite$ -- 114
-duplicate$ -- 4228
-empty$ -- 5316
-format.name$ -- 365
-if$ -- 11020
+cite$ -- 125
+duplicate$ -- 4577
+empty$ -- 5746
+format.name$ -- 378
+if$ -- 11822
 int.to.chr$ -- 0
-int.to.str$ -- 108
-missing$ -- 910
-newline$ -- 347
-num.names$ -- 86
-pop$ -- 2587
+int.to.str$ -- 119
+missing$ -- 984
+newline$ -- 380
+num.names$ -- 89
+pop$ -- 2813
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3895
+skip$ -- 4201
 stack$ -- 0
-substring$ -- 194
-swap$ -- 2320
+substring$ -- 205
+swap$ -- 2486
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 108
+type$ -- 119
 warning$ -- 6
-while$ -- 95
-width$ -- 111
-write$ -- 853
-(There were 17 error messages)
+while$ -- 98
+width$ -- 122
+write$ -- 925
+(There were 21 error messages)

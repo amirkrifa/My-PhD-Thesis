@@ -4,7 +4,7 @@
 
 We have implemented our HBSD framework for the Delay-Tolerant Networking Research Group's DTN reference implementation (DTN2). 
 In our DTN2 implementation of HBSD, users can tune the configuration and choose either to maximize the
-delivery probability or to minimize the delivery delay for all DTN2 bundles. HBSD executes as an external DTN2 router, using DTN2's XML-based External Router Interface. HBSD is implemented in C++. This Chapter provides an overview of the implementation of HBSD for DTN2. We start by describing shortly the DTN2 architecture, we detail the DTN2 external router interface operation then we describe the implementation of the HBSD external router.
+delivery probability or to minimize the delivery delay for all DTN2 bundles. HBSD executes as an external DTN2 router, using DTN2's XML-based External Router Interface. HBSD is implemented in C++. This Chapter provides an overview of the implementation of HBSD for DTN2. We start by describing shortly the DTN2 architecture, then we detail the DTN2 external router interface operation and describe the implementation of the HBSD external router.
 
 \section{DTN2 Platform Overview}
 \label{DTN2}
@@ -17,19 +17,19 @@ unit) forwarding system~\cite{Demmer03implementingdelay}. As can be seen from th
 \begin{figure}[!h]
 \centering
 \includegraphics[width=5in,height=3in]{Chapitre4/HBSD-DTN2.eps}
-\caption{DTN2 Architecture}
+\caption{DTN2 Architecture.}
 \label{DTN2-Arch}
 \end{figure}
 
-As described in~\cite{Demmer03implementingdelay, DTN2Manual}, the DTN2 architecture provides also a set of generic external interfaces that enables third-party developers to implement plug-in modules without having to rewrite or understand the internal workings of the DTN2 reference implementation. Plug-in modules are stand-alone processes designed to work in collaboration with DTN.
+As described in~\cite{Demmer03implementingdelay, DTN2Manual}, the DTN2 architecture provides also a set of generic external interfaces that enable third-party developers to implement plug-in modules without having to rewrite or understand the internal workings of the DTN2 reference implementation. Plug-in modules are stand-alone processes designed to work in collaboration with DTN.
 
-The External Router Interface is the first DTN external interface designed to move bundle forwarding decisions to an external process or processes. Benefits of this interface include: \emph{(i)} classified and proprietary bundle routing algorithms are protected, \emph{(ii)} external routers may be written in any programming language (XML based interface), \emph{(iii)} prototyping of new bundle routing algorithms is streamlined and \emph{(iiii)} routing algorithms may be added and removed at runtime.
+The External Router Interface is the first DTN external interface designed to move bundle forwarding decisions to an external process or processes. Benefits of this interface can be summarized as: \emph{(i)} classified and proprietary bundle routing algorithms are protected, \emph{(ii)} external routers may be written in any programming language (XML based interface), \emph{(iii)} prototyping of new bundle routing algorithms is streamlined, and \emph{(iiii)} routing algorithms may be added and removed at runtime.
 
 \subsection{Bundles/Messages Processing Modules}
 
 \paragraph{Bundle Router and Bundle Forwarder}
  
-The router component implements all the route selection and scheduling policy decision making. It takes as input a large variety of events that could potentially affect routing decisions and issues encoded instructions that are passed to the bundle forwarder, which is in turn charged with the responsibility to execute them. The forwarder executes the router's decisions by interacting with the Convergence Layers, Registrations, and the Persistent Store. The separation of router from forwarder represents an instance of separating policy from mechanism. Also, since there is different varieties of possible routing policies, separating the calculation of instructions from their execution helps to isolate the routing code from changes in the other internal APIs.
+The router component implements all the route selection and scheduling policy decision making. It takes as input a large variety of events that could potentially affect routing decisions and issue encoded instructions that are passed to the bundle forwarder, which in turn is charged with the responsibility to execute them. The forwarder executes the router's decisions by interacting with the Convergence Layers, Registrations, and the Persistent Store. The separation of router from forwarder represents an instance of separating policy from mechanism. Also, since there is different varieties of possible routing policies, separating the calculation of instructions from their execution helps to isolate the routing code from changes in the other internal APIs.
 
 \paragraph{Convergence Layers}
 Convergence Layers are the adapters between the DTN bundling protocols and various underlying transports,
@@ -74,11 +74,11 @@ sending and receiving application messages and manipulating message multiplexing
 
 \section{DTN2 External Router Interface Operation}
 
-Before diving into the details of HBSD implementation, this section discusses the overall design and operation of the DTN2 external router interface. When compiled, the DTN2 produces one multi-threaded executable, a DTN daemon. This daemon is a complete DTN node; it accepts bundles from a number of built-in convergence layers, provides persistent bundle storage, delivers bundles to local DTN applications, selects routes using built-in routing logic, and forwards bundles to peer DTN nodes. A forwarder is a DTN daemon as described above, but in our case, one that depends on external routing processes to make bundle routing decisions on its behalf.
+Before diving into the details of HBSD implementation, this section discusses the overall design and operation of the DTN2 external router interface. When compiled, the DTN2 produces one multi-threaded executable, a DTN daemon. This daemon is a complete DTN node; it accepts bundles from a number of built-in convergence layers, provides persistent bundle storage, delivers bundles to local DTN applications, selects routes using built-in routing logic, and forwards bundles to peer DTN nodes. A forwarder is a DTN daemon as described above, but in our case, the latter depends on external routing processes to make bundle routing decisions on its behalf.
 
-The forwarder communicates with external routing processes with an XML-based messaging protocol using a well-known IPv4 multi-cast address and UDP port on local or remote hosts. Before forwarders and external routers can communicate, they each must join the all-routers multi-cast group (224.0.0.2) and bind to a well-known UDP port. Forwarders are not aware if zero, one, or more external routers have joined the multi-cast group. It is the responsibility of the system administrator to ensure router availability.
+The forwarder communicates with external routing processes with an XML-based messaging protocol using a well-known IPv4 multicast address and UDP port on local or remote hosts. Before forwarders and external routers can communicate, they each must join the all-routers multicast group (224.0.0.2) and bind to a well-known UDP port. Forwarders are not aware if zero, one, or more external routers have joined the multicast group. It is the responsibility of the system administrator to ensure router availability.
 
-Nothing in the interface design precludes running forwarders and external routers on different hosts, however this approach is not recommended especially in wireless and/or bandwidth-constrained environments. The interface is fairly chatty, UDP is unreliable, and there is a high risk of packet loss leading to a breakdown in synchronized state. (The DTN2 external router interface is hard coded to use the loop-back interface and therefore requires forwarders and external routers to reside on the same host.)
+Nothing in the interface design precludes running forwarders and external routers on different hosts, however this approach is not recommended especially in wireless and/or bandwidth-constrained environments. The interface is fairly chatty, UDP is unreliable, and there is a high risk of packet loss leading to a breakdown in synchronized state~\footnote{The DTN2 external router interface is hard coded to use the loop-back interface and therefore requires forwarders and external routers to reside on the same host.}.
 
 Inter-process messages are XML-based and must be valid against the external router XML schema. Interface messages are broadly divided into four categories. Event messages are issued by forwarders to indicate state changes that may be of interest to external routers. Request messages are sent by external routers to direct forwarders to perform an action (e.g. "forward the bundle with ID 56 out link tcp0"). Query and report messages are used by external routers to synchronize their state with forwarders after boot-up or during failure recovery. The proper usage and interpretation of each interface message is covered in the next section.
 
@@ -87,14 +87,14 @@ Note that DTN2 forwarder does not authenticate external processes. The forwarder
 
 \section{HBSD Implementation Overview}
 
-The DTN2 / HBSD architecture is very simple at the highest level. The DTN2 daemon sends multi-cast packets 
+The DTN2 / HBSD architecture is very simple at the highest level. The DTN2 daemon sends multicast packets 
 to be received by a local router process. These packets contain XML
 data and provide notification of events, such as the creation of a link or the receipt of a bundle.
-The router process, in this case HBSD, sends multi-cast XML messages to the DTN2 daemon requesting that
+The router process, in this case HBSD, sends multicast XML messages to the DTN2 daemon requesting that
 some action be taken, such as the transmission of a bundle. Note that the exchanged messages
 are not to be viewed only as being conversational. For example, HBSD may request that the DTN2 daemon
-transmit a bundle but it does not expect a response. If the DTN2 daemon does transmit the bundle, it will send
-a multi-cast message about the transmission, but that message is a separate event and not a
+transmits a bundle but it does not expect a response. If the DTN2 daemon does transmit the bundle, it will send
+a multicast message about the transmission, but that message is a separate event and not a
 reply to the transmit request. The implication of this is that requests to the DTN2 daemon do not have negative
 acknowledgments. When DTN2 establishes a connection between two nodes, HBSD is notified and the HBSD
 peers exchange meta data. This information is used to prioritize the transmission of bundles in
@@ -105,22 +105,21 @@ The exchanged meta data consist of a subset of the matrix described in Figure~\r
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=4in,height=2in]{Chapitre4/Stat_Matrix.eps}
-\caption{HBSD: matrix used to maintain network statistics}
+\includegraphics[width=4.2in,height=3in]{Chapitre4/Stat_Matrix.eps}
+\caption{HBSD: matrix used to maintain network statistics.}
 \label{Stat-Mat}
 \end{figure}
 
-By default, when the DTN2 daemon successfully transmits a bundle it then deletes the bundle. This is
-not the desired behavior; otherwise HBSD would not be able to replicate bundles on
+By default, when the DTN2 daemon successfully transmits a bundle, it then deletes the bundle. This is
+not the desired behavior. Because HBSD will not be able to replicate bundles on
 multiple nodes. That is why it's important to set \emph{early\_deletion} to false in the DTN2
-configuration~\cite{HBSDDTN2}. The proper behavior is for dtnd to retain a copy of the bundle after
+configuration~\cite{HBSDDTN2}. The proper behavior is for \emph{dtnd} to retain a copy of the bundle after
 transmission.
 
 In the case where a bundle is destined for the local node, the DTN2 daemon will automatically delete
 the bundle after it has been received by the endpoint. The DTN2 daemon will then send HBSD a
-bundle deletion notification.
+bundle deletion notification. And in the case of a given bundle TTL expiration, the DTN2 daemon will delete it and send notifications to HBSD.
 
-the DTN2 daemon will delete bundles when they expire and send notifications to HBSD.
 If HBSD learns of a bundle delivery acknowledgement via meta data and it is in
 possession of that bundle, it will ask the DTN2 daemon to delete the bundle.
 If HBSD forwards a bundle to the destination node, HBSD will request that the bundle
@@ -292,9 +291,8 @@ with the actual destination node.
 
 
 \section{Configuring HBSD}
-
 HBSD can be customized through a configuration file specified in the runtime command line.  
-There must be no more that one configuration option per line in the file, and must be specified using the syntax: variable=value. The value may be double or single-quoted. Lines that begin with a hash character ($\#$) are treated as comments and ignored. Comments should not appear on the same line as a configuration value. The options defined in the following table are supported. The default values for most, if not all variables should be sufficient.
+There must be no more than one configuration option per line in the file, and must be specified using the syntax: variable=value. The value may be double or single-quoted. Lines that begin with a hash character ($\#$) are treated as comments and ignored. Comments should not appear on the same line as a configuration value. The options defined in the following table are supported. The default values for most, if not all variables should be sufficient.
 
 \begin{longtable}[!h]{|p{4cm}|p{1cm}|p{2.2cm}|p{5cm}|}
 \hline
@@ -306,15 +304,15 @@ example is meta data exchanged between the
 routers. DTN2 special-cases endpoints that begin with 
 "ext.rtr/". All communicating routers need to agree on the  endpoint name.\\
 \hline
-multicastGroup & string &  224.0.0.2 & Defines the multi-cast group the router is to join for  exchanging XML messages 
+multicastGroup & string &  224.0.0.2 & Defines the multicast group the router is to join for  exchanging XML messages 
 with the DTN2 daemon. This is defined by DTN2.\\
 \hline
-multicastPort & int & 8001 & Defines the multi-cast port  used by the DTN2 daemon. This is defined by DTN2.\\
+multicastPort & int & 8001 & Defines the multicast port  used by the DTN2 daemon. This is defined by DTN2.\\
 \hline
 multicastSends & bool & false & Defines the type of socket used to send requests to
-dtnd. If true, use a multi-cast socket joined to the multi-cast group and a TTL of 0. If false, use a datagram socket bound to the 
+dtnd. If true, use a multicast socket joined to the multicast group and a TTL of 0. If false, use a datagram socket bound to the 
 loopback address. The goal is to send messages with their scope limited to the 
-local system. On some systems the TTL is not honored. On other systems, not using a multi-cast socket does not work. \\
+local system. On some systems the TTL is not honored. On other systems, not using a multicast socket does not work. \\
 \hline
 loopbackAddress & string & 127.0.0.1 & Address to bind to if multicastSends=false.\\
 \hline
@@ -361,9 +359,25 @@ useBinSizeAsAvg\ MeetingTime & bool & true& Specifies either to use the binSize 
 \hline
 \end{longtable}
 
-Please note that more details about how to install/run both the DTN2 daemon as well as our HBSD external router could be found in HBSD web-page~\cite{HBSDDTN2}. HBSD open source code is also available for downloading from~\cite{HBSDDTN2}. 
+More details about how to install/run both the DTN2 daemon as well as our HBSD external router could be found in HBSD web-page~\cite{HBSDDTN2}. HBSD open source code is also available for downloading from~\cite{HBSDDTN2}. 
+
+\begin{figure}[!h]
+  \begin{center}
+    \includegraphics[width=3in,height=2.2in]{Chapitre4/node2.pdf}
+  \end{center}
+  \caption{SCORPION testbed mobile nodes.}
+  \label{SCORPION-nodes-1}
+\end{figure}
+
+\begin{figure}[!h]
+  \begin{center}
+    \includegraphics[width=3in,height=2.2in]{Chapitre4/node1.pdf}
+  \end{center}
+  \caption{ SCORPION testbed mobile nodes.}
+  \label{SCORPION-nodes-2}
+\end{figure}
 
 \section{Summary and Open Issues}
 
-We have described in this chapter the design and implementation of our HBSD framework for the DTN reference platform (DTN2). Our experience from the implementation is that the DTN2 platform is quite mature and is a very modular. The XML external router interface provided by the DTN2 implementation makes it possible to develop and easily integrate a separate routing process that takes care of the bundles routing decisions as well as buffer management ones. We believe that our HBSD external routing process design as well as the utilities framework and the network history collection implementation is quite generic/modular and that it can be easily extended in order to support more complex communication scenario(s) (one-to-many, many-to-many, etc) and hence more advanced utilities.  
+We have described in this chapter the design and implementation of our HBSD framework for the DTN reference platform (DTN2). Our experience from the implementation is that the DTN2 platform is quite mature and is very modular. The XML external router interface provided by the DTN2 implementation makes it possible to develop and easily integrate a separate routing process that takes care of the bundles routing decisions as well as buffer management ones. We believe that our HBSD external routing process design as well as the utilities framework and the network history collection implementation is quite generic/modular and that it can be easily extended in order to support more complex communication scenario(s) (one-to-many, many-to-many, etc) and hence more advanced utilities. We have tested our HBSD external router on the SCORPION testbed at University of California Santa Cruz~\cite{HBSDDTN2}. Figure~\ref{SCORPION-nodes-2} and~\ref{SCORPION-nodes-1} depicts some of the mobile testbed nodes.
 
