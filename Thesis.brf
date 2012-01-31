@@ -1,234 +1,234 @@
 \backcite {MOMO, ARNETMINER}{{iii}{(document)}{Doc-Start}}
 \backcite {ResiliNets, UMassDieselNet, KIOSKNET, BYTEWALLA, TIER}{{iii}{(document)}{Doc-Start}}
 \backcite {BioServe, Saratoga}{{iii}{(document)}{Doc-Start}}
-\backcite {CCN}{{3}{1}{chapter.1}}
-\backcite {ComScore}{{3}{1}{chapter.1}}
-\backcite {ATT,ATT2,Killer-DTN}{{3}{1}{chapter.1}}
-\backcite {ATT}{{3}{1}{chapter.1}}
-\backcite {ATT}{{3}{1}{chapter.1}}
-\backcite {CellOffLoading,Augmenting3G}{{3}{1}{chapter.1}}
-\backcite {Energy-Delay}{{3}{1}{chapter.1}}
-\backcite {dtnrg}{{3}{1}{chapter.1}}
-\backcite {Juang:zebranet, Heidemann:Acoustic}{{4}{1}{chapter.1}}
-\backcite {Levine:MaxProp}{{4}{1}{chapter.1}}
-\backcite {TIER}{{4}{1}{chapter.1}}
-\backcite {DSH}{{4}{1}{chapter.1}}
-\backcite {OneLaptopPerChild}{{4}{1}{chapter.1}}
-\backcite {MOMO, ARNETMINER}{{5}{1.2}{section.1.2}}
-\backcite {ResiliNets, UMassDieselNet, KIOSKNET, BYTEWALLA, TIER}{{5}{1.2}{section.1.2}}
-\backcite {BioServe, Saratoga}{{5}{1.2}{section.1.2}}
-\backcite {haas:mobihoc03,Inria:MessageDelay,akis:mobihoc06}{{5}{1.2}{section.1.2}}
-\backcite {KrifaBS08, HBSDDTN2}{{5}{1.2}{section.1.2}}
-\backcite {KrifaBS08, HBSDDTN2}{{6}{1.2}{section.1.2}}
-\backcite {QueuingPolicies}{{6}{1.2}{section.1.2}}
-\backcite {CCN, MobiCent, IADTN, MoB, OptimalChannelChoice, ContentPlace, SocialCast2, SocialCast, BlueTorrent, TACODTN, Peoplenet}{{6}{1.2}{section.1.2}}
-\backcite {NashEquilibria}{{6}{1.2}{section.1.2}}
-\backcite {BitHoc}{{7}{1.2}{section.1.2}}
-\backcite {BarterDTN}{{7}{1.2}{section.1.2}}
-\backcite {HBSDDTN2}{{7}{1.2}{Item.2}}
-\backcite {BitHoc}{{12}{2}{chapter.2}}
-\backcite {BlueTorrent}{{12}{2}{chapter.2}}
-\backcite {Royer:RoutingSurvey,Broch:98performance}{{14}{2.1.1}{subsection.2.1.1}}
-\backcite {BitHoc, BitHocWeb}{{15}{2.1.2}{subsection.2.1.2}}
-\backcite {RefBT}{{16}{2.1.3}{subsection.2.1.3}}
-\backcite {BitHoc, BitHocWeb}{{16}{2.1.3}{subsection.2.1.3}}
-\backcite {RefBT}{{16}{2.1.3}{subsection.2.1.3}}
-\backcite {BitHoc}{{16}{2.1.3}{subsection.2.1.3}}
-\backcite {RefBT}{{16}{2.1.3}{subsection.2.1.3}}
-\backcite {BitHoc}{{16}{2.1.3}{subsection.2.1.3}}
-\backcite {OLSR}{{18}{2.1.3.1}{section*.8}}
-\backcite {RefBT}{{18}{2.1.3.1}{section*.9}}
-\backcite {BitHoc}{{18}{2.1.3.1}{section*.9}}
-\backcite {BitHocWeb}{{21}{2.1.3.2}{figure.2.5}}
-\backcite {BitHocWeb}{{21}{2.1.3.2}{figure.2.5}}
-\backcite {Bundle,fall03,dtnrg}{{21}{2.2.1}{subsection.2.2.1}}
-\backcite {Levine:MaxProp, DriveThru}{{21}{2.2.1}{subsection.2.2.1}}
-\backcite {DriveThru}{{21}{2.2.1}{subsection.2.2.1}}
-\backcite {Levine:MaxProp}{{21}{2.2.1}{subsection.2.2.1}}
-\backcite {zebranet02,WirelessInfostation}{{22}{2.2.1}{subsection.2.2.1}}
-\backcite {zebranet02}{{22}{2.2.1}{subsection.2.2.1}}
-\backcite {WirelessInfostation}{{22}{2.2.1}{subsection.2.2.1}}
-\backcite {Brewer:DTNdeveloping}{{22}{2.2.1}{subsection.2.2.1}}
-\backcite {Brewer:DTNdeveloping}{{22}{2.2.1}{subsection.2.2.1}}
-\backcite {interplanetary03}{{22}{2.2.1}{subsection.2.2.1}}
-\backcite {fall03, DTNTutorial}{{22}{2.2.1}{subsection.2.2.1}}
-\backcite {Fall:DTNrouting}{{23}{2.2.2}{subsection.2.2.2}}
-\backcite {Ward:RoutingSurvey, DTNRoutingSurvey06}{{23}{2.2.2}{subsection.2.2.2}}
-\backcite {Wearable, MVRouting, Levine:MaxProp}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Levine:MaxProp}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Haas:wdtn}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Tseng:broadcast}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {LeBoudec:wdtn}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Fall:Sigcomm05}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Haas:wdtn,akis:wdtn,Vahdat:epidemic}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Fall:DTNrouting,Waterloo:wdtn,akis:technical1}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Fall:DTNrouting}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {BalasubramanianLV07}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Waterloo:wdtn}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Shah:datamules}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {akis:technical1}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {akis:wdtn}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {akis:wdtn}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Levine:Mobihoc07}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {akis:wdtn}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Haas:wdtn,Vahdat:epidemic}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Towsley:Epidemic}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {QueuingPolicies}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {DCopies}{{24}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {Vahdat:epidemic}{{25}{2.2}{table.2.2}}
-\backcite {akis:wdtn}{{25}{2.2}{table.2.2}}
-\backcite {Fall:DTNrouting}{{25}{2.2}{table.2.2}}
-\backcite {DTNSpace}{{25}{2.2}{table.2.2}}
-\backcite {Wearable}{{25}{2.2}{table.2.2}}
-\backcite {Haas:wdtn}{{25}{2.2}{table.2.2}}
-\backcite {MVRouting}{{25}{2.2}{table.2.2}}
-\backcite {prophet03}{{25}{2.2}{table.2.2}}
-\backcite {Waterloo:wdtn}{{25}{2.2}{table.2.2}}
-\backcite {Fall:DTNrouting}{{25}{2.2}{table.2.2}}
-\backcite {Levine:Sigcomm07}{{25}{2.2}{table.2.2}}
-\backcite {Levine:MaxProp}{{25}{2.2}{table.2.2}}
-\backcite {Lindgren:probabilistic,Wearable,MVRouting}{{25}{2.2.2.1}{table.2.2}}
-\backcite {PRESTO}{{26}{2.2.2.1}{table.2.2}}
-\backcite {Levine:MaxProp}{{26}{2.2.2.1}{table.2.2}}
-\backcite {Levine:MaxProp}{{26}{2.2.2.1}{table.2.2}}
-\backcite {BalasubramanianLV07}{{26}{2.2.2.1}{table.2.2}}
-\backcite {Levine:Sigcomm07}{{26}{2.2.2.1}{table.2.2}}
-\backcite {AOBM}{{26}{2.2.2.1}{table.2.2}}
-\backcite {DTNTaxonomy}{{26}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {Passarella:Survey}{{26}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {NashEquilibria}{{27}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {BitHoc}{{27}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {May07wirelessopportunistic}{{27}{2.3}{table.2.3}}
-\backcite {Lenders:Podcast}{{27}{2.3}{table.2.3}}
-\backcite {TACODTN}{{27}{2.3}{table.2.3}}
-\backcite {Chiara:MSWIM08}{{27}{2.3}{table.2.3}}
-\backcite {HCMM}{{27}{2.3}{table.2.3}}
-\backcite {SocialCast2, SocialCast}{{27}{2.3}{table.2.3}}
-\backcite {LOCUS}{{27}{2.3}{table.2.3}}
-\backcite {MobiSim}{{27}{2.3}{table.2.3}}
-\backcite {Peoplenet}{{27}{2.3}{table.2.3}}
-\backcite {TACODTN}{{28}{2.2.2.2}{table.2.3}}
-\backcite {Peoplenet}{{28}{2.2.2.2}{table.2.3}}
-\backcite {Peoplenet}{{28}{2.2.2.2}{table.2.3}}
-\backcite {Peoplenet}{{28}{2.2.2.2}{table.2.3}}
-\backcite {Peoplenet}{{28}{2.2.2.2}{table.2.3}}
+\backcite {CCN}{{1}{1}{chapter.1}}
+\backcite {ComScore}{{1}{1}{chapter.1}}
+\backcite {ATT,ATT2,Killer-DTN}{{1}{1}{chapter.1}}
+\backcite {ATT}{{1}{1}{chapter.1}}
+\backcite {ATT}{{1}{1}{chapter.1}}
+\backcite {CellOffLoading,Augmenting3G}{{1}{1}{chapter.1}}
+\backcite {Energy-Delay}{{1}{1}{chapter.1}}
+\backcite {dtnrg}{{1}{1}{chapter.1}}
+\backcite {Juang:zebranet, Heidemann:Acoustic}{{2}{1}{chapter.1}}
+\backcite {Levine:MaxProp}{{2}{1}{chapter.1}}
+\backcite {TIER}{{2}{1}{chapter.1}}
+\backcite {DSH}{{2}{1}{chapter.1}}
+\backcite {OneLaptopPerChild}{{2}{1}{chapter.1}}
+\backcite {MOMO, ARNETMINER}{{3}{1.2}{section.1.2}}
+\backcite {ResiliNets, UMassDieselNet, KIOSKNET, BYTEWALLA, TIER}{{3}{1.2}{section.1.2}}
+\backcite {BioServe, Saratoga}{{3}{1.2}{section.1.2}}
+\backcite {haas:mobihoc03,Inria:MessageDelay,akis:mobihoc06}{{3}{1.2}{section.1.2}}
+\backcite {KrifaBS08, HBSDDTN2}{{3}{1.2}{section.1.2}}
+\backcite {KrifaBS08, HBSDDTN2}{{4}{1.2}{section.1.2}}
+\backcite {QueuingPolicies}{{4}{1.2}{section.1.2}}
+\backcite {CCN, MobiCent, IADTN, MoB, OptimalChannelChoice, ContentPlace, SocialCast2, SocialCast, BlueTorrent, TACODTN, Peoplenet}{{4}{1.2}{section.1.2}}
+\backcite {NashEquilibria}{{4}{1.2}{section.1.2}}
+\backcite {BitHoc}{{4}{1.2}{section.1.2}}
+\backcite {BarterDTN}{{4}{1.2}{section.1.2}}
+\backcite {HBSDDTN2}{{5}{1.2}{Item.2}}
+\backcite {BitHoc}{{10}{2}{chapter.2}}
+\backcite {BlueTorrent}{{10}{2}{chapter.2}}
+\backcite {Royer:RoutingSurvey,Broch:98performance}{{12}{2.1.1}{subsection.2.1.1}}
+\backcite {BitHoc, BitHocWeb}{{13}{2.1.2}{subsection.2.1.2}}
+\backcite {RefBT}{{14}{2.1.3}{subsection.2.1.3}}
+\backcite {BitHoc, BitHocWeb}{{14}{2.1.3}{subsection.2.1.3}}
+\backcite {RefBT}{{14}{2.1.3}{subsection.2.1.3}}
+\backcite {BitHoc}{{14}{2.1.3}{subsection.2.1.3}}
+\backcite {RefBT}{{14}{2.1.3}{subsection.2.1.3}}
+\backcite {BitHoc}{{14}{2.1.3}{subsection.2.1.3}}
+\backcite {OLSR}{{16}{2.1.3.1}{section*.8}}
+\backcite {RefBT}{{16}{2.1.3.1}{section*.9}}
+\backcite {BitHoc}{{16}{2.1.3.1}{section*.9}}
+\backcite {BitHocWeb}{{19}{2.1.3.2}{figure.2.5}}
+\backcite {BitHocWeb}{{19}{2.1.3.2}{figure.2.5}}
+\backcite {Bundle,fall03,dtnrg}{{19}{2.2.1}{subsection.2.2.1}}
+\backcite {Levine:MaxProp, DriveThru}{{19}{2.2.1}{subsection.2.2.1}}
+\backcite {DriveThru}{{19}{2.2.1}{subsection.2.2.1}}
+\backcite {Levine:MaxProp}{{20}{2.2.1}{subsection.2.2.1}}
+\backcite {zebranet02,WirelessInfostation}{{20}{2.2.1}{subsection.2.2.1}}
+\backcite {zebranet02}{{20}{2.2.1}{subsection.2.2.1}}
+\backcite {WirelessInfostation}{{20}{2.2.1}{subsection.2.2.1}}
+\backcite {Brewer:DTNdeveloping}{{20}{2.2.1}{subsection.2.2.1}}
+\backcite {Brewer:DTNdeveloping}{{20}{2.2.1}{subsection.2.2.1}}
+\backcite {interplanetary03}{{20}{2.2.1}{subsection.2.2.1}}
+\backcite {fall03, DTNTutorial}{{20}{2.2.1}{subsection.2.2.1}}
+\backcite {Fall:DTNrouting}{{21}{2.2.2}{subsection.2.2.2}}
+\backcite {Ward:RoutingSurvey, DTNRoutingSurvey06}{{21}{2.2.2}{subsection.2.2.2}}
+\backcite {Wearable, MVRouting, Levine:MaxProp}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Levine:MaxProp}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Haas:wdtn}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Tseng:broadcast}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {LeBoudec:wdtn}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Fall:Sigcomm05}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Haas:wdtn,akis:wdtn,Vahdat:epidemic}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Fall:DTNrouting,Waterloo:wdtn,akis:technical1}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Fall:DTNrouting}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {BalasubramanianLV07}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Waterloo:wdtn}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Shah:datamules}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {akis:technical1}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {akis:wdtn}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {akis:wdtn}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Levine:Mobihoc07}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {akis:wdtn}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Haas:wdtn,Vahdat:epidemic}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Towsley:Epidemic}{{22}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {QueuingPolicies}{{23}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {DCopies}{{23}{2.2.2.1}{subsubsection.2.2.2.1}}
+\backcite {Vahdat:epidemic}{{23}{2.2}{table.2.2}}
+\backcite {akis:wdtn}{{23}{2.2}{table.2.2}}
+\backcite {Fall:DTNrouting}{{23}{2.2}{table.2.2}}
+\backcite {DTNSpace}{{23}{2.2}{table.2.2}}
+\backcite {Wearable}{{23}{2.2}{table.2.2}}
+\backcite {Haas:wdtn}{{23}{2.2}{table.2.2}}
+\backcite {MVRouting}{{23}{2.2}{table.2.2}}
+\backcite {prophet03}{{23}{2.2}{table.2.2}}
+\backcite {Waterloo:wdtn}{{23}{2.2}{table.2.2}}
+\backcite {Fall:DTNrouting}{{23}{2.2}{table.2.2}}
+\backcite {Levine:Sigcomm07}{{23}{2.2}{table.2.2}}
+\backcite {Levine:MaxProp}{{23}{2.2}{table.2.2}}
+\backcite {Lindgren:probabilistic,Wearable,MVRouting}{{24}{2.2.2.1}{table.2.2}}
+\backcite {PRESTO}{{24}{2.2.2.1}{table.2.2}}
+\backcite {Levine:MaxProp}{{24}{2.2.2.1}{table.2.2}}
+\backcite {Levine:MaxProp}{{24}{2.2.2.1}{table.2.2}}
+\backcite {BalasubramanianLV07}{{24}{2.2.2.1}{table.2.2}}
+\backcite {Levine:Sigcomm07}{{24}{2.2.2.1}{table.2.2}}
+\backcite {AOBM}{{24}{2.2.2.1}{table.2.2}}
+\backcite {DTNTaxonomy}{{24}{2.2.2.2}{subsubsection.2.2.2.2}}
+\backcite {Passarella:Survey}{{24}{2.2.2.2}{subsubsection.2.2.2.2}}
+\backcite {NashEquilibria}{{25}{2.2.2.2}{subsubsection.2.2.2.2}}
+\backcite {BitHoc}{{25}{2.2.2.2}{subsubsection.2.2.2.2}}
+\backcite {TACODTN}{{25}{2.2.2.2}{table.2.3}}
+\backcite {May07wirelessopportunistic}{{26}{2.3}{table.2.3}}
+\backcite {Lenders:Podcast}{{26}{2.3}{table.2.3}}
+\backcite {TACODTN}{{26}{2.3}{table.2.3}}
+\backcite {Chiara:MSWIM08}{{26}{2.3}{table.2.3}}
+\backcite {HCMM}{{26}{2.3}{table.2.3}}
+\backcite {SocialCast2, SocialCast}{{26}{2.3}{table.2.3}}
+\backcite {LOCUS}{{26}{2.3}{table.2.3}}
+\backcite {MobiSim}{{26}{2.3}{table.2.3}}
+\backcite {Peoplenet}{{26}{2.3}{table.2.3}}
+\backcite {Peoplenet}{{26}{2.2.2.2}{table.2.3}}
+\backcite {Peoplenet}{{26}{2.2.2.2}{table.2.3}}
+\backcite {Peoplenet}{{26}{2.2.2.2}{table.2.3}}
+\backcite {Peoplenet}{{26}{2.2.2.2}{table.2.3}}
+\backcite {NashEquilibria}{{26}{2.2.2.2}{table.2.3}}
+\backcite {BlueTorrent}{{26}{2.2.2.2}{table.2.3}}
+\backcite {RefBT}{{27}{2.2.2.2}{table.2.3}}
+\backcite {SocialCast2, SocialCast}{{27}{2.2.2.2}{table.2.3}}
+\backcite {Boldrini:2008:MDD}{{27}{2.2.2.2}{table.2.3}}
+\backcite {May07wirelessopportunistic, podnet07}{{27}{2.2.2.2}{table.2.3}}
+\backcite {May07wirelessopportunistic}{{27}{2.2.2.2}{table.2.3}}
+\backcite {podnet07}{{27}{2.2.2.2}{table.2.3}}
+\backcite {ContentPlace}{{28}{2.2.2.2}{table.2.3}}
+\backcite {Boldrini:SocialForwarding}{{28}{2.2.2.2}{table.2.3}}
+\backcite {OptimalChannelChoice}{{28}{2.2.2.2}{table.2.3}}
+\backcite {mcmc-bremaud}{{28}{2.2.2.2}{table.2.3}}
 \backcite {NashEquilibria}{{28}{2.2.2.2}{table.2.3}}
-\backcite {BlueTorrent}{{28}{2.2.2.2}{table.2.3}}
-\backcite {RefBT}{{28}{2.2.2.2}{table.2.3}}
-\backcite {SocialCast2, SocialCast}{{29}{2.2.2.2}{table.2.3}}
-\backcite {Boldrini:2008:MDD}{{29}{2.2.2.2}{table.2.3}}
-\backcite {May07wirelessopportunistic, podnet07}{{29}{2.2.2.2}{table.2.3}}
-\backcite {May07wirelessopportunistic}{{29}{2.2.2.2}{table.2.3}}
-\backcite {podnet07}{{29}{2.2.2.2}{table.2.3}}
-\backcite {ContentPlace}{{29}{2.2.2.2}{table.2.3}}
-\backcite {Boldrini:SocialForwarding}{{30}{2.2.2.2}{table.2.3}}
-\backcite {OptimalChannelChoice}{{30}{2.2.2.2}{table.2.3}}
-\backcite {mcmc-bremaud}{{30}{2.2.2.2}{table.2.3}}
-\backcite {NashEquilibria}{{30}{2.2.2.2}{table.2.3}}
-\backcite {BarterDTN}{{30}{2.2.2.2}{table.2.3}}
-\backcite {MoB}{{30}{1}{Item.3}}
-\backcite {MobiCent}{{31}{2}{Item.4}}
-\backcite {IADTN}{{31}{3}{Item.5}}
-\backcite {Reputation}{{31}{2.2.2.2}{Item.5}}
-\backcite {Fall:DTNrouting,Fall:Sigcomm05,Glance:pollen}{{35}{3}{chapter.3}}
-\backcite {dtnrg}{{35}{3}{chapter.3}}
-\backcite {Fall:DTNrouting}{{35}{3}{chapter.3}}
-\backcite {Vahdat:epidemic,Lindgren:probabilistic}{{36}{3}{chapter.3}}
-\backcite {akis:ton-multi}{{36}{3}{chapter.3}}
-\backcite {dtnrg}{{36}{3}{chapter.3}}
-\backcite {haas:mobihoc03,Inria:MessageDelay,akis:mobihoc06}{{36}{3}{chapter.3}}
-\backcite {Levine:Sigcomm07}{{36}{3}{chapter.3}}
-\backcite {QueuingPolicies}{{37}{3}{chapter.3}}
-\backcite {Towsley:Epidemic}{{37}{3.1.1}{subsection.3.1.1}}
-\backcite {akis:ton-multi}{{37}{3.1.1}{subsection.3.1.1}}
-\backcite {Vahdat:epidemic}{{38}{3.1.1}{subsection.3.1.1}}
-\backcite {Levine:Sigcomm07}{{38}{3.1.1}{subsection.3.1.1}}
-\backcite {akis:mobihoc06,Inria:MessageDelay}{{38}{3.1.1}{subsection.3.1.1}}
-\backcite {akis09}{{38}{3.1.1}{subsection.3.1.1}}
-\backcite {akis:mobihoc06,Inria:MessageDelay}{{38}{3.1.1}{subsection.3.1.1}}
-\backcite {Aldous:book}{{38}{3.1.1}{subsection.3.1.1}}
-\backcite {LeBoudec:Mobicom07}{{38}{3.1.1}{subsection.3.1.1}}
-\backcite {Akis:IJAACS2008}{{38}{3.1.1}{subsection.3.1.1}}
-\backcite {LeBoudec:Sigmetrics09}{{39}{3.1.1}{subsection.3.1.1}}
-\backcite {Levine:Sigcomm07}{{41}{3.1.2}{equation.3.1.2}}
-\backcite {Boyd:convex-optimization-book}{{46}{3.1.5}{equation.3.1.13}}
-\backcite {Boyd:convex-optimization-book}{{46}{3.1.5}{equation.3.1.13}}
-\backcite {Levine:Sigcomm07}{{47}{3.2}{section.3.2}}
-\backcite {Keshav:multi-nic}{{47}{3.2}{section.3.2}}
-\backcite {LillieTest}{{48}{3.2.1}{subsection.3.2.1}}
-\backcite {PellegriniAOC2009}{{49}{3.2.1}{equation.3.2.18}}
-\backcite {DTN-NS2}{{49}{3.3.1}{subsection.3.3.1}}
-\backcite {Levine:Sigcomm07}{{49}{3.3.1}{subsection.3.3.1}}
-\backcite {Towsley:Epidemic}{{49}{3.3.1}{subsection.3.3.1}}
-\backcite {HCMM}{{49}{3.3.1}{table.3.2}}
-\backcite {ZebraNetMovement}{{50}{3.3.1}{table.3.2}}
-\backcite {Cabspotting}{{50}{3.3.1}{table.3.2}}
-\backcite {DTN-NS2}{{50}{3.3.1}{table.3.2}}
-\backcite {KAIST}{{50}{3.3.1}{table.3.2}}
-\backcite {KrifaBS08}{{50}{3.3.1}{table.3.2}}
-\backcite {Keshav:Mobisys07}{{55}{3.4}{section.3.4}}
-\backcite {Nyquist}{{56}{3.4.1}{subsection.3.4.1}}
-\backcite {akis:ton-multi}{{56}{3.4.1}{subsection.3.4.1}}
-\backcite {Levine:Sigcomm07}{{59}{3.4.3}{subsection.3.4.3}}
-\backcite {Towsley:Epidemic, KrifaBS08}{{64}{3.5}{section.3.5}}
-\backcite {KrifaBS08}{{64}{3.5}{section.3.5}}
-\backcite {Levine:Sigcomm07}{{67}{3.6}{section.3.6}}
-\backcite {Levine:Sigcomm07, AOBM}{{67}{3.6}{section.3.6}}
-\backcite {DTN2Manual}{{69}{4.1}{section.4.1}}
-\backcite {Demmer03implementingdelay}{{69}{4.1}{section.4.1}}
-\backcite {Demmer03implementingdelay, DTN2Manual}{{70}{4.1}{figure.4.1}}
-\backcite {HBSDDTN2}{{74}{4.3}{figure.4.2}}
-\backcite {TMC:Report}{{74}{4.4}{section*.20}}
-\backcite {HBSDDTN2}{{81}{4.5}{table.4.1}}
-\backcite {HBSDDTN2}{{81}{4.5}{table.4.1}}
-\backcite {HBSDDTN2}{{82}{4.6}{section.4.6}}
-\backcite {ATT}{{85}{5}{chapter.5}}
-\backcite {CellOffLoading}{{85}{5}{chapter.5}}
-\backcite {CCN}{{86}{5}{chapter.5}}
-\backcite {TACODTN, Peoplenet, podnet07, May07wirelessopportunistic, ContentPlace, OptimalChannelChoice, SocialCast, Boldrini:2008:MDD}{{86}{5}{chapter.5}}
-\backcite {TACODTN, Peoplenet}{{86}{5}{chapter.5}}
-\backcite {podnet07, LOCUS, May07wirelessopportunistic, ContentPlace, OptimalChannelChoice, SocialCast, Boldrini:2008:MDD}{{86}{5}{chapter.5}}
-\backcite {NashEquilibria}{{86}{5}{chapter.5}}
-\backcite {podnet07}{{86}{5}{chapter.5}}
-\backcite {ContentPlace, SocialCast, OptimalChannelChoice, SocialCast, Boldrini:2008:MDD}{{86}{5}{chapter.5}}
-\backcite {May07wirelessopportunistic}{{86}{5}{chapter.5}}
-\backcite {ContentPlace, SocialCast, Boldrini:2008:MDD}{{86}{5}{chapter.5}}
-\backcite {OptimalChannelChoice}{{86}{5}{chapter.5}}
-\backcite {BitHoc}{{87}{5}{chapter.5}}
-\backcite {BarterDTN}{{87}{5}{chapter.5}}
-\backcite {HCMM}{{87}{5}{Item.10}}
-\backcite {KAIST}{{87}{5}{Item.10}}
-\backcite {May07wirelessopportunistic}{{88}{5.1.1}{subsection.5.1.1}}
-\backcite {CCN}{{88}{5.1.1}{subsection.5.1.1}}
-\backcite {CCN}{{89}{5.1.1}{figure.5.1}}
-\backcite {ContentPlace}{{90}{5.1.3}{subsection.5.1.3}}
-\backcite {May07wirelessopportunistic}{{90}{5.1.3}{subsection.5.1.3}}
-\backcite {TMC:Report}{{91}{5.1.3}{subsection.5.1.3}}
-\backcite {TMC:Report}{{91}{5.1.3}{subsection.5.1.3}}
-\backcite {May07wirelessopportunistic,ContentPlace,TACODTN}{{91}{5.1.4}{subsection.5.1.4}}
-\backcite {BitThief}{{92}{5.1.4}{subsection.5.1.4}}
-\backcite {NS3}{{95}{5.3.1}{subsection.5.3.1}}
-\backcite {May07wirelessopportunistic}{{95}{5.3.1}{subsection.5.3.1}}
-\backcite {Podcasting:Secon07}{{95}{5.3.1}{subsection.5.3.1}}
-\backcite {May07wirelessopportunistic}{{95}{5.3.1}{subsection.5.3.1}}
-\backcite {Podcasting:Secon07}{{95}{5.3.1}{subsection.5.3.1}}
-\backcite {Podcasting:Secon07}{{95}{5.3.1}{subsection.5.3.1}}
-\backcite {HCMM}{{95}{5.3.1}{subsection.5.3.1}}
-\backcite {KAIST}{{95}{5.3.1}{subsection.5.3.1}}
-\backcite {OptimalChannelChoice}{{95}{6}{Hfootnote.11}}
-\backcite {ContentPlace}{{95}{6}{Hfootnote.11}}
-\backcite {KAIST}{{96}{5.3.1}{subsection.5.3.1}}
-\backcite {TMC:Report}{{97}{5.3.2}{table.5.2}}
-\backcite {Podcasting:Secon07}{{98}{5.3.2}{figure.5.4}}
-\backcite {Podcasting:Secon07}{{98}{5.3.2}{figure.5.4}}
-\backcite {OptimalChannelChoice}{{98}{5.3.2}{figure.5.4}}
-\backcite {game}{{103}{5.3.4}{table.5.7}}
-\backcite {CCN}{{104}{5.4}{section.5.4}}
-\backcite {MobiTradeAndroid}{{107}{6}{chapter.6}}
-\backcite {SQLite}{{109}{6.1.2}{figure.6.2}}
-\backcite {AndroidBluetoothAPI}{{116}{6.2.2}{subsection.6.2.2}}
-\backcite {Levine:Sigcomm07}{{125}{7}{chapter.7}}
-\backcite {Levine:Sigcomm07, AOBM}{{125}{7}{chapter.7}}
-\backcite {HBSDDTN2}{{126}{7}{chapter.7}}
-\backcite {MobiTradeAndroid}{{126}{7}{chapter.7}}
-\backcite {MobiTradeAndroid}{{126}{7}{chapter.7}}
+\backcite {BarterDTN}{{28}{2.2.2.2}{table.2.3}}
+\backcite {MoB}{{29}{1}{Item.3}}
+\backcite {MobiCent}{{29}{2}{Item.4}}
+\backcite {IADTN}{{29}{3}{Item.5}}
+\backcite {Reputation}{{30}{2.2.2.2}{Item.5}}
+\backcite {Fall:DTNrouting,Fall:Sigcomm05,Glance:pollen}{{33}{3}{chapter.3}}
+\backcite {dtnrg}{{34}{3}{chapter.3}}
+\backcite {Fall:DTNrouting}{{34}{3}{chapter.3}}
+\backcite {Vahdat:epidemic,Lindgren:probabilistic}{{34}{3}{chapter.3}}
+\backcite {akis:ton-multi}{{34}{3}{chapter.3}}
+\backcite {dtnrg}{{34}{3}{chapter.3}}
+\backcite {haas:mobihoc03,Inria:MessageDelay,akis:mobihoc06}{{34}{3}{chapter.3}}
+\backcite {Levine:Sigcomm07}{{34}{3}{chapter.3}}
+\backcite {QueuingPolicies}{{35}{3}{chapter.3}}
+\backcite {Towsley:Epidemic}{{35}{3.1.1}{subsection.3.1.1}}
+\backcite {akis:ton-multi}{{36}{3.1.1}{subsection.3.1.1}}
+\backcite {Vahdat:epidemic}{{36}{3.1.1}{subsection.3.1.1}}
+\backcite {Levine:Sigcomm07}{{36}{3.1.1}{subsection.3.1.1}}
+\backcite {akis:mobihoc06,Inria:MessageDelay}{{36}{3.1.1}{subsection.3.1.1}}
+\backcite {akis09}{{36}{3.1.1}{subsection.3.1.1}}
+\backcite {akis:mobihoc06,Inria:MessageDelay}{{36}{3.1.1}{subsection.3.1.1}}
+\backcite {Aldous:book}{{36}{3.1.1}{subsection.3.1.1}}
+\backcite {LeBoudec:Mobicom07}{{36}{3.1.1}{subsection.3.1.1}}
+\backcite {Akis:IJAACS2008}{{37}{3.1.1}{subsection.3.1.1}}
+\backcite {LeBoudec:Sigmetrics09}{{37}{3.1.1}{subsection.3.1.1}}
+\backcite {Levine:Sigcomm07}{{39}{3.1.2}{equation.3.1.2}}
+\backcite {Boyd:convex-optimization-book}{{44}{3.1.5}{equation.3.1.13}}
+\backcite {Boyd:convex-optimization-book}{{44}{3.1.5}{equation.3.1.13}}
+\backcite {Levine:Sigcomm07}{{45}{3.2}{section.3.2}}
+\backcite {Keshav:multi-nic}{{45}{3.2}{section.3.2}}
+\backcite {LillieTest}{{46}{3.2.1}{subsection.3.2.1}}
+\backcite {PellegriniAOC2009}{{47}{3.2.1}{equation.3.2.18}}
+\backcite {DTN-NS2}{{47}{3.3.1}{subsection.3.3.1}}
+\backcite {Levine:Sigcomm07}{{47}{3.3.1}{subsection.3.3.1}}
+\backcite {Towsley:Epidemic}{{47}{3.3.1}{subsection.3.3.1}}
+\backcite {HCMM}{{48}{3.3.1}{table.3.2}}
+\backcite {ZebraNetMovement}{{48}{3.3.1}{table.3.2}}
+\backcite {Cabspotting}{{48}{3.3.1}{table.3.2}}
+\backcite {DTN-NS2}{{48}{3.3.1}{table.3.2}}
+\backcite {KAIST}{{48}{3.3.1}{table.3.2}}
+\backcite {KrifaBS08}{{48}{3.3.1}{table.3.2}}
+\backcite {Keshav:Mobisys07}{{53}{3.4}{section.3.4}}
+\backcite {Nyquist}{{54}{3.4.1}{subsection.3.4.1}}
+\backcite {akis:ton-multi}{{55}{3.4.1}{subsection.3.4.1}}
+\backcite {Levine:Sigcomm07}{{57}{3.4.3}{subsection.3.4.3}}
+\backcite {Towsley:Epidemic, KrifaBS08}{{62}{3.5}{section.3.5}}
+\backcite {KrifaBS08}{{62}{3.5}{section.3.5}}
+\backcite {Levine:Sigcomm07}{{65}{3.6}{section.3.6}}
+\backcite {Levine:Sigcomm07, AOBM}{{65}{3.6}{section.3.6}}
+\backcite {DTN2Manual}{{67}{4.1}{section.4.1}}
+\backcite {Demmer03implementingdelay}{{67}{4.1}{section.4.1}}
+\backcite {Demmer03implementingdelay, DTN2Manual}{{68}{4.1}{figure.4.1}}
+\backcite {HBSDDTN2}{{72}{4.3}{figure.4.2}}
+\backcite {TMC:Report}{{72}{4.4}{section*.20}}
+\backcite {HBSDDTN2}{{79}{4.5}{table.4.1}}
+\backcite {HBSDDTN2}{{79}{4.5}{table.4.1}}
+\backcite {HBSDDTN2}{{80}{4.6}{section.4.6}}
+\backcite {ATT}{{81}{5}{chapter.5}}
+\backcite {CellOffLoading}{{81}{5}{chapter.5}}
+\backcite {CCN}{{82}{5}{chapter.5}}
+\backcite {TACODTN, Peoplenet, podnet07, May07wirelessopportunistic, ContentPlace, OptimalChannelChoice, SocialCast, Boldrini:2008:MDD}{{82}{5}{chapter.5}}
+\backcite {TACODTN, Peoplenet}{{82}{5}{chapter.5}}
+\backcite {podnet07, LOCUS, May07wirelessopportunistic, ContentPlace, OptimalChannelChoice, SocialCast, Boldrini:2008:MDD}{{82}{5}{chapter.5}}
+\backcite {NashEquilibria}{{82}{5}{chapter.5}}
+\backcite {podnet07}{{82}{5}{chapter.5}}
+\backcite {ContentPlace, SocialCast, OptimalChannelChoice, SocialCast, Boldrini:2008:MDD}{{82}{5}{chapter.5}}
+\backcite {May07wirelessopportunistic}{{82}{5}{chapter.5}}
+\backcite {ContentPlace, SocialCast, Boldrini:2008:MDD}{{82}{5}{chapter.5}}
+\backcite {OptimalChannelChoice}{{82}{5}{chapter.5}}
+\backcite {BitHoc}{{83}{5}{chapter.5}}
+\backcite {BarterDTN}{{83}{5}{chapter.5}}
+\backcite {HCMM}{{83}{5}{Item.10}}
+\backcite {KAIST}{{83}{5}{Item.10}}
+\backcite {May07wirelessopportunistic}{{84}{5.1.1}{subsection.5.1.1}}
+\backcite {CCN}{{84}{5.1.1}{subsection.5.1.1}}
+\backcite {CCN}{{85}{5.1.1}{figure.5.1}}
+\backcite {ContentPlace}{{86}{5.1.3}{subsection.5.1.3}}
+\backcite {May07wirelessopportunistic}{{86}{5.1.3}{subsection.5.1.3}}
+\backcite {TMC:Report}{{87}{5.1.3}{subsection.5.1.3}}
+\backcite {TMC:Report}{{87}{5.1.3}{subsection.5.1.3}}
+\backcite {May07wirelessopportunistic,ContentPlace,TACODTN}{{87}{5.1.4}{subsection.5.1.4}}
+\backcite {BitThief}{{88}{5.1.4}{subsection.5.1.4}}
+\backcite {NS3}{{91}{5.3.1}{subsection.5.3.1}}
+\backcite {May07wirelessopportunistic}{{91}{5.3.1}{subsection.5.3.1}}
+\backcite {Podcasting:Secon07}{{91}{5.3.1}{subsection.5.3.1}}
+\backcite {May07wirelessopportunistic}{{91}{5.3.1}{subsection.5.3.1}}
+\backcite {Podcasting:Secon07}{{91}{5.3.1}{subsection.5.3.1}}
+\backcite {Podcasting:Secon07}{{91}{5.3.1}{subsection.5.3.1}}
+\backcite {HCMM}{{91}{5.3.1}{subsection.5.3.1}}
+\backcite {KAIST}{{91}{5.3.1}{subsection.5.3.1}}
+\backcite {OptimalChannelChoice}{{91}{6}{Hfootnote.11}}
+\backcite {ContentPlace}{{91}{6}{Hfootnote.11}}
+\backcite {KAIST}{{92}{5.3.1}{subsection.5.3.1}}
+\backcite {TMC:Report}{{93}{5.3.2}{table.5.2}}
+\backcite {Podcasting:Secon07}{{94}{5.3.2}{figure.5.4}}
+\backcite {Podcasting:Secon07}{{94}{5.3.2}{figure.5.4}}
+\backcite {OptimalChannelChoice}{{94}{5.3.2}{figure.5.4}}
+\backcite {game}{{99}{5.3.4}{table.5.7}}
+\backcite {CCN}{{100}{5.4}{section.5.4}}
+\backcite {MobiTradeAndroid}{{101}{6}{chapter.6}}
+\backcite {SQLite}{{103}{6.1.2}{figure.6.2}}
+\backcite {AndroidBluetoothAPI}{{110}{6.2.2}{subsection.6.2.2}}
+\backcite {Levine:Sigcomm07}{{117}{7}{chapter.7}}
+\backcite {Levine:Sigcomm07, AOBM}{{117}{7}{chapter.7}}
+\backcite {HBSDDTN2}{{118}{7}{chapter.7}}
+\backcite {MobiTradeAndroid}{{118}{7}{chapter.7}}
+\backcite {MobiTradeAndroid}{{118}{7}{chapter.7}}

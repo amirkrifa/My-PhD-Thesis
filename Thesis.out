@@ -1,5 +1,5 @@
 \BOOKMARK [0][]{chapter.1}{Introduction}{}
-\BOOKMARK [1][]{section.1.1}{Challenges faced by content routing and dissemination in DTN\(s\)}{chapter.1}
+\BOOKMARK [1][]{section.1.1}{Challenges faced by content routing and sharing in DTN\(s\)}{chapter.1}
 \BOOKMARK [1][]{section.1.2}{Contributions}{chapter.1}
 \BOOKMARK [1][]{section.1.3}{Organization}{chapter.1}
 \BOOKMARK [0][]{chapter.2}{Background}{}
@@ -11,7 +11,7 @@
 \BOOKMARK [2][]{subsection.2.2.1}{Disruption Tolerant Networks}{section.2.2}
 \BOOKMARK [2][]{subsection.2.2.2}{Content Sharing in Disruption Tolerant Networks}{section.2.2}
 \BOOKMARK [1][]{section.2.3}{Conclusions and open issues}{chapter.2}
-\BOOKMARK [0][]{chapter.3}{A Greedy Optimal Point-to-Point Content Routing Schema for DTN}{}
+\BOOKMARK [0][]{chapter.3}{Optimal Buffer Management and Scheduling for Unicast Ruting in DTNs}{}
 \BOOKMARK [1][]{section.3.1}{Optimal Joint Scheduling and Drop Policy}{chapter.3}
 \BOOKMARK [2][]{subsection.3.1.1}{Assumptions and Problem Description}{section.3.1}
 \BOOKMARK [2][]{subsection.3.1.2}{Maximizing the average delivery rate}{section.3.1}
@@ -42,7 +42,7 @@
 \BOOKMARK [1][]{section.4.4}{Main HBSD external router building blocks}{chapter.4}
 \BOOKMARK [1][]{section.4.5}{Configuring HBSD}{chapter.4}
 \BOOKMARK [1][]{section.4.6}{Summary and Open Issues}{chapter.4}
-\BOOKMARK [0][]{chapter.5}{Interest Driven Content Dissemination Architecture for Disruption Tolerant Networks}{}
+\BOOKMARK [0][]{chapter.5}{Interest Driven Content Sharing Architecture for Disruption Tolerant Networks}{}
 \BOOKMARK [1][]{section.5.1}{MobiTrade Architecture}{chapter.5}
 \BOOKMARK [2][]{subsection.5.1.1}{MobiTrade Data Records}{section.5.1}
 \BOOKMARK [2][]{subsection.5.1.2}{MobiTrade Protocol}{section.5.1}

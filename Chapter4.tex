@@ -23,7 +23,7 @@ unit) forwarding system~\cite{Demmer03implementingdelay}. As can be seen from th
 
 As described in~\cite{Demmer03implementingdelay, DTN2Manual}, the DTN2 architecture provides also a set of generic external interfaces that enable third-party developers to implement plug-in modules without having to rewrite or understand the internal workings of the DTN2 reference implementation. Plug-in modules are stand-alone processes designed to work in collaboration with DTN.
 
-The External Router Interface is the first DTN external interface designed to move bundle forwarding decisions to an external process or processes. Benefits of this interface can be summarized as: \emph{(i)} classified and proprietary bundle routing algorithms are protected, \emph{(ii)} external routers may be written in any programming language (XML based interface), \emph{(iii)} prototyping of new bundle routing algorithms is streamlined, and \emph{(iiii)} routing algorithms may be added and removed at runtime.
+The External Router Interface is the first DTN external interface designed to move bundle forwarding decisions to an external process or processes. Benefits of this interface can be summarized as: (i) classified and proprietary bundle routing algorithms are protected, (ii) external routers may be written in any programming language (XML based interface), (iii) prototyping of new bundle routing algorithms is streamlined, and (iiii) routing algorithms may be added and removed at runtime.
 
 \subsection{Bundles/Messages Processing Modules}
 
@@ -80,7 +80,7 @@ The forwarder communicates with external routing processes with an XML-based mes
 
 Nothing in the interface design precludes running forwarders and external routers on different hosts, however this approach is not recommended especially in wireless and/or bandwidth-constrained environments. The interface is fairly chatty, UDP is unreliable, and there is a high risk of packet loss leading to a breakdown in synchronized state~\footnote{The DTN2 external router interface is hard coded to use the loop-back interface and therefore requires forwarders and external routers to reside on the same host.}.
 
-Inter-process messages are XML-based and must be valid against the external router XML schema. Interface messages are broadly divided into four categories. Event messages are issued by forwarders to indicate state changes that may be of interest to external routers. Request messages are sent by external routers to direct forwarders to perform an action (e.g. "forward the bundle with ID 56 out link tcp0"). Query and report messages are used by external routers to synchronize their state with forwarders after boot-up or during failure recovery. The proper usage and interpretation of each interface message is covered in the next section.
+Inter-process messages are XML-based and must be valid against the external router XML scheme. Interface messages are broadly divided into four categories. Event messages are issued by forwarders to indicate state changes that may be of interest to external routers. Request messages are sent by external routers to direct forwarders to perform an action (e.g. "forward the bundle with ID 56 out link tcp0"). Query and report messages are used by external routers to synchronize their state with forwarders after boot-up or during failure recovery. The proper usage and interpretation of each interface message is covered in the next section.
 
 Note that DTN2 forwarder does not authenticate external processes. The forwarder makes the assumption that (local or remote) external routers are within the same security domain. In addition, system administrators must ensure there exists one authoritative router or policy module per DTN node, or that multiple external routers are configured in a cooperative manner to correctly handle all events.
 
@@ -280,7 +280,7 @@ via the HBSD configuration file.
 This class is an implementation of the Policy class. It provides the HBSD
 scheduling and drop algorithm, but it is also generically referred to as the
 Policy Manager. There are calls into the Policy class sprinkled throughout the
-router, often mirroring the XML events defined by the /etc/router.xsd schema
+router, often mirroring the XML events defined by the /etc/router.xsd scheme
 file. HBSD Policy largely consists of manipulating shadow data structures
 dealing with bundles and nodes. The primary function of HBSD Policy is to
 prioritize the delivery and replication of bundles in anticipation of the
@@ -316,11 +316,11 @@ local system. On some systems the TTL is not honored. On other systems, not usin
 \hline
 loopbackAddress & string & 127.0.0.1 & Address to bind to if multicastSends=false.\\
 \hline
-xmlSchema & string  & router.xsd& File containing the XML schema definition for the 
+xmlSchema & string  & router.xsd& File containing the XML scheme definition for the 
 messages exchanged with dtnd, the DTN2 daemon. This file should be supplied by DTN2. The command line has precedence.\\
 \hline
 xmlValidate & bool & true & If set to false then the XML received from the daemon is 
-not validated against the schema.\\
+not validated against the scheme.\\
 \hline
 loggingClass & string & Console\_\ Logging & Allows for a user-specified logging class. The default is Console\_Logging.\\
 \hline
