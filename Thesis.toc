@@ -16,7 +16,7 @@
 \contentsline {paragraph}{Content sharing}{16}{section*.9}
 \contentsline {subsubsection}{\numberline {2.1.3.2}Experimentation and results}{17}{subsubsection.2.1.3.2}
 \contentsline {paragraph}{Test-bed description}{17}{section*.10}
-\contentsline {paragraph}{Experimentation results}{19}{figure.2.5}
+\contentsline {paragraph}{Experimentation results}{18}{figure.2.5}
 \contentsline {subsubsection}{\numberline {2.1.3.3}BitHoc limitations with respect to a disruption prone environment}{19}{subsubsection.2.1.3.3}
 \contentsline {section}{\numberline {2.2}Content sharing in Disruption Tolerant Networks}{19}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Disruption Tolerant Networks}{19}{subsection.2.2.1}
@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {3.1.2}Maximizing the average delivery rate}{38}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Minimizing the average delivery delay}{40}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {3.1.4}The Case of Non-Homogeneous Mobility}{41}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Optimality of Gradient Ascent Policy}{43}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.5}Optimality of Gradient Ascent Policy}{44}{subsection.3.1.5}
 \contentsline {section}{\numberline {3.2}Using Network History to Approximate Global Knowledge in Practice}{45}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Estimators for the Delivery Rate Utility}{46}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Estimators for the Delivery Delay Utility}{47}{subsection.3.2.2}
@@ -39,11 +39,11 @@
 \contentsline {subsection}{\numberline {3.3.2}Performance evaluation for delivery rate}{49}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Performance evaluation for delivery delay}{50}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Optimality}{51}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Maintaining Network History}{52}{section.3.4}
+\contentsline {section}{\numberline {3.4}Maintaining Network History}{53}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Maintaining Buffer State History}{54}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Collecting Network Statistics}{55}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Performance Tradeoffs of Statistics Collection}{56}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Distribution of HBSD Utilities}{61}{section.3.5}
+\contentsline {subsection}{\numberline {3.4.3}Performance Tradeoffs of Statistics Collection}{57}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Distribution of HBSD Utilities}{62}{section.3.5}
 \contentsline {section}{\numberline {3.6}Summary and Open Issues}{65}{section.3.6}
 \contentsline {chapter}{\numberline {4}HBSD: Implementation on top of the DTN2 reference architecture}{67}{chapter.4}
 \contentsline {section}{\numberline {4.1}DTN2 Platform Overview}{67}{section.4.1}

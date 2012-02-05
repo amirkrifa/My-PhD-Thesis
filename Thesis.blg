@@ -24,57 +24,57 @@ Repeated entry---line 1099 of file Thesis.bib
  : @inproceedings{LeBoudec:Mobicom07
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1577 of file Thesis.bib
+Repeated entry---line 1571 of file Thesis.bib
  : @inproceedings{PellegriniAOC2009
  :                                 ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring akis:ton-multi's extra "year" field
---line 1612 of file Thesis.bib
-I was expecting a `,' or a `}'---line 1637 of file Thesis.bib
+--line 1606 of file Thesis.bib
+I was expecting a `,' or a `}'---line 1631 of file Thesis.bib
  : }
  :  ;
 I'm skipping whatever remains of this entry
-Repeated entry---line 1649 of file Thesis.bib
+Repeated entry---line 1643 of file Thesis.bib
  : @article{Aldous:book
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1662 of file Thesis.bib
+Repeated entry---line 1656 of file Thesis.bib
  : @inproceedings{akis:mobihoc06
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1696 of file Thesis.bib
+Repeated entry---line 1690 of file Thesis.bib
  : @inproceedings{Inria:MessageDelay
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1710 of file Thesis.bib
+Repeated entry---line 1704 of file Thesis.bib
  : @inproceedings{Levine:MaxProp
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1717 of file Thesis.bib
+Repeated entry---line 1711 of file Thesis.bib
  : @article{dtnrg
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1784 of file Thesis.bib
+Repeated entry---line 1778 of file Thesis.bib
  : @misc{dtnrg
  :            ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 1867 of file Thesis.bib
+"{" immediately follows a field part---line 1861 of file Thesis.bib
  :  howpublished = \url
  :                     {"http://www.loopt.com}",
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 2243 of file Thesis.bib
+Unbalanced braces---line 2237 of file Thesis.bib
  :  title = "{B}itTorrent protocol
  :                                },
 I'm skipping whatever remains of this entry
-Repeated entry---line 2361 of file Thesis.bib
+Repeated entry---line 2364 of file Thesis.bib
  : @inproceedings{OptimalChannelChoice
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2418 of file Thesis.bib
+Repeated entry---line 2421 of file Thesis.bib
  : @inproceedings{Boldrini:2008:MDD
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2433 of file Thesis.bib
+Repeated entry---line 2436 of file Thesis.bib
  : @misc{TIER
  :           ,
 I'm skipping whatever remains of this entry
@@ -102,7 +102,7 @@ Warning--missing institution in Demmer03implementingdelay
 Done.
 You've used 119 entries,
             4039 wiz_defined-function locations,
-            1377 strings with 24507 characters,
+            1377 strings with 24503 characters,
 and the built_in function-call counts, 51886 in all, are:
 = -- 3547
 > -- 1306
